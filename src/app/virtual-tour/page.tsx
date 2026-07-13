@@ -24,7 +24,7 @@ export default function VirtualTourPage() {
         {/* Background Video / Image placeholder */}
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/scraped-images/0_headerimg.jpg" 
+            src="/scraped-images/hero-background.png" 
             alt="Banasthali Aerial Campus" 
             fill 
             sizes="100vw"

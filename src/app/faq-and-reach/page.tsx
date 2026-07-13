@@ -115,7 +115,7 @@ export default function FAQAndReachPage() {
         <div className="relative rounded-3xl overflow-hidden bg-gradient-to-r from-[#2a060c] via-[#1e0408] to-[#140205] text-white shadow-2xl p-8 sm:p-14 border border-gold/40">
           <div className="absolute top-0 right-0 w-1/2 h-full opacity-20 pointer-events-none overflow-hidden">
             <Image 
-              src="/scraped-images/0_headerimg.jpg" 
+              src="/scraped-images/hero-background.png" 
               alt="Banasthali Aerial Campus" 
               fill 
               className="object-cover"

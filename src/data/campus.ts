@@ -32,7 +32,7 @@ export const campusMarkers: CampusMarker[] = [
     category: "academic",
     description: "A monumental repository of knowledge featuring over 300,000 volumes, rare manuscripts, and modern digital archives.",
     facilities: ["Reading Halls", "Digital Section", "Research Cubicles", "Wi-Fi"],
-    image: "/scraped-images/0_headerimg.jpg",
+    image: "/scraped-images/136_fivefoldeducation_update.jpg",
     hours: "8:00 AM - 10:00 PM"
   },
   {
@@ -42,7 +42,7 @@ export const campusMarkers: CampusMarker[] = [
     category: "admin",
     description: "The administrative heart of the university handling admissions, academics, and official university affairs.",
     facilities: ["Admissions Office", "Vice Chancellor's Secretariat", "Registrar Office"],
-    image: "/scraped-images/0_headerimg.jpg",
+    image: "/scraped-images/154_jmass_01.jpg",
     hours: "10:00 AM - 5:00 PM (Closed Sundays)"
   },
   {
@@ -62,7 +62,7 @@ export const campusMarkers: CampusMarker[] = [
     category: "academic",
     description: "The pride of Banasthali featuring its own licensed airfield, offering Student Pilot License (SPL) and commercial flight training.",
     facilities: ["Runway", "Hangar", "Cessna Aircrafts", "Simulators"],
-    image: "/scraped-images/0_headerimg.jpg",
+    image: "/scraped-images/150_flying.jpg",
     hours: "6:00 AM - 6:00 PM"
   },
   {
@@ -81,7 +81,7 @@ export const campusMarkers: CampusMarker[] = [
     category: "sports",
     description: "A massive sports sanctuary featuring parade grounds, athletics tracks, equestrian facilities, and martial arts arenas.",
     facilities: ["Athletics Track", "Equestrian Ground", "Basketball Courts", "Parade Ground"],
-    image: "/scraped-images/0_headerimg.jpg",
+    image: "/scraped-images/152_BasketBall.jpg",
     hours: "5:00 AM - 8:00 PM"
   },
   {
@@ -100,8 +100,8 @@ export const campusMarkers: CampusMarker[] = [
     position: [26.4075, 75.8745],
     category: "facility",
     description: "The central hub for student daily needs, featuring stationery shops, cafeterias, banks, and utility stores.",
-    facilities: ["Cafeteria", "Stationery", "SBI Branch", "Post Office"],
-    image: "/scraped-images/0_headerimg.jpg",
-    hours: "10:00 AM - 8:00 PM"
+    facilities: ["Supermarket", "Stationery", "Bank & ATM", "Cafeteria"],
+    image: "/scraped-images/155_jmass_02.jpg",
+    hours: "9:00 AM - 9:00 PM"
   }
 ];
