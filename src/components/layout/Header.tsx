@@ -61,6 +61,7 @@ export function Header() {
                 alt="Banasthali Vidyapith Emblem" 
                 width={24} 
                 height={24} 
+                style={{ width: "auto", height: "auto" }}
                 className="object-contain filter brightness-110 group-hover:scale-110 transition-transform duration-300" 
               />
             </div>

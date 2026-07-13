@@ -22,7 +22,7 @@ export const campusMarkers: CampusMarker[] = [
     category: "landmark",
     description: "The grand entrance to the 850-acre Banasthali sanctuary, symbolising the five-fold education philosophy.",
     facilities: ["Security Post", "Helpdesk", "Visitor Lounge"],
-    image: "/scraped-images/7_banasthali_panchmuki.gif",
+    image: "/scraped-images/162_arch-1.jpg",
     hours: "Open 24/7"
   },
   {
@@ -42,7 +42,7 @@ export const campusMarkers: CampusMarker[] = [
     category: "admin",
     description: "The administrative heart of the university handling admissions, academics, and official university affairs.",
     facilities: ["Admissions Office", "Vice Chancellor's Secretariat", "Registrar Office"],
-    image: "/scraped-images/166_arch-5.jpg",
+    image: "/scraped-images/167_arch-6.jpg",
     hours: "10:00 AM - 5:00 PM (Closed Sundays)"
   },
   {
@@ -52,7 +52,7 @@ export const campusMarkers: CampusMarker[] = [
     category: "academic",
     description: "A premier institute housing the departments of Computer Science, Mathematics, and Statistics, equipped with cutting-edge labs.",
     facilities: ["Computer Labs", "AI Research Centre", "Server Room", "Smart Classrooms"],
-    image: "/scraped-images/166_arch-5.jpg",
+    image: "/scraped-images/168_arch-7.jpg",
     hours: "9:00 AM - 6:00 PM"
   },
   {
@@ -72,7 +72,7 @@ export const campusMarkers: CampusMarker[] = [
     category: "hostel",
     description: "One of the earliest and most historic residential buildings on campus, blending traditional architecture with modern amenities.",
     facilities: ["Dining Hall", "Recreation Room", "Lawns", "Solar Heating"],
-    image: "/scraped-images/166_arch-5.jpg",
+    image: "/scraped-images/169_arch-8.jpg",
   },
   {
     id: "sports-complex",
@@ -91,7 +91,7 @@ export const campusMarkers: CampusMarker[] = [
     category: "medical",
     description: "A fully equipped 60-bed hospital offering 24/7 medical care to students and staff.",
     facilities: ["Emergency Ward", "Pathology Lab", "Ambulance", "Pharmacy"],
-    image: "/scraped-images/166_arch-5.jpg",
+    image: "/scraped-images/170_arch-9.jpg",
     hours: "Open 24/7"
   },
   {
