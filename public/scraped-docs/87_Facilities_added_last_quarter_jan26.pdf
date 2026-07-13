@@ -1,0 +1,755 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+      
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/2000/REC-xhtml1-20000126/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html dir="ltr" lang="en">
+	<head>
+		<title>
+			Sorry, Page Not Found! (404 Error)
+			
+				
+					- Home
+				
+			
+			- Welcome to Banasthali Vidyapith
+		</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="title" content="
+			Sorry, Page Not Found! (404 Error)
+			
+			
+				- Home
+			
+			"
+		/>
+		<link href="/banasthali/includes/style.css"   rel="stylesheet" type="text/css" media="all" title="Default Style"></link>
+		<link href="/banasthali/includes/default.css" rel="stylesheet" type="text/css" media="all" title="Default Style"></link>
+		<link href="/banasthali/includes/leftnav.css" rel="stylesheet" type="text/css" media="all" title="Default Style"></link>
+		<link href="/banasthali/includes/topnav.css"  rel="stylesheet" type="text/css" media="all" title="Default Style"></link>
+		<script src="/banasthali/includes/script.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		    var GB_ROOT_DIR = "/banasthali/greybox/";
+		</script>
+		<script>
+			function handleSelection(list) {
+				var val = list.options[list.selectedIndex].value;
+				if (val) {
+					window.location = '/wcms/en/home/photogallery/Image1-070806.avsFiles/File/' + val;
+				}
+			}
+		</script>
+		<script type="text/javascript" src="/banasthali/greybox/AJS.js"></script>
+		<script type="text/javascript" src="/banasthali/greybox/AJS_fx.js"></script>
+		<script type="text/javascript" src="/banasthali/greybox/gb_scripts.js"></script>
+		<link href="/banasthali/greybox/gb_styles.css" rel="stylesheet" type="text/css"></link>
+		<!-- Added by Nirmal On 14 April 2025-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-E5KLLLB5CQ"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-E5KLLLB5CQ');
+		</script>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-756313506"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'AW-756313506');
+		</script>
+		<!-- Added by Nirmal On 14 April 2025-->
+	</head>
+	<body>
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<table width="980" border="0" cellspacing="0" cellpadding="0" style="height: 100%;">
+				<tr>
+					
+					
+						<td width="20" style="height: 100%;" class="shdadows_left">&nbsp;</td>
+				    
+					<td width="940" >
+						<div id="newheader">	
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/banasthali/includes/topnav.css" rel="stylesheet" type="text/css" media="all" title="Default Style"></link>
+<MAP Name="homeLinkMap"> 
+	<AREA Shape="rect" Coords="25,0,340,70" Href="/banasthali/wcms/en/home/index.html"> 
+</MAP>
+
+
+<table width="940" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td height="29">
+                 	<table width="940" border="0" cellspacing="0" cellpadding="0" bgcolor="#3b6181">
+                         
+				<tr>
+					<td width="330" height="29">&nbsp;</td>
+					<td class="top-right-link">
+						<a href="/banasthali/wcms/en/home/downloads/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1" class="linkRhts_en">DOWNLOADS</a>
+					</td>
+					<td><img src="/banasthali/images/right_spcr.gif" /></td>
+					<td class="top-right-link">
+						<a href="/banasthali/wcms/en/home/photogallery/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1" class="linkRhts_en">PHOTOGALLERY</a>
+					</td>
+					<td><img src="/banasthali/images/right_spcr.gif" /></td>
+					<td class="top-right-link">
+					     <a href="/banasthali/wcms/en/home/faqs/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1" class="linkRhts_en">FAQ's</a>
+					 </td>
+					<td><img src="/banasthali/images/right_spcr.gif" /></td>
+					<td class="top-right-link">
+						<a href="/banasthali/wcms/en/home/feedback/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1" class="linkRhts_en">FEEDBACK</a>
+					</td>
+					<td><img src="/banasthali/images/right_spcr.gif" /></td>
+					<td class="top-right-link">
+						<a href="/banasthali/wcms/en/home/location/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1" class="linkRhts_en">LOCATION</a>
+					</td>
+					<td><img src="/banasthali/images/right_spcr.gif" /></td>
+					<td class="top-right-link">
+						<a href="/banasthali/wcms/en/home/sitemap/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1" class="linkRhts_en">SITEMAP</a>
+					</td>
+                   <!-- <form name="webSearchForm" method="post" action="/banasthali/web/search.do;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">
+                    	<td width="114">
+                    		<input type="text" name="searchCriteria.q" value="Search..." onclick="this.select()" class="srch_border" />
+            			<td width="40" valign="middle">
+            				<input type="image" name="" src="/banasthali/images/go_but.gif;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1" class="go_button" alt="Go" />
+            			</td>    
+            		</form>
+					-->
+                     </tr>
+			</table>
+		   </td>
+	   </tr>
+	<tr>
+		<td width="940" align="left">
+			<table width="94" border="0" cellpadding="0" cellspacing="0" class="hd_bg" style="background-color: #6586A6;">
+				<tr height="16">
+					<td width="940" height="16" colspan="3">
+						<table cellpadding="0" cellspacing="0" height="16">
+							<tr>
+								<td width="655" class="topbrder">&nbsp;</td>
+								<td width="285" height="16">
+									<table width="285" border="0" cellspacing="0" cellpadding="0">
+									  <tr >
+									   
+									  </tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr height="71">
+					<td width="940" height="71" style="border-bottom: 1px soild #6386A6;"  colspan="3">
+					<div style="width:940px; *width:940px; text-align:right; background-color:#6186A6;">
+						<img src="/banasthali/images/headerimg.jpg" Alt="Home" Usemap="#homeLinkMap" border="0" width="940" height="71"/>
+					</div>
+					</td>
+                                  
+				</tr>
+				<tr style="border-top: 1px solid #6386A6;">
+					
+					<td width="30%">&nbsp;</td>
+					<td width="30%" align="center">
+						
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+	
+
+						</div><!-- header -->
+						<div id="newwrapper"> <!-- wrapper starts-->
+							<table cellpadding="0" cellspacing="0">
+								<tr>
+									<td valign="top" align="left"  style="width: 230px; background: #3f73a1; " >
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.news{
+     font color=#ff610a;
+     style="font-weight:normal;
+     font-family:vardana;
+     font-size:12px; 
+     letter-spacing:-1px;
+     *letter-spacing:0px; 
+}
+.news_avsNoLink{
+       font color=#ff610a;
+     style="font-weight:normal;
+     font-family:vardana;
+     font-size:12px; 
+     letter-spacing:-1px;
+     *letter-spacing:0px; 
+
+  }
+.top-right-link{
+     font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+	color:#ffffff;
+	padding-left:3px;
+	padding-right:5px;
+	text-decoration:none;
+ }
+.top-right-link_avsNoLink{
+      font-family:Verdana, Arial, Helvetica, sans-serif;
+      font-size:9px;
+	font-weight:bold;
+	color:#000;
+	padding-left:3px;
+	padding-right:5px;
+	text-decoration:none;
+  }
+.dateextendLink{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:09px;
+	font-weight:bold;
+	color:#8f3a48;
+	background-color: #e5eff3;
+	text-decoration:none;
+	padding-left:5px;
+	padding-right:5px;
+ }
+</style>
+
+
+
+
+
+<div style="width: 230px;">
+	<div class="yelowpg">&nbsp;</div>
+	<div style="padding-left: 0px;">	
+		<div id="uppermenu"><ul>
+
+<li class="avs_node"><a href="/banasthali/wcms/en/home/about-us/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">About Us</a><ul>
+
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/about-us/history/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">History</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/about-us/vision-mission/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Vision & Mission</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/about-us/management/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Management</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/about-us/five-fold_education/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Five-Fold Education</a></li>
+</ul></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/school-education/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">School education</a><ul>
+
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/school-education/about_us/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">About us</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/school-education/feature/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Features</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/school-education/five_fold/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Five fold education</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/school-education/academic/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Courses & Schemes</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/school-education/staff/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Faculty & Staff</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/school-education/school-activities/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">School Activities</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/school-education/admissions/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Admissions</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/school-education/fee_submission/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Fee Submission</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/school-education/contact-us/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Contact Us</a></li>
+</ul></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/hgher-education/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Higher Education</a><ul>
+
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/hgher-education/academic_cal/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Academic Calendar</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/hgher-education/ug_progs/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">UG Programmes</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/hgher-education/pg_progs/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">PG Programmes</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/hgher-education/phd_progs/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Ph.D. Programmes</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/hgher-education/part_time/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Certificate & Diploma Programmes</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/hgher-education/fee_submission/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Fee Submission</a></li>
+</ul></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/admissions/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Admissions</a><ul>
+
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/admissions/school-education/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">School Education</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/admissions/highereducation/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Higher  Education</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/admissions/campus_rules/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Campus Rules </a></li>
+</ul></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/financial-assistance/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Financial Assistance</a><ul>
+
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/financial-assistance/scholarshps/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Scholarships</a></li>
+</ul></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/library/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Library</a><ul>
+
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/library/campusilib/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Library</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/library/digilib/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Online Resources</a></li>
+</ul></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/examination/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Examination</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/sports/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Sports</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/banasthaliradio/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">BANASTHALI RADIO</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/moocs/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">MOOCs </a></li>
+</ul></div>
+		<div style="width: 220px;float: left;padding-top: 4px;padding-left: 10px;text-decoration: none;height: 16px;color: #000;background-color: #DAAB4B;">&nbsp;</div> 
+		<div style="width: 220px;float: left;padding-top: 4px;padding-left: 10px;text-decoration: none;height: 16px;color: #000;background-color: #3F73A1;">&nbsp;</div>
+		
+	 <div id="menudept">
+                                <ul>
+					<li style="height:13px;border:none;">
+				<a href="#">DEPARTMENTS</a>
+                                <ul>
+
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/bioscience_biotechnology/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Bioscience & Biotechnology</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/dep_of_chemical/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Chemical Engineering</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/chemistry_pharmaceutical_chemistry/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Chemistry </a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/computer_science/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Computer science</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/commerce_management/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Commerce and Management</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/automation/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Automation</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/department_of_education/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Education</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/economics/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Economics</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/journalism_masscomm/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Journalism and Mass Communication </a></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/lower-menu/departments/english_and_modern_european_languages/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">English and  Modern European Languages</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/legal_studies/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Legal Studies</a></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/lower-menu/departments/hindi/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Hindi and Modern Indian Languages</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/earth_sciences/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Earth Sciences</a></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/lower-menu/departments/history_and_indian_culture/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">History and Indian Culture</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/mathematics/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Mathematics and Statistics</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/home_science_dpt/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Home Science </a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/music_dance/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Performing Arts</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/dep_of_pharmacy/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Pharmacy</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/physical_education_sport/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Physical Education </a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/physics/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Physical Sciences</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/poltical_science_and_public_administration/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Poltical Science and Public Administration</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/psychology/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Psychology</a></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/lower-menu/departments/sanskrit_philosophy_and_vedic_studies/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Sanskrit, Philosophy and Vedic Studies</a></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/lower-menu/departments/sociology/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Sociology</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/textile_designing/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Design</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/visual_arts/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Visual Arts</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/departments/arch_and_planning/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Architecture and Planning</a></li>
+</ul>
+                                        </li>
+                                </ul>
+	</div>
+	
+
+
+			<div id="menu">
+				<ul>
+
+<li class="avs_node"><a href="/banasthali/wcms/en/home/lower-menu/faculties/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Faculties</a><ul>
+
+<li class="avs_node"><a href="/banasthali/wcms/en/home/lower-menu/faculties/faculty-of-education/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Education</a></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/lower-menu/faculties/fine-arts/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Fine Arts</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/faculties/home-science/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Home Science</a></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/lower-menu/faculties/faculties-of-humanities/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Humanities</a></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/lower-menu/faculties/earth_science/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Earth Sciences</a></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/lower-menu/faculties/maths-app-comp-tech/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Mathematics and Computing</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/faculties/management/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Management Studies</a></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Life Sciences</a></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/lower-menu/faculties/social-science/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Social Sciences</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/faculties/physical_sciences/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Physical Sciences</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/faculties/automation/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Automation</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/faculties/law/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Law</a></li>
+</ul></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/lower-menu/research-development/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Research And Development</a><ul>
+
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/research-development/technical_report/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Technical Report</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/research-development/doctoral-research/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Doctoral Research</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/research-development/sponsored-research/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Sponsored Research</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/research-development/consultancy/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Consultancy</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/research-development/extension/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Extension</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/research-development/itinhindi/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">ITinHindi</a></li>
+</ul></li>
+<li class="avs_node"><a href="/banasthali/wcms/en/home/lower-menu/campus-tour/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Campus</a><ul>
+
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/campus-tour/campus-tour/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Campus tour</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/campus-tour/campus-life/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Campus Life</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/campus-tour/communication/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Community Radio</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/campus-tour/hostels/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Hostels</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/campus-tour/networking/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Networking</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/campus-tour/how-to-reach/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Transport</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/campus-tour/anti-ragging/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">ANTI-RAGGING</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/campus-tour/icc/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">ICC</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/campus-tour/sgrc/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">SGRC</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/campus-tour/sedg_eoc/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">SEDG, EOC</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/campus-tour/sc_st_committee/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">SC ST Committee</a></li>
+</ul></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/naac-accredation/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">NAAC ACCREDITATION</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/how-to-reach-banasthali/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">How to reach banasthali</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/contact_us/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Contact Us</a></li>
+<li class="avs_leaf"><a href="/banasthali/wcms/en/home/lower-menu/skills/index.html;jsessionid=3EAF9CCFD38FD16DE93536A5696FE002.tomcat1">Skills</a></li>
+</ul>
+		
+				<ul>
+					<li >
+						
+						
+						<a href="/banasthali/wcms/en/home/lower-menu/recruitments/index.html" class="top-right-link">
+						
+							RECRUITMENTS <!--<span><img src="/banasthali/images/new.gif"  border="0" align="top"/></span>-->
+						</a>
+					</li>
+					<li >
+						
+						
+						<a href="/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/index.html" class="top-right-link">
+						
+							NEWS, EVENTS & ANNOUNCEMENTS
+						</a>
+					</li>
+					<li >
+						
+						
+						<a href="/banasthali/wcms/en/home/lower-menu/onlinepayments/index.html" class="top-right-link">
+						
+							ONLINE PAYMENT
+						</a>
+					</li>				
+				</ul>
+
+	
+  </div>
+	<div style="text-align:center;">
+			<br/>&nbsp;</br>
+			<!--<img src="/banasthali/images/1000.gif"  border="0"/><br/>-->
+						<a href="http://www.banasthali.org/banasthali/admissions/" target="_blank"><img src="/banasthali/images/1000.gif?ver=2023.1"  border="0"/></a><br/>
+						
+	</div>
+	<!--
+	<div style="display:block; padding-top:10px;	padding-bottom:10px; vertical-align:middle; text-align:center; ">
+		<a class="dateextendLink" target="_new" href="http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/LastDateExtension.html">Last Date Extended for Select Courses</a>
+	</div>
+	-->
+<script>
+var menuids=new Array("menu") //Enter id(s) of UL menus, separated by commas
+var submenuoffset=-2 //Offset of submenus from main menu. Default is -2 pixels.
+function createcssmenu(){
+for (var i=0; i<menuids.length; i++){
+  var ultags=document.getElementById(menuids[i]).getElementsByTagName("ul")
+    for (var t=0; t<ultags.length; t++){
+    var spanref=document.createElement("span")
+		spanref.className="arrowdiv"
+		spanref.innerHTML="&nbsp;&nbsp;"
+		ultags[t].parentNode.getElementsByTagName("a")[0].appendChild(spanref)
+    ultags[t].parentNode.onmouseover=function(){
+    this.getElementsByTagName("ul")[0].style.center=this.parentNode.offsetWidth+submenuoffset+"px"
+    this.getElementsByTagName("ul")[0].style.display="block"
+    }
+    ultags[t].parentNode.onmouseout=function(){
+    if(this.id != 'menu'){
+    this.getElementsByTagName("ul")[0].style.display="none"
+}
+
+	
+    }
+    }
+  }
+}
+
+if (window.addEventListener)
+window.addEventListener("load", createcssmenu, false)
+else if (window.attachEvent)
+window.attachEvent("onload", createcssmenu)
+</script>
+
+<script>
+var menuids1=new Array("uppermenu") //Enter id(s) of UL menus, separated by commas
+function createcssmenu1(){
+for (var i=0; i<menuids1.length; i++){
+  var ultags=document.getElementById(menuids1[i]).getElementsByTagName("ul")
+    for (var t=0; t<ultags.length; t++){
+    var spanref=document.createElement("span")
+		spanref.className="arrowdiv"
+		spanref.innerHTML="&nbsp;&nbsp;"
+		ultags[t].parentNode.getElementsByTagName("a")[0].appendChild(spanref)
+    ultags[t].parentNode.onmouseover=function(){
+    this.getElementsByTagName("ul")[0].style.center=this.parentNode.offsetWidth+submenuoffset+"px"
+    this.getElementsByTagName("ul")[0].style.display="block"
+    }
+    ultags[t].parentNode.onmouseout=function(){
+    if(this.id != 'uppermenu'){
+    this.getElementsByTagName("ul")[0].style.display="none"
+}
+
+	
+    }
+    }
+  }
+}
+
+if (window.addEventListener)
+window.addEventListener("load", createcssmenu1, false)
+else if (window.attachEvent)
+window.attachEvent("onload", createcssmenu1)
+</script>
+
+<script>
+var menuids2=new Array("menudept") //Enter id(s) of UL menus, separated by commas
+var submenuoffset=-2 //Offset of submenus from main menu. Default is -2 pixels.
+function createcssmenu2(){
+for (var i=0; i<menuids2.length; i++){
+  var ultags=document.getElementById(menuids2[i]).getElementsByTagName("ul")
+    for (var t=0; t<ultags.length; t++){
+    var spanref=document.createElement("span")
+                spanref.className="arrowdiv"
+                spanref.innerHTML="&nbsp;&nbsp;"
+                ultags[t].parentNode.getElementsByTagName("a")[0].appendChild(spanref)
+    ultags[t].parentNode.onmouseover=function(){
+    this.getElementsByTagName("ul")[0].style.center=this.parentNode.offsetWidth+submenuoffset+"px"
+    this.getElementsByTagName("ul")[0].style.display="block"
+    }
+    ultags[t].parentNode.onmouseout=function(){
+    if(this.id != 'menudept'){
+    this.getElementsByTagName("ul")[0].style.display="none"
+}
+
+
+    }
+    }
+  }
+}
+
+if (window.addEventListener)
+window.addEventListener("load", createcssmenu2, false)
+else if (window.attachEvent)
+window.attachEvent("onload", createcssmenu2)
+
+
+</script>
+
+<script language="Javascript">
+
+	function newUpdate()
+	{
+		var liList=document.getElementsByTagName("li");
+								
+		for (var i=0;i< liList.length;i++ )
+		{
+			//if(liList[i].innerHTML=='<a href="/banasthali/wcms/en/home/examination/index.html">Examination</a>')  liList[i].innerHTML ='<a href="/banasthali/wcms/en/home/examination/index.html">Examination <span><img src="/banasthali/images/new.gif" border="0" align="top"></span></a>';
+			if(liList[i].innerHTML=='<a href="/banasthali/wcms/en/home/examination/index.html">Examination</a>')  liList[i].innerHTML ='<a href="/banasthali/wcms/en/home/examination/index.html">Examination</a>';
+			//if(liList[i].innerHTML=='<span>Examination</span>')  liList[i].innerHTML ='<span>Examination <img src="/banasthali/images/new.gif" border="0" align="top"></span>';
+			if(liList[i].innerHTML=='<span>Examination</span>')  liList[i].innerHTML ='<span>Examination</span>';			
+		}
+	}
+	newUpdate();
+</script>
+									</td>
+									<td valign="top" align="left" width="710">
+										
+											<div id="newcontent"> <!-- content starts-->
+												<table cellpadding="0" cellspacing="0" width="100%" >
+													<tr>
+														<td valign="top" width="100%" height="9">
+															<div style="background:url(/banasthali/images/shadowbnsthali.gif); background-repeat:repeat-x; width:710px; *width:710px; height:9px;">
+																<img src="/banasthali/images/spacer.gif">
+															</div>
+														</td>
+													</tr>
+												</table>
+												
+	      	<div id="breadCrumbs" style="padding-left:10px;float: left;width: 710px;">	 
+				<ul>
+	<li>Home</li>
+</ul>
+			</div>
+			<div style="width:700px;border-bottom: 1px solid black; padding-top: 10px;height: 40px;text-align: left;padding-left: 10px; font-size:14px;*height: 20px;">
+				<b>Sorry, Page Not Found! (404 Error)</b>
+			</div>
+           <div id="innerTextContent" style="margin-right:0px;">
+			<div style="margin-right:10px;width: 650px;">
+				
+				If you got here by typing a URL into your browser's address bar, please make 
+sure the spelling, capitalization, and punctuation are correct, then try 
+reloading the page. 
+
+			</div>
+		</div>
+	
+											</div>
+											
+										
+									</td>
+								</tr>
+							</table>	
+						</div><!-- wrapper end-->
+						<div style="padding-left: 4px;">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+<!--
+#left_footer {
+	width:500px;
+	float:left;
+	font-size: 11px;
+	color: #ffffff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:10px;
+	padding: 5px 0px 0px 10px;
+}
+
+#right_footer{	
+	width:230px;
+	float:right;
+	font-size: 11px;
+	padding: 5px 0px 0px 170px;
+	color: #ffffff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:left;
+	}
+.newfooter{
+	width:940px;
+       *width:944px;
+	float:left;
+	background-color:#336699;
+	margin-left:-4px;
+	color:#ffffff;
+	
+	
+}
+.fotercolor1{  
+	width:940px;
+	float:left;
+	background-color: #7798b5;
+	height:99px;
+	margin-left:0px;
+	*width:940px;
+	*margin-left: -4px;
+}
+-->
+</style>
+
+<div class="newfooter">
+	<div id="left_footer">
+		 Notified Under Section (3) of University Grants Commission Act. <br/>@ 2007 Banasthali Vidyapith.
+             
+    </div>
+	
+	<div id="right_footer" align="right">
+		<!--<div align="right" style="margin-right: 20px;"><a href="https://www.facebook.com/banasthali.org" target="_blank"><img align="top" src="/banasthali/images/facebook-logo.png" height=41px" width="42px"></a>&nbsp;&nbsp;&nbsp;<a href="http://banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/index.html;jsessionid=B4A0C0B5ABA276EBA89C831371AB573B" target="_blank"><img align="top" src="/banasthali/images/nirf-logo.jpg" height=41px" width="42px"></a>&nbsp;&nbsp;&nbsp;<a href="http://banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/Application_AICTE_Report_2019-20.pdf" target="_blank"><img align="top" src="/banasthali/images/aicte_logo.png" height=41px" width="42px"></a></div>-->
+			<div align="right" style="margin-right: 4px;">
+				<a href="https://www.instagram.com/banasthali_vidyapith_official/" target="_blank">
+				<img align="top" src="/banasthali/images/Instagram_logo.png" height="32px" width="32px">
+				</a>&nbsp;
+				<a href="https://www.facebook.com/banasthali.org" target="_blank">
+				<img align="top" src="/banasthali/images/facebook-logo.png" height="32px" width="32px">
+				</a>&nbsp;
+				<a href="http://banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/index.html" target="_blank">
+				<img align="top" src="/banasthali/images/nirf-logo.jpg" height="32px" width="32px">
+				</a>&nbsp;
+				<a href="http://banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/index.html" target="_blank">
+				<img align="top" src="/banasthali/images/ariia-logo.png"  height="32px" width="32px">
+				</a>	
+				<a href="http://223.26.28.167/aph/aicte.htm" target="_blank">
+				<img align="top" src="/banasthali/images/AICTE_Logo.png"  height="32px" width="32px">
+				</a>&nbsp;
+			</div>
+		<!--Solution provided by <a href="http://www.neevtech.com/">Neev</a> & <a href="http://www.aurigaitsolutions.com/"> Auriga IT</a>-->
+	</div>
+			
+</div><!-- footer -->
+
+						</div>	
+					</td>
+					
+					
+						<td width="20" style="height: 100%;" class="shdadows">&nbsp;</td>
+					
+				</tr>
+			</table>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5856558-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+	</body>
+</html>
+
+
+<script type="text/javascript">
+	   var bCrumbs = document.getElementById("breadCrumbs").innerHTML; 
+	   bCrumbs = bCrumbs.replace('<li>lower-menu</li>','');
+	   bCrumbs = bCrumbs.replace('<LI>lower-menu','');
+        document.getElementById("breadCrumbs").innerHTML = bCrumbs;
+</script>
+

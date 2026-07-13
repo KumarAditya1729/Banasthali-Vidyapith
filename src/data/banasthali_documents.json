@@ -1,0 +1,856 @@
+{
+  "metadata": {
+    "scrapedAt": "2026-07-05T20:52:03.036Z",
+    "totalDiscovered": 94,
+    "totalDownloaded": 94,
+    "localDirectory": "/scraped-docs"
+  },
+  "documents": [
+    {
+      "remoteUrl": "http://banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/Application_AICTE_Report_2019-20.pdf",
+      "title": "Application_AICTE_Report_2019-20.pdf",
+      "type": "PDF",
+      "sourcePage": "Banasthali Vidyapith",
+      "category": "General",
+      "localPath": "/scraped-docs/0_Application_AICTE_Report_2019-20.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/admissions/BTECH-BPHARM.pdf",
+      "title": "Aptitude \r\nTest Syllabi and Sample Questions \r\n(B.Tech. / B.Pharm.)",
+      "type": "PDF",
+      "sourcePage": "Admission",
+      "category": "Admissions",
+      "localPath": "/scraped-docs/1_BTECH-BPHARM.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/admissions/MBA.pdf",
+      "title": "Aptitude Test Sample Questions (MBA",
+      "type": "PDF",
+      "sourcePage": "Admission",
+      "category": "Admissions",
+      "localPath": "/scraped-docs/2_MBA.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/admissions/data/III_MBA.pdf",
+      "title": "III_MBA.pdf",
+      "type": "PDF",
+      "sourcePage": "Admission",
+      "category": "Admissions",
+      "localPath": "/scraped-docs/3_III_MBA.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/BABEd-BSCBEd.pdf",
+      "title": "Aptitude \r\nTest Syllabi and Sample Questions \r\n(B.Sc. B.Ed./ B.A. B.Ed.) (Middle/Secondary)",
+      "type": "PDF",
+      "sourcePage": "Admission",
+      "category": "Admissions",
+      "localPath": "/scraped-docs/4_BABEd-BSCBEd.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/LLM.pdf",
+      "title": "Aptitude \r\nTest Syllabi and Sample Questions \r\n(LL.M.)",
+      "type": "PDF",
+      "sourcePage": "Admission",
+      "category": "Admissions",
+      "localPath": "/scraped-docs/5_LLM.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/NURSING.pdf",
+      "title": "Aptitude \r\nTest Syllabi and Sample Questions \r\n(B.Sc. Nursing)",
+      "type": "PDF",
+      "sourcePage": "Admission",
+      "category": "Admissions",
+      "localPath": "/scraped-docs/6_NURSING.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/DIPLOMA-ENGG.pdf",
+      "title": "Aptitude Test Syllabi and Sample Questions (Engineering Diploma)",
+      "type": "PDF",
+      "sourcePage": "Admission",
+      "category": "Admissions",
+      "localPath": "/scraped-docs/7_DIPLOMA-ENGG.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/MTECH-I.pdf",
+      "title": "Aptitude Test Syllabi and Sample Questions (M.Tech. (CSE/MT) (Integrated)",
+      "type": "PDF",
+      "sourcePage": "Admission",
+      "category": "Admissions",
+      "localPath": "/scraped-docs/8_MTECH-I.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/about-us/management/Executive_Council.pdf",
+      "title": "Executive Council",
+      "type": "PDF",
+      "sourcePage": "Management",
+      "category": "About & Governance",
+      "localPath": "/scraped-docs/9_Executive_Council.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/about-us/management/Finance_Committee.pdf",
+      "title": "Finance Council",
+      "type": "PDF",
+      "sourcePage": "Management",
+      "category": "About & Governance",
+      "localPath": "/scraped-docs/10_Finance_Committee.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/about-us/management/Academic_Council.pdf",
+      "title": "Academic Council",
+      "type": "PDF",
+      "sourcePage": "Management",
+      "category": "About & Governance",
+      "localPath": "/scraped-docs/11_Academic_Council.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/admissions/STD-VIth-IXth.pdf",
+      "title": "Class \r\nVI",
+      "type": "PDF",
+      "sourcePage": "admission",
+      "category": "Admissions",
+      "localPath": "/scraped-docs/12_STD-VIth-IXth.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://banasthali.org/banasthali/wcms/en/home/hgher-education/ecell/notice.pdf",
+      "title": "Upcoming\r\npreparation classes",
+      "type": "PDF",
+      "sourcePage": "Higher Education",
+      "category": "General",
+      "localPath": "/scraped-docs/13_notice.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/hgher-education/ug_progs/PO-CO-Undergraduate-courses.pdf",
+      "title": "Programme Objectives, Programmes outcome and learning outcomes",
+      "type": "PDF",
+      "sourcePage": "Under Graduate Programmes",
+      "category": "General",
+      "localPath": "/scraped-docs/14_PO-CO-Undergraduate-courses.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/hgher-education/pg_progs/PO-post-graduate.pdf",
+      "title": "Programme Objectives, Programmes outcome and learning outcomes",
+      "type": "PDF",
+      "sourcePage": "PG Programmes",
+      "category": "General",
+      "localPath": "/scraped-docs/15_PO-post-graduate.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/moocs/content/Bharatiya_Saundary_Shastra.pdf",
+      "title": "Bharatiya Saundarya Shastra",
+      "type": "PDF",
+      "sourcePage": "SWAYAM MOOCs developed",
+      "category": "General",
+      "localPath": "/scraped-docs/16_Bharatiya_Saundary_Shastra.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/moocs/content/Bharatiya_Darshan_Shastra_Syllabus.pdf",
+      "title": "Bharatiya Darshan Shastra",
+      "type": "PDF",
+      "sourcePage": "SWAYAM MOOCs developed",
+      "category": "General",
+      "localPath": "/scraped-docs/17_Bharatiya_Darshan_Shastra_Syllabus.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/management/Enprendia_Content.pdf",
+      "title": "Enprendia_Content.pdf",
+      "type": "PDF",
+      "sourcePage": "Management",
+      "category": "General",
+      "localPath": "/scraped-docs/18_Enprendia_Content.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/research-development/documents/3-4-1-Code-of-Ethics-in-Resaerch.pdf",
+      "title": "Code of ethics",
+      "type": "PDF",
+      "sourcePage": "Research and Development",
+      "category": "Research",
+      "localPath": "/scraped-docs/19_3-4-1-Code-of-Ethics-in-Resaerch.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/research-development/documents/Banasthali-Vidyapith-Research-Promation-Scheme.pdf",
+      "title": "Research Promotion Scheme",
+      "type": "PDF",
+      "sourcePage": "Research and Development",
+      "category": "Research",
+      "localPath": "/scraped-docs/20_Banasthali-Vidyapith-Research-Promation-Scheme.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/research-development/doctoral-research/reg_all_subject_UGC.pdf",
+      "title": "Scholars",
+      "type": "PDF",
+      "sourcePage": "Research Programme (Ph.D.)",
+      "category": "Research",
+      "localPath": "/scraped-docs/21_reg_all_subject_UGC.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/anti-ragging/data/Anti-Ragging-Committee-2024.pdf",
+      "title": "Anti-Ragging Committee",
+      "type": "PDF",
+      "sourcePage": "Banasthali Vidyapith Ragging Prevention Programme",
+      "category": "General",
+      "localPath": "/scraped-docs/22_Anti-Ragging-Committee-2024.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/anti-ragging/data/Anti-Ragging-Squad-2024.pdf",
+      "title": "Anti-Ragging Squad",
+      "type": "PDF",
+      "sourcePage": "Banasthali Vidyapith Ragging Prevention Programme",
+      "category": "General",
+      "localPath": "/scraped-docs/23_Anti-Ragging-Squad-2024.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/communication/fixed-point-chart.pdf",
+      "title": "Fixed Point Chart",
+      "type": "PDF",
+      "sourcePage": "Community Radio",
+      "category": "General",
+      "localPath": "/scraped-docs/24_fixed-point-chart.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/campus-life/Infrastructure-Utilization-and-Maintenance-Policy.pdf",
+      "title": "Policies &amp; procedures for Infrastructure Utilization and Maintenance",
+      "type": "PDF",
+      "sourcePage": "Campus Life",
+      "category": "General",
+      "localPath": "/scraped-docs/25_Infrastructure-Utilization-and-Maintenance-Policy.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BanasthaliVidyapithdatabase.pdf",
+      "title": "MHRD-NIRF \t\t\tData",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/26_BanasthaliVidyapithdatabase.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/OVERALL.pdf",
+      "title": "Overall (University)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/27_OVERALL.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/MANAGEMENT.pdf",
+      "title": "Management",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/28_MANAGEMENT.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/PHARMACY.pdf",
+      "title": "Pharmacy",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/29_PHARMACY.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/ARTS_HUMANITIES_SCIENCE_COMMERCE.pdf",
+      "title": "Arts/Humanities/Science/Commerce",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/30_ARTS_HUMANITIES_SCIENCE_COMMERCE.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF_overalldata_IR18.pdf",
+      "title": "BV_NIRF Overall Data (IR18)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/31_BV_NIRF_overalldata_IR18.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF_Pharmacy_Data_IR18.pdf",
+      "title": "BV_NIRF Pharmacy Data (IR18)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/32_BV_NIRF_Pharmacy_Data_IR18.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF_overalldata_IR19.pdf",
+      "title": "BV_NIRF Overall Data (IR19)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/33_BV_NIRF_overalldata_IR19.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF_Pharmacy_Data_IR19.pdf",
+      "title": "BV_NIRF Pharmacy Data (IR19)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/34_BV_NIRF_Pharmacy_Data_IR19.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF-Overall-Data-2020-IR20-.pdf",
+      "title": "BV_NIRF Overall Data (IR20)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/35_BV_NIRF-Overall-Data-2020-IR20-.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF-Pharmacy-Data-2020-IR20-.pdf",
+      "title": "BV_NIRF Pharmacy Data (IR20)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/36_BV_NIRF-Pharmacy-Data-2020-IR20-.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF_overall_2021.pdf",
+      "title": "BV_NIRF Overall Data (IR21)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/37_BV_NIRF_overall_2021.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF_Engineering_2021.pdf",
+      "title": "BV_NIRF Engineering Data (IR21)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/38_BV_NIRF_Engineering_2021.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF_Pharmacy_2021.pdf",
+      "title": "BV_NIRF Pharmacy Data (IR21)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/39_BV_NIRF_Pharmacy_2021.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF_Overall-IR22.pdf",
+      "title": "BV_NIRF Overall Data (IR22)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/40_BV_NIRF_Overall-IR22.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF_Engineering-IR22.pdf",
+      "title": "BV_NIRF Engineering Data (IR22)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/41_BV_NIRF_Engineering-IR22.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF_Pharmacy-IR22.pdf",
+      "title": "BV_NIRF Pharmacy Data (IR22)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/42_BV_NIRF_Pharmacy-IR22.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF_Law-IR22.pdf",
+      "title": "BV_NIRF Law Data (IR22)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/43_BV_NIRF_Law-IR22.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF_Overall-IR23.pdf",
+      "title": "BV_NIRF Overall Data (IR23)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/44_BV_NIRF_Overall-IR23.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF_Engineering-IR23.pdf",
+      "title": "BV_NIRF Engineering Data (IR23)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/45_BV_NIRF_Engineering-IR23.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/BV_NIRF_Pharmacy-IR23.pdf",
+      "title": "BV_NIRF Pharmacy Data (IR23)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/46_BV_NIRF_Pharmacy-IR23.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/nirf/Banasthali-Vidyapith_Overall_IR24.pdf",
+      "title": "BV_NIRF Overall Data (IR24)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/47_Banasthali-Vidyapith_Overall_IR24.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/nirf/Banasthali-Vidyapith_Innovation_IR24.pdf",
+      "title": "BV_NIRF Innovation Data (IR24)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/48_Banasthali-Vidyapith_Innovation_IR24.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/nirf/Banasthali-Vidyapith_Engineering_IR24.pdf",
+      "title": "BV_NIRF Engineering Data (IR24)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/49_Banasthali-Vidyapith_Engineering_IR24.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/nirf/Banasthali-Vidyapith_Pharmacy_IR24.pdf",
+      "title": "BV_NIRF Pharmacy Data (IR24)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/50_Banasthali-Vidyapith_Pharmacy_IR24.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/nirf/BV_NIRF_Overall-Data_-IR25-.pdf",
+      "title": "BV_NIRF Overall Data (IR25)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/51_BV_NIRF_Overall-Data_-IR25-.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/nirf/BV_NIRF_SDG-Institution_Data_-IR25-.pdf",
+      "title": "BV_NIRF SDG Institution Data (IR25)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/52_BV_NIRF_SDG-Institution_Data_-IR25-.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/nirf/BV_NIRF_Innovation_Data_-IR25-.pdf",
+      "title": "BV_NIRF Innovation Data (IR25)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/53_BV_NIRF_Innovation_Data_-IR25-.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/nirf/BV_NIRF_Engineering_Data_-IR25-.pdf",
+      "title": "BV_NIRF Engineering Data (IR25)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/54_BV_NIRF_Engineering_Data_-IR25-.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/nirf/BV_NIRF_Pharmacy_Data_-IR25-.pdf",
+      "title": "BV_NIRF Pharmacy Data (IR25)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/55_BV_NIRF_Pharmacy_Data_-IR25-.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/nirf/BV_NIRF_Overall_Data_IR26.pdf",
+      "title": "BV_NIRF Overall Data (IR26)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/56_BV_NIRF_Overall_Data_IR26.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/nirf/BV_NIRF_SDG_Institution_Data_IR26.pdf",
+      "title": "BV_NIRF SDG Institution Data (IR26)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/57_BV_NIRF_SDG_Institution_Data_IR26.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/nirf/BV_NIRF_Innovation_Data_IR26.pdf",
+      "title": "BV_NIRF Innovation Data (IR26)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/58_BV_NIRF_Innovation_Data_IR26.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/nirf/BV_NIRF_Engineering_Data_IR26.pdf",
+      "title": "BV_NIRF Engineering Data (IR26)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/59_BV_NIRF_Engineering_Data_IR26.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/nirf/BV_NIRF_Pharmacy_Data_IR26.pdf",
+      "title": "BV_NIRF Pharmacy Data (IR26)",
+      "type": "PDF",
+      "sourcePage": "UGC Accreditation",
+      "category": "General",
+      "localPath": "/scraped-docs/60_BV_NIRF_Pharmacy_Data_IR26.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/skills/images/Brochure_Jan-May.pdf",
+      "title": "Download\r\nBrochure",
+      "type": "PDF",
+      "sourcePage": "BAJAJ ENGINEERING SKILLS TRAINING (BEST) CENTRE",
+      "category": "General",
+      "localPath": "/scraped-docs/61_Brochure_Jan-May.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/B-A-B-Ed-B-SC-Syllabi-and-Sample-Questions.pdf",
+      "title": "B.A. B.Ed. / B.Sc. B.Ed. (Secondary / Middle)",
+      "type": "PDF",
+      "sourcePage": "Admission",
+      "category": "Admissions",
+      "localPath": "/scraped-docs/62_B-A-B-Ed-B-SC-Syllabi-and-Sample-Questions.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/files/National_Seminar_India_ME_Landscape_EIS_Outlook.pdf",
+      "title": "Two Day National Seminar on India&rsquo;s Macroeconomic Landscape: Emerging Issues and Strategic Outlook&nbsp; in collaboration with The Indian Econometric Society (March 13-14,2026)",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/63_National_Seminar_India_ME_Landscape_EIS_Outlook.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/ICSSR_Sponsored_National_Seminar_2024.pdf",
+      "title": "ICSSR Sponsored National Seminar on Sustainable Development: Global Problems, Local Solutions (28-29 September 2024)",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/64_ICSSR_Sponsored_National_Seminar_2024.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/files/Brochure_of_ISLS_2022.pdf",
+      "title": "XIII Annual Meeting of ISLS &amp; International Conference on Impacts of Environment, Food &amp; Nutrition on Human Health",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/65_Brochure_of_ISLS_2022.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/results/Result-2022-12.pdf",
+      "title": "School Result May, 2022 (12th Humanities, Mathematics, Biology+Maths, Biology, Commerce)",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/66_Result-2022-12.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/results/BV_School_XII_May2021.pdf",
+      "title": "School Result May, 2021 (12th Humanities, Mathematics, Biology+Maths, Biology, Commerce)",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/67_BV_School_XII_May2021.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/Tender-II.pdf",
+      "title": "Tender II",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/68_Tender-II.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/Tender-I.pdf",
+      "title": "Tender I",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/69_Tender-I.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/results/BV_School_XII_May2020.pdf",
+      "title": "School Result May, 2020 (12th Arts, Maths, Commerce, Biology+Maths, Biology)",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/70_BV_School_XII_May2020.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/Certificate_Diploma_Course_Result_III.pdf",
+      "title": "Certificate Diploma Course Result declared (III)",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/71_Certificate_Diploma_Course_Result_III.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/Certificate_Diploma_Course_HE_II.pdf",
+      "title": "Certificate Diploma Course (Higher Education) Result declared (II)",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/72_Certificate_Diploma_Course_HE_II.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/Senior_Secondary_School_Certificate_Part-I_Arts.pdf",
+      "title": "Senior Secondary School Certificate Part-I (Arts) Results declared",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/73_Senior_Secondary_School_Certificate_Part-I_Arts.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/Certificate_Diploma_Course_HE_Result.pdf",
+      "title": "Certificate Diploma Course (Higher Education) Result declared",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/74_Certificate_Diploma_Course_HE_Result.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/Senior_Secondary_School_Certificate_Part-I_Result.pdf",
+      "title": "Senior Secondary School Certificate Part-I Result declared",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/75_Senior_Secondary_School_Certificate_Part-I_Result.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/Senior_Secondary_School_Certificate_Part-II_Arts.pdf",
+      "title": "Senior Secondary School Certificate Part-II (Arts) Results declared",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/76_Senior_Secondary_School_Certificate_Part-II_Arts.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/Secondary_School_Result_Jul2020.pdf",
+      "title": "Secondary School Certificate Results declared",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/77_Secondary_School_Result_Jul2020.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/news-event-n-announcements/School_Result_July2020.pdf",
+      "title": "School Certificate",
+      "type": "PDF",
+      "sourcePage": "News, Events and Announcements",
+      "category": "General",
+      "localPath": "/scraped-docs/78_School_Result_July2020.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/international/data/AURORA_CLUB.pdf",
+      "title": "AURORA Club",
+      "type": "PDF",
+      "sourcePage": "ERASMUS-PLUS Projects",
+      "category": "General",
+      "localPath": "/scraped-docs/79_AURORA_CLUB.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculty-of-education/dept-of-education/mandatory_disclosure/recognition_letter_bed_med.pdf",
+      "title": "B.Ed",
+      "type": "PDF",
+      "sourcePage": "MANDATORY DISCLOSURE",
+      "category": "General",
+      "localPath": "/scraped-docs/80_recognition_letter_bed_med.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculty-of-education/dept-of-education/mandatory_disclosure/Recognition_Letter_B-A-B-Ed-_B-Sc-B-Ed.pdf",
+      "title": "B.A. B.Ed. / B.Sc. B.Ed.",
+      "type": "PDF",
+      "sourcePage": "MANDATORY DISCLOSURE",
+      "category": "General",
+      "localPath": "/scraped-docs/81_Recognition_Letter_B-A-B-Ed-_B-Sc-B-Ed.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculty-of-education/dept-of-education/mandatory_disclosure/data/faculty_and_staff_apr2026.pdf",
+      "title": "Faculty and Staff",
+      "type": "PDF",
+      "sourcePage": "MANDATORY DISCLOSURE",
+      "category": "General",
+      "localPath": "/scraped-docs/82_faculty_and_staff_apr2026.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculty-of-education/dept-of-education/mandatory_disclosure/data/Faculty_left_joined_last_quarter_feb26.pdf",
+      "title": "Faculty members who left or joined during the\r\nlast quarter",
+      "type": "PDF",
+      "sourcePage": "MANDATORY DISCLOSURE",
+      "category": "General",
+      "localPath": "/scraped-docs/83_Faculty_left_joined_last_quarter_feb26.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculty-of-education/dept-of-education/mandatory_disclosure/data/Student_Enrollment_jan26.pdf",
+      "title": "Student's Enrollment",
+      "type": "PDF",
+      "sourcePage": "MANDATORY DISCLOSURE",
+      "category": "General",
+      "localPath": "/scraped-docs/84_Student_Enrollment_jan26.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculty-of-education/dept-of-education/mandatory_disclosure/data/Fee_charged_students_jan26.PDF",
+      "title": "Fee charged from students",
+      "type": "PDF",
+      "sourcePage": "MANDATORY DISCLOSURE",
+      "category": "General",
+      "localPath": "/scraped-docs/85_Fee_charged_students_jan26.PDF",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculty-of-education/dept-of-education/mandatory_disclosure/data/Available_Infrastructural_Facilities_jan26.pdf",
+      "title": "Available Infrastructural Facilities",
+      "type": "PDF",
+      "sourcePage": "MANDATORY DISCLOSURE",
+      "category": "General",
+      "localPath": "/scraped-docs/86_Available_Infrastructural_Facilities_jan26.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculty-of-education/dept-of-education/mandatory_disclosure/data/Facilities_added_last_quarter_jan26.pdf",
+      "title": "Facilities\r\nadded during the last quarter",
+      "type": "PDF",
+      "sourcePage": "MANDATORY DISCLOSURE",
+      "category": "General",
+      "localPath": "/scraped-docs/87_Facilities_added_last_quarter_jan26.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculty-of-education/dept-of-education/mandatory_disclosure/data/Library_Details_jan26.pdf",
+      "title": "Library Details",
+      "type": "PDF",
+      "sourcePage": "MANDATORY DISCLOSURE",
+      "category": "General",
+      "localPath": "/scraped-docs/88_Library_Details_jan26.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculty-of-education/dept-of-education/mandatory_disclosure/data/mandatory_affidavit_final_dec_2025.pdf",
+      "title": "Mandatory Affidavit",
+      "type": "PDF",
+      "sourcePage": "MANDATORY DISCLOSURE",
+      "category": "General",
+      "localPath": "/scraped-docs/89_mandatory_affidavit_final_dec_2025.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculty-of-education/dept-of-education/mandatory_disclosure/data/balancesheet-sept25.pdf",
+      "title": "Balance Sheet",
+      "type": "PDF",
+      "sourcePage": "MANDATORY DISCLOSURE",
+      "category": "General",
+      "localPath": "/scraped-docs/90_balancesheet-sept25.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculty-of-education/dept-of-education/mandatory_disclosure/data/income_expenditure-sept25.pdf",
+      "title": "Income Expenditure",
+      "type": "PDF",
+      "sourcePage": "MANDATORY DISCLOSURE",
+      "category": "General",
+      "localPath": "/scraped-docs/91_income_expenditure-sept25.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculty-of-education/dept-of-education/mandatory_disclosure/data/receipt-payments-sept25.pdf",
+      "title": "Receipts and Payments",
+      "type": "PDF",
+      "sourcePage": "MANDATORY DISCLOSURE",
+      "category": "General",
+      "localPath": "/scraped-docs/92_receipt-payments-sept25.pdf",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/admissions/msc_biotech_07-03-08.pdf",
+      "title": "(Sample Questions)",
+      "type": "PDF",
+      "sourcePage": "Admission",
+      "category": "Admissions",
+      "localPath": "/scraped-docs/93_msc_biotech_07-03-08.pdf",
+      "downloaded": true
+    }
+  ]
+}

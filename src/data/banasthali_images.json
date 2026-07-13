@@ -1,0 +1,2415 @@
+{
+  "metadata": {
+    "scrapedAt": "2026-07-05T20:45:34.140Z",
+    "totalDiscovered": 301,
+    "totalDownloaded": 298,
+    "localDirectory": "/scraped-images"
+  },
+  "images": [
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/headerimg.jpg",
+      "alt": "Photo Gallery Image",
+      "sourcePage": "Photo Gallery",
+      "category": "gallery",
+      "localPath": "/scraped-images/0_headerimg.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/new.gif",
+      "alt": "Photo Gallery Image",
+      "sourcePage": "Photo Gallery",
+      "category": "gallery",
+      "localPath": "/scraped-images/1_new.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/1000.gif",
+      "alt": "Photo Gallery Image",
+      "sourcePage": "Photo Gallery",
+      "category": "gallery",
+      "localPath": "/scraped-images/2_1000.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/spacer.gif",
+      "alt": "Photo Gallery Image",
+      "sourcePage": "Photo Gallery",
+      "category": "gallery",
+      "downloaded": false
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/1000.gif?ver=2023.1",
+      "alt": "Banasthali Vidyapith",
+      "sourcePage": "Banasthali Vidyapith",
+      "category": "general",
+      "localPath": "/scraped-images/4_1000.gif_ver_2023.1",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/gaandhi_photo.gif",
+      "alt": "Banasthali Vidyapith",
+      "sourcePage": "Banasthali Vidyapith",
+      "category": "general",
+      "localPath": "/scraped-images/5_gaandhi_photo.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/style_brdr.gif",
+      "alt": "Banasthali Vidyapith",
+      "sourcePage": "Banasthali Vidyapith",
+      "category": "general",
+      "downloaded": false
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/banasthali_panchmuki.gif",
+      "alt": "Banasthali Vidyapith",
+      "sourcePage": "Banasthali Vidyapith",
+      "category": "general",
+      "localPath": "/scraped-images/7_banasthali_panchmuki.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/ban_inte.gif",
+      "alt": "Banasthali Vidyapith",
+      "sourcePage": "Banasthali Vidyapith",
+      "category": "general",
+      "localPath": "/scraped-images/8_ban_inte.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/ban_alumni.gif",
+      "alt": "Banasthali Vidyapith",
+      "sourcePage": "Banasthali Vidyapith",
+      "category": "general",
+      "localPath": "/scraped-images/9_ban_alumni.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/1.jpg",
+      "alt": "History",
+      "sourcePage": "History",
+      "category": "about",
+      "localPath": "/scraped-images/10_1.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/2.jpg",
+      "alt": "Hiralal Shastri",
+      "sourcePage": "History",
+      "category": "about",
+      "localPath": "/scraped-images/11_2.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/3.jpg",
+      "alt": "Smt. Ratan Shastri",
+      "sourcePage": "History",
+      "category": "about",
+      "localPath": "/scraped-images/12_3.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/school_edu_header.gif",
+      "alt": "School Education",
+      "sourcePage": "School Education",
+      "category": "general",
+      "localPath": "/scraped-images/13_school_edu_header.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/schol_edu_Lft_stdcrner.gif",
+      "alt": "School Education",
+      "sourcePage": "School Education",
+      "category": "general",
+      "localPath": "/scraped-images/14_schol_edu_Lft_stdcrner.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/school_edu_imag.gif",
+      "alt": "School Education",
+      "sourcePage": "School Education",
+      "category": "general",
+      "localPath": "/scraped-images/15_school_edu_imag.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/location/india.jpg",
+      "alt": "Location",
+      "sourcePage": "Location",
+      "category": "general",
+      "localPath": "/scraped-images/16_india.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/about-us/management/org_chart_update_current_2019.jpg",
+      "alt": "Organisation Structure",
+      "sourcePage": "Management",
+      "category": "about",
+      "localPath": "/scraped-images/17_org_chart_update_current_2019.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/AartiAgrawal-.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/18_AartiAgrawal-.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/abhilasha-jain-TSETE11269-copy_80x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/19_abhilasha-jain-TSETE11269-copy_80x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/akhilesh-kumar-pandey.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/20_akhilesh-kumar-pandey.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/amita-sharma.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/21_amita-sharma.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/AnitaBhandawat.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/22_AnitaBhandawat.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/AnkitaSingh.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/23_AnkitaSingh.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/Anjana-singha-TSEPT96067_95x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/24_Anjana-singha-TSEPT96067_95x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/bhawani-sharkar-ravo-TSETV10239_73x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/25_bhawani-sharkar-ravo-TSETV10239_73x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/keerti-purohit-TSETE10237_90x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/26_keerti-purohit-TSETE10237_90x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/DeepkiranTSETG99079_90x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/27_DeepkiranTSETG99079_90x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Deepshikha-paliwal.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/28_Deepshikha-paliwal.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/devendra-kumar-gupt.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/29_devendra-kumar-gupt.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/GeetaDevodi.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/30_GeetaDevodi.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/giribala-paliwal-TSEPG08232_79x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/31_giribala-paliwal-TSEPG08232_79x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/karuna-shakhyadhar.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/32_karuna-shakhyadhar.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/charu-maheswari-TSETE10238-_90x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/33_charu-maheswari-TSETE10238-_90x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/KrishanaLalSharma.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/34_KrishanaLalSharma.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/mamta-sharma-TSETE11268_89x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/35_mamta-sharma-TSETE11268_89x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Manju-Mishra.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/36_Manju-Mishra.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/meenakshichaudhary_sharda.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/37_meenakshichaudhary_sharda.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/Meenakshi-Sharma-TSETE10234_82x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/38_Meenakshi-Sharma-TSETE10234_82x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/MithileshKumarMishra.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/39_MithileshKumarMishra.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/Mohmad-Cash-TSETE11278_83x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/40_Mohmad-Cash-TSETE11278_83x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Mridula-Goatam.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/41_Mridula-Goatam.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/mukund-mohan-dixit.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/42_mukund-mohan-dixit.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Nandubala-Sharma.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/43_Nandubala-Sharma.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/neetu-jain-TSETE10235_78x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/44_neetu-jain-TSETE10235_78x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/Nimisha-Purohit-TSETE11267_79x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/45_Nimisha-Purohit-TSETE11267_79x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/nisha_kaushik.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/46_nisha_kaushik.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/Pinki-Joshi-TSETE11270_88x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/47_Pinki-Joshi-TSETE11270_88x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Dr-Pramila-Jheeva.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/48_Dr-Pramila-Jheeva.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/pramila-sharma-TSETE07167-copy_88x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/49_pramila-sharma-TSETE07167-copy_88x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/pratibhatyagi.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/50_pratibhatyagi.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/Priti-Sharma-TSETG03094-_82x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/51_Priti-Sharma-TSETG03094-_82x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/rachna-sharma.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/52_rachna-sharma.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/RamdayalSinghKushwaha.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/53_RamdayalSinghKushwaha.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/ravi-jain-TSETG99081_84x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/54_ravi-jain-TSETG99081_84x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/ravishankar-rav-TSETV03099-copy_90x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/55_ravishankar-rav-TSETV03099-copy_90x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/Rekha-ojha-TSETE11272_90x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/56_Rekha-ojha-TSETE11272_90x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/ritusharma_sharda.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/57_ritusharma_sharda.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/ruchi-holkar-TSETE11274_83x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/58_ruchi-holkar-TSETE11274_83x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/santosh-singh-TSETG05206_75x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/59_santosh-singh-TSETG05206_75x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sapna-gupta.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/60_sapna-gupta.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/seema-sharma-TSETE10233_80x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/61_seema-sharma-TSETE10233_80x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/shailbala-sharma.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/62_shailbala-sharma.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/shimla-rathore-TSETE07177_85x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/63_shimla-rathore-TSETE07177_85x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/shobha-singh-TSETG95063_89x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/64_shobha-singh-TSETG95063_89x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/swetapandey.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/65_swetapandey.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/smita-purohit.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/66_smita-purohit.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/Smrti-Tyagi-TSETG95065_82x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/67_Smrti-Tyagi-TSETG95065_82x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Sudhansh-Kumar-Kulshresth.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/68_Sudhansh-Kumar-Kulshresth.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/sukesh-jiji.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/69_sukesh-jiji.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/SumanSharma.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/70_SumanSharma.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/Dr-Shushra-Rani-Sharma-TSEPG76016-_82x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/71_Dr-Shushra-Rani-Sharma-TSEPG76016-_82x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/Dr-Uma-Rani-Agrawal-jpg-TSEPG91044_79x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/72_Dr-Uma-Rani-Agrawal-jpg-TSEPG91044_79x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/vimlesh-bhador.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/73_vimlesh-bhador.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/vinitavishta.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/74_vinitavishta.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/aditi-chaturvedi_thumb.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/75_aditi-chaturvedi_thumb.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/amera.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/76_amera.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/anilkumar.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/77_anilkumar.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/anshupareek.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/78_anshupareek.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Bharti-Pareek_95x123.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/79_Smt-Bharti-Pareek_95x123.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Bithika-Nagar_95x102.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/80_Smt-Bithika-Nagar_95x102.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Chandrakala-Sharma_95x71.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/81_Smt-Chandrakala-Sharma_95x71.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/deeptipaliwal.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/82_deeptipaliwal.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/divya-tyagi_thumb.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/83_divya-tyagi_thumb.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Ms-Garima-Vishwa.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/84_Ms-Garima-Vishwa.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Gayatri-Sharma_95x71.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/85_Smt-Gayatri-Sharma_95x71.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/Geetanjali-Rathore-TSETE09212_79x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/86_Geetanjali-Rathore-TSETE09212_79x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/smt-gurvinder-kaur_95x113.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/87_smt-gurvinder-kaur_95x113.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Sh-Harinarayan-Mishra_95x98.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/88_Sh-Harinarayan-Mishra_95x98.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/kalpanajain_saraswati.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/89_kalpanajain_saraswati.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Leena-Mukherjee_95x126.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/90_Smt-Leena-Mukherjee_95x126.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/smt-madhu-parashar_95x121.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/91_smt-madhu-parashar_95x121.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Mandeep-Kaur.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/92_Smt-Mandeep-Kaur.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/sharda/manisha-paliwal-TSEPG08190_92x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/93_manisha-paliwal-TSEPG08190_92x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Meenu-Saxena.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/94_Smt-Meenu-Saxena.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Ms-Neelam-PET-M-P-Ed-.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/95_Ms-Neelam-PET-M-P-Ed-.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Neeta-Jha_95x71.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/96_Smt-Neeta-Jha_95x71.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/niveditasingh.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/97_niveditasingh.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/smt-parmita-sharma_95x78.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/98_smt-parmita-sharma_95x78.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Poonam-Singhal_95x71.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/99_Smt-Poonam-Singhal_95x71.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/ms-prachi-madhur.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/100_ms-prachi-madhur.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Sh-Pradeep-Sharma_95x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/101_Sh-Pradeep-Sharma_95x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Ms_PreetiDubey-PET-B-P-Ed-.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/102_Ms_PreetiDubey-PET-B-P-Ed-.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/ms-priyanka-pareek_95x126.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/103_ms-priyanka-pareek_95x126.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Rekha-Chaudhary_95x96.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/104_Smt-Rekha-Chaudhary_95x96.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Rekha-Sharma_95x71.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/105_Smt-Rekha-Sharma_95x71.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Renu-Jain_95x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/106_Smt-Renu-Jain_95x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Ms-Rita-Mishra_95x71.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/107_Ms-Rita-Mishra_95x71.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Rizwana-Beghum_95x126.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/108_Smt-Rizwana-Beghum_95x126.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Rupa-Mishra.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/109_Smt-Rupa-Mishra.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Ms-Sarika-Goyal.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/110_Ms-Sarika-Goyal.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Ms-Savita-Tailor_95x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/111_Ms-Savita-Tailor_95x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Seema-Purohit_95x105.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/112_Smt-Seema-Purohit_95x105.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Shubhra-Saxena_95x71.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/113_Smt-Shubhra-Saxena_95x71.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/smt-suman-lata-jadon.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/114_smt-suman-lata-jadon.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Smt-Usha-Mittal_95x81.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/115_Smt-Usha-Mittal_95x81.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Anil-Kumar-Gupta_95x119.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/116_Anil-Kumar-Gupta_95x119.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Deepti-Joshi_95x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/117_Deepti-Joshi_95x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/manjukala.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/118_manjukala.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Manju-Purohit-ji_95x101.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/119_Manju-Purohit-ji_95x101.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/meghaatrey.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/120_meghaatrey.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Minakshi-Sharma_95x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/121_Minakshi-Sharma_95x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Mukti-Bala-Sharma_95x93.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/122_Mukti-Bala-Sharma_95x93.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/NarendraKumar.JPG",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/123_NarendraKumar.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/prahlad.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/124_prahlad.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Prathibha-Ji_95x95.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/125_Prathibha-Ji_95x95.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/pyare-lal_shakuntlam.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/126_pyare-lal_shakuntlam.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Rekha-Jain_95x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/127_Rekha-Jain_95x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Ruchi-Mishra_95x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/128_Ruchi-Mishra_95x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Savitri-Sharma_New.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/129_Savitri-Sharma_New.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Seema-parashar_92x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/130_Seema-parashar_92x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Sulagna-Mukherjee_95x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/131_Sulagna-Mukherjee_95x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/TrilokChandAwasthi.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/132_TrilokChandAwasthi.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/urvesh_cricket.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/133_urvesh_cricket.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Tammnaverma.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/134_Tammnaverma.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/school-education/staff/Vijay-Kumar-Sharma_95x127.jpg",
+      "alt": "Faculty & Staff",
+      "sourcePage": "Faculty & Staff",
+      "category": "general",
+      "localPath": "/scraped-images/135_Vijay-Kumar-Sharma_95x127.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/hgher-education/fivefoldeducation_update.jpg",
+      "alt": "Higher Education",
+      "sourcePage": "Higher Education",
+      "category": "general",
+      "localPath": "/scraped-images/136_fivefoldeducation_update.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://banasthali.org/banasthali/wcms/en/home/hgher-education/ecell/career-couns-1.jpg",
+      "alt": "Higher Education",
+      "sourcePage": "Higher Education",
+      "category": "general",
+      "localPath": "/scraped-images/137_career-couns-1.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://banasthali.org/banasthali/wcms/en/home/hgher-education/ecell/career-couns-2.jpg",
+      "alt": "Higher Education",
+      "sourcePage": "Higher Education",
+      "category": "general",
+      "localPath": "/scraped-images/138_career-couns-2.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://banasthali.org/banasthali/wcms/en/home/hgher-education/ecell/career-couns-3.jpg",
+      "alt": "Higher Education",
+      "sourcePage": "Higher Education",
+      "category": "general",
+      "localPath": "/scraped-images/139_career-couns-3.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://banasthali.org/banasthali/wcms/en/home/hgher-education/ecell/career-couns-4.jpg",
+      "alt": "Higher Education",
+      "sourcePage": "Higher Education",
+      "category": "general",
+      "localPath": "/scraped-images/140_career-couns-4.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/library/campusilib/_DSC0211_Selected-for-website.JPG",
+      "alt": "Library",
+      "sourcePage": "Library",
+      "category": "campus_life",
+      "localPath": "/scraped-images/141__DSC0211_Selected-for-website.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/library/campusilib/_DSC0212_Selected-for-website.JPG",
+      "alt": "Library",
+      "sourcePage": "Library",
+      "category": "campus_life",
+      "localPath": "/scraped-images/142__DSC0212_Selected-for-website.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/library/campusilib/_DSC0217_Selected-for-website.JPG",
+      "alt": "Library",
+      "sourcePage": "Library",
+      "category": "campus_life",
+      "localPath": "/scraped-images/143__DSC0217_Selected-for-website.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/moocs/content/strip-moocs.jpg",
+      "alt": "strip moocs",
+      "sourcePage": "SWAYAM MOOCs developed",
+      "category": "general",
+      "localPath": "/scraped-images/144_strip-moocs.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/sports/Yoga1.png",
+      "alt": "Yoga",
+      "sourcePage": "Sports",
+      "category": "general",
+      "localPath": "/scraped-images/145_Yoga1.png",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/sports/Yoga2.png",
+      "alt": "Yoga",
+      "sourcePage": "Sports",
+      "category": "general",
+      "localPath": "/scraped-images/146_Yoga2.png",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/sports.jpg",
+      "alt": "Horse Riding",
+      "sourcePage": "Sports",
+      "category": "general",
+      "localPath": "/scraped-images/147_sports.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/swimmingph.jpg",
+      "alt": "Swimming",
+      "sourcePage": "Sports",
+      "category": "general",
+      "localPath": "/scraped-images/148_swimmingph.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/shooting.jpg",
+      "alt": "Shooting",
+      "sourcePage": "Sports",
+      "category": "general",
+      "localPath": "/scraped-images/149_shooting.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/flying.jpg",
+      "alt": "Flying",
+      "sourcePage": "Sports",
+      "category": "general",
+      "localPath": "/scraped-images/150_flying.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/Hockey.JPG",
+      "alt": "Hockey",
+      "sourcePage": "Sports",
+      "category": "general",
+      "localPath": "/scraped-images/151_Hockey.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/BasketBall.jpg",
+      "alt": "Basket Ball",
+      "sourcePage": "Sports",
+      "category": "general",
+      "localPath": "/scraped-images/152_BasketBall.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/Talwar.JPG",
+      "alt": "Talwar",
+      "sourcePage": "Sports",
+      "category": "general",
+      "localPath": "/scraped-images/153_Talwar.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/journalism_masscomm/images/jmass_01.jpg",
+      "alt": "Well equipped Media Lab",
+      "sourcePage": "Department of Journalism and Mass Communication",
+      "category": "general",
+      "localPath": "/scraped-images/154_jmass_01.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/journalism_masscomm/images/jmass_02.jpg",
+      "alt": "On-air Radio studio with recording room",
+      "sourcePage": "Department of Journalism and Mass Communication",
+      "category": "general",
+      "localPath": "/scraped-images/155_jmass_02.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/journalism_masscomm/images/jmass_03.jpg",
+      "alt": "TV-Studio with News room and PCR",
+      "sourcePage": "Department of Journalism and Mass Communication",
+      "category": "general",
+      "localPath": "/scraped-images/156_jmass_03.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/journalism_masscomm/images/jmass_04.jpg",
+      "alt": "Non-linear editing(video) lab",
+      "sourcePage": "Department of Journalism and Mass Communication",
+      "category": "general",
+      "localPath": "/scraped-images/157_jmass_04.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/journalism_masscomm/images/jmass_05.jpg",
+      "alt": "Non-linear editing(video) lab",
+      "sourcePage": "Department of Journalism and Mass Communication",
+      "category": "general",
+      "localPath": "/scraped-images/158_jmass_05.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/journalism_masscomm/images/jmass_06.jpg",
+      "alt": "Class rooms with OHP",
+      "sourcePage": "Department of Journalism and Mass Communication",
+      "category": "general",
+      "localPath": "/scraped-images/159_jmass_06.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/journalism_masscomm/images/jmass_07.jpg",
+      "alt": "Class room with DTH TV projector",
+      "sourcePage": "Department of Journalism and Mass Communication",
+      "category": "general",
+      "localPath": "/scraped-images/160_jmass_07.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/facultyHeader.gif",
+      "alt": "Faculty of Education",
+      "sourcePage": "Faculty of Education",
+      "category": "general",
+      "localPath": "/scraped-images/161_facultyHeader.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/arch_and_planning/images/arch-1.jpg",
+      "alt": "Arch",
+      "sourcePage": "School of Architecture and Planning",
+      "category": "general",
+      "localPath": "/scraped-images/162_arch-1.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/arch_and_planning/images/arch-2.jpg",
+      "alt": "Arch",
+      "sourcePage": "School of Architecture and Planning",
+      "category": "general",
+      "localPath": "/scraped-images/163_arch-2.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/arch_and_planning/images/arch-3.jpg",
+      "alt": "Arch",
+      "sourcePage": "School of Architecture and Planning",
+      "category": "general",
+      "localPath": "/scraped-images/164_arch-3.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/arch_and_planning/images/arch-4.jpg",
+      "alt": "Arch",
+      "sourcePage": "School of Architecture and Planning",
+      "category": "general",
+      "localPath": "/scraped-images/165_arch-4.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/arch_and_planning/images/arch-5.jpg",
+      "alt": "Arch",
+      "sourcePage": "School of Architecture and Planning",
+      "category": "general",
+      "localPath": "/scraped-images/166_arch-5.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/arch_and_planning/images/arch-6.jpg",
+      "alt": "Arch",
+      "sourcePage": "School of Architecture and Planning",
+      "category": "general",
+      "localPath": "/scraped-images/167_arch-6.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/arch_and_planning/images/arch-7.jpg",
+      "alt": "Arch",
+      "sourcePage": "School of Architecture and Planning",
+      "category": "general",
+      "localPath": "/scraped-images/168_arch-7.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/arch_and_planning/images/arch-8.jpg",
+      "alt": "Arch",
+      "sourcePage": "School of Architecture and Planning",
+      "category": "general",
+      "localPath": "/scraped-images/169_arch-8.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/departments/arch_and_planning/images/arch-9.jpg",
+      "alt": "Arch",
+      "sourcePage": "School of Architecture and Planning",
+      "category": "general",
+      "localPath": "/scraped-images/170_arch-9.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/fine-arts/Fine-Arts1_041.gif",
+      "alt": "Fine art",
+      "sourcePage": "Fine art",
+      "category": "general",
+      "localPath": "/scraped-images/171_Fine-Arts1_041.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/fine-arts/Fine-Arts1_061.gif",
+      "alt": "Fine art",
+      "sourcePage": "Fine art",
+      "category": "general",
+      "localPath": "/scraped-images/172_Fine-Arts1_061.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/fine-arts/Fine-Arts1_081.gif",
+      "alt": "Fine art",
+      "sourcePage": "Fine art",
+      "category": "general",
+      "localPath": "/scraped-images/173_Fine-Arts1_081.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/facultyImage1.gif",
+      "alt": "FacultyOfLifeScience",
+      "sourcePage": "FacultyOfLifeScience",
+      "category": "general",
+      "localPath": "/scraped-images/174_facultyImage1.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/facultyImage2.gif",
+      "alt": "FacultyOfLifeScience",
+      "sourcePage": "FacultyOfLifeScience",
+      "category": "general",
+      "localPath": "/scraped-images/175_facultyImage2.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/mainImageHumanietes.gif",
+      "alt": "Faculties of Humanities",
+      "sourcePage": "Faculties of Humanities",
+      "category": "general",
+      "localPath": "/scraped-images/176_mainImageHumanietes.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/topBgHumnws.gif",
+      "alt": "Faculties of Humanities",
+      "sourcePage": "Faculties of Humanities",
+      "category": "general",
+      "downloaded": false
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/Faculty-of-Home-Science.gif",
+      "alt": "Home Science",
+      "sourcePage": "Home Science",
+      "category": "general",
+      "localPath": "/scraped-images/178_Faculty-of-Home-Science.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/wisdom_txt.gif",
+      "alt": "Management",
+      "sourcePage": "Management",
+      "category": "general",
+      "localPath": "/scraped-images/179_wisdom_txt.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/heading.gif",
+      "alt": "Management",
+      "sourcePage": "Management",
+      "category": "general",
+      "localPath": "/scraped-images/180_heading.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/headin2.gif",
+      "alt": "Management",
+      "sourcePage": "Management",
+      "category": "general",
+      "localPath": "/scraped-images/181_headin2.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/photo1.gif",
+      "alt": "Management",
+      "sourcePage": "Management",
+      "category": "general",
+      "localPath": "/scraped-images/182_photo1.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/photo2.gif",
+      "alt": "Management",
+      "sourcePage": "Management",
+      "category": "general",
+      "localPath": "/scraped-images/183_photo2.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/photo3.gif",
+      "alt": "Management",
+      "sourcePage": "Management",
+      "category": "general",
+      "localPath": "/scraped-images/184_photo3.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/photo4.gif",
+      "alt": "Management",
+      "sourcePage": "Management",
+      "category": "general",
+      "localPath": "/scraped-images/185_photo4.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/aimActmainImg.gif",
+      "alt": "MATHEMATICS AND APPLIED COMPUTER TECHNOLOGIES",
+      "sourcePage": "MATHEMATICS AND APPLIED COMPUTER TECHNOLOGIES",
+      "category": "general",
+      "localPath": "/scraped-images/186_aimActmainImg.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/aimActTitle.gif",
+      "alt": "MATHEMATICS AND APPLIED COMPUTER TECHNOLOGIES",
+      "sourcePage": "MATHEMATICS AND APPLIED COMPUTER TECHNOLOGIES",
+      "category": "general",
+      "localPath": "/scraped-images/187_aimActTitle.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/CMS_image.gif",
+      "alt": "MATHEMATICS AND APPLIED COMPUTER TECHNOLOGIES",
+      "sourcePage": "MATHEMATICS AND APPLIED COMPUTER TECHNOLOGIES",
+      "category": "general",
+      "localPath": "/scraped-images/188_CMS_image.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/IBM_image.gif",
+      "alt": "MATHEMATICS AND APPLIED COMPUTER TECHNOLOGIES",
+      "sourcePage": "MATHEMATICS AND APPLIED COMPUTER TECHNOLOGIES",
+      "category": "general",
+      "localPath": "/scraped-images/189_IBM_image.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/socialscienceheader.jpg",
+      "alt": "Social Sciences",
+      "sourcePage": "Social Sciences",
+      "category": "general",
+      "localPath": "/scraped-images/190_socialscienceheader.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/Social-Sciences_07.gif",
+      "alt": "Social Sciences",
+      "sourcePage": "Social Sciences",
+      "category": "general",
+      "localPath": "/scraped-images/191_Social-Sciences_07.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/researchbooks.jpg",
+      "alt": "banasthaliRearch Img",
+      "sourcePage": "Research and Development",
+      "category": "research",
+      "localPath": "/scraped-images/192_researchbooks.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/law/gallery/law_1.jpg",
+      "alt": "Law Image 1",
+      "sourcePage": "Faculty of Law",
+      "category": "general",
+      "localPath": "/scraped-images/193_law_1.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/law/gallery/law_2.jpg",
+      "alt": "Law Image 2",
+      "sourcePage": "Faculty of Law",
+      "category": "general",
+      "localPath": "/scraped-images/194_law_2.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/law/gallery/law_3.jpg",
+      "alt": "Law Image 3",
+      "sourcePage": "Faculty of Law",
+      "category": "general",
+      "localPath": "/scraped-images/195_law_3.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/law/gallery/law_4.jpg",
+      "alt": "Law Image 4",
+      "sourcePage": "Faculty of Law",
+      "category": "general",
+      "localPath": "/scraped-images/196_law_4.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/law/gallery/law_5.jpg",
+      "alt": "Law Image 5",
+      "sourcePage": "Faculty of Law",
+      "category": "general",
+      "localPath": "/scraped-images/197_law_5.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/law/gallery/law_6.jpg",
+      "alt": "Law Image 6",
+      "sourcePage": "Faculty of Law",
+      "category": "general",
+      "localPath": "/scraped-images/198_law_6.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/automation/gallery/automation_1.jpg",
+      "alt": "Advance PLC Lab",
+      "sourcePage": "Faculty of Automation",
+      "category": "general",
+      "localPath": "/scraped-images/199_automation_1.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/automation/gallery/automation_2.jpg",
+      "alt": "Electrical Machine I",
+      "sourcePage": "Faculty of Automation",
+      "category": "general",
+      "localPath": "/scraped-images/200_automation_2.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/automation/gallery/automation_3.jpg",
+      "alt": "Computer Integrated Manufacturing System",
+      "sourcePage": "Faculty of Automation",
+      "category": "general",
+      "localPath": "/scraped-images/201_automation_3.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/automation/gallery/automation_4.jpg",
+      "alt": "Festo Modular Production System",
+      "sourcePage": "Faculty of Automation",
+      "category": "general",
+      "localPath": "/scraped-images/202_automation_4.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/automation/gallery/automation_5.jpg",
+      "alt": "Bosch Rexroth Modular Mechatronics System Industry 4.0",
+      "sourcePage": "Faculty of Automation",
+      "category": "general",
+      "localPath": "/scraped-images/203_automation_5.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/automation/gallery/automation_6.jpg",
+      "alt": "Robotics Lab including Kuka and TAL robots",
+      "sourcePage": "Faculty of Automation",
+      "category": "general",
+      "localPath": "/scraped-images/204_automation_6.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/automation/gallery/automation_7.jpg",
+      "alt": "Digital Signal Processing Lab",
+      "sourcePage": "Faculty of Automation",
+      "category": "general",
+      "localPath": "/scraped-images/205_automation_7.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/automation/gallery/automation_8.jpg",
+      "alt": "Switchgear and and Protection Lab",
+      "sourcePage": "Faculty of Automation",
+      "category": "general",
+      "localPath": "/scraped-images/206_automation_8.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/automation/gallery/automation_9.jpg",
+      "alt": "Modular Mechatronics System Industry 3.0",
+      "sourcePage": "Faculty of Automation",
+      "category": "general",
+      "localPath": "/scraped-images/207_automation_9.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/automation/gallery/automation_10.jpg",
+      "alt": "Five axis TAL robot with gesture control",
+      "sourcePage": "Faculty of Automation",
+      "category": "general",
+      "localPath": "/scraped-images/208_automation_10.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/Capus_tur2_img1.gif",
+      "alt": "Campus",
+      "sourcePage": "Campus",
+      "category": "campus_life",
+      "localPath": "/scraped-images/209_Capus_tur2_img1.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/Capus_tur2_img2.gif",
+      "alt": "Campus",
+      "sourcePage": "Campus",
+      "category": "campus_life",
+      "localPath": "/scraped-images/210_Capus_tur2_img2.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/Capus_tur2_img3.gif",
+      "alt": "Campus",
+      "sourcePage": "Campus",
+      "category": "campus_life",
+      "localPath": "/scraped-images/211_Capus_tur2_img3.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/campus-life/vigyan-mandir_thumb.jpg",
+      "alt": "Campus Life",
+      "sourcePage": "Campus Life",
+      "category": "campus_life",
+      "localPath": "/scraped-images/212_vigyan-mandir_thumb.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/campus-life/sur_mandir_thumb.jpg",
+      "alt": "Campus Life",
+      "sourcePage": "Campus Life",
+      "category": "campus_life",
+      "localPath": "/scraped-images/213_sur_mandir_thumb.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/campus-life/hostel2_thumb.jpg",
+      "alt": "Campus Life",
+      "sourcePage": "Campus Life",
+      "category": "campus_life",
+      "localPath": "/scraped-images/214_hostel2_thumb.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/campus-life/hostel1_thumb.jpg",
+      "alt": "Campus Life",
+      "sourcePage": "Campus Life",
+      "category": "campus_life",
+      "localPath": "/scraped-images/215_hostel1_thumb.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/campus-life/staff_qur4_thimb.jpg",
+      "alt": "Campus Life",
+      "sourcePage": "Campus Life",
+      "category": "campus_life",
+      "localPath": "/scraped-images/216_staff_qur4_thimb.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/campus-life/staff_qur2_thumb.jpg",
+      "alt": "Campus Life",
+      "sourcePage": "Campus Life",
+      "category": "campus_life",
+      "localPath": "/scraped-images/217_staff_qur2_thumb.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/campus-life/staff_qur_3_thumb.jpg",
+      "alt": "Campus Life",
+      "sourcePage": "Campus Life",
+      "category": "campus_life",
+      "localPath": "/scraped-images/218_staff_qur_3_thumb.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/campus-life/market2_thumb.jpg",
+      "alt": "Campus Life",
+      "sourcePage": "Campus Life",
+      "category": "campus_life",
+      "localPath": "/scraped-images/219_market2_thumb.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/campus-life/market1_thumb.jpg",
+      "alt": "Campus Life",
+      "sourcePage": "Campus Life",
+      "category": "campus_life",
+      "localPath": "/scraped-images/220_market1_thumb.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/campus-life/canteen1_thumb.jpg",
+      "alt": "Campus Life",
+      "sourcePage": "Campus Life",
+      "category": "campus_life",
+      "localPath": "/scraped-images/221_canteen1_thumb.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/campus-life/canteen3_thumb.jpg",
+      "alt": "Campus Life",
+      "sourcePage": "Campus Life",
+      "category": "campus_life",
+      "localPath": "/scraped-images/222_canteen3_thumb.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/campus-life/canteen2_thumb.jpg",
+      "alt": "Campus Life",
+      "sourcePage": "Campus Life",
+      "category": "campus_life",
+      "localPath": "/scraped-images/223_canteen2_thumb.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/communication/DSCN2613.jpg",
+      "alt": "Community Radio",
+      "sourcePage": "Community Radio",
+      "category": "campus_life",
+      "localPath": "/scraped-images/224_DSCN2613.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/networking/Bloack-Diagram-of-Campus-NetworkingWebSite.jpg",
+      "alt": "Networking",
+      "sourcePage": "Networking",
+      "category": "campus_life",
+      "localPath": "/scraped-images/225_Bloack-Diagram-of-Campus-NetworkingWebSite.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/data/ICC.png",
+      "alt": "ICC Committee",
+      "sourcePage": "ICC Committee",
+      "category": "campus_life",
+      "localPath": "/scraped-images/226_ICC.png",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/campus-tour/data/SGRC.png",
+      "alt": "SGRC Committee",
+      "sourcePage": "SGRC Committee",
+      "category": "campus_life",
+      "localPath": "/scraped-images/227_SGRC.png",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/location/rajasthan1.jpg",
+      "alt": "How to Reach Banasthali",
+      "sourcePage": "How to Reach Banasthali",
+      "category": "general",
+      "localPath": "/scraped-images/228_rajasthan1.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/how-to-reach-banasthali/airmap1.jpg",
+      "alt": "How to Reach Banasthali",
+      "sourcePage": "How to Reach Banasthali",
+      "category": "general",
+      "localPath": "/scraped-images/229_airmap1.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/how-to-reach-banasthali/road.jpg",
+      "alt": "How to Reach Banasthali",
+      "sourcePage": "How to Reach Banasthali",
+      "category": "general",
+      "localPath": "/scraped-images/230_road.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/how-to-reach-banasthali/road10.gif",
+      "alt": "How to Reach Banasthali",
+      "sourcePage": "How to Reach Banasthali",
+      "category": "general",
+      "localPath": "/scraped-images/231_road10.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/how-to-reach-banasthali/rail_map.gif",
+      "alt": "How to Reach Banasthali Attachment",
+      "sourcePage": "How to Reach Banasthali",
+      "category": "gallery",
+      "localPath": "/scraped-images/232_rail_map.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/naac-accredation/NAAC-Certificate.jpg",
+      "alt": "NAAC-Certificate",
+      "sourcePage": "UGC Accreditation",
+      "category": "general",
+      "localPath": "/scraped-images/233_NAAC-Certificate.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/deptHeader.gif",
+      "alt": "Department of Education",
+      "sourcePage": "Department of Education",
+      "category": "general",
+      "localPath": "/scraped-images/234_deptHeader.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/deptHeader2.gif",
+      "alt": "Department of Education",
+      "sourcePage": "Department of Education",
+      "category": "general",
+      "localPath": "/scraped-images/235_deptHeader2.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/skills/images/BEST_1.jpg",
+      "alt": "BAJAJ ENGINEERING SKILLS TRAINING (BEST) CENTRE",
+      "sourcePage": "BAJAJ ENGINEERING SKILLS TRAINING (BEST) CENTRE",
+      "category": "general",
+      "localPath": "/scraped-images/236_BEST_1.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/skills/images/BEST_2.jpg",
+      "alt": "BAJAJ ENGINEERING SKILLS TRAINING (BEST) CENTRE",
+      "sourcePage": "BAJAJ ENGINEERING SKILLS TRAINING (BEST) CENTRE",
+      "category": "general",
+      "localPath": "/scraped-images/237_BEST_2.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/skills/images/BEST_3.jpg",
+      "alt": "BAJAJ ENGINEERING SKILLS TRAINING (BEST) CENTRE",
+      "sourcePage": "BAJAJ ENGINEERING SKILLS TRAINING (BEST) CENTRE",
+      "category": "general",
+      "localPath": "/scraped-images/238_BEST_3.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/skills/images/BEST_4.jpg",
+      "alt": "BAJAJ ENGINEERING SKILLS TRAINING (BEST) CENTRE",
+      "sourcePage": "BAJAJ ENGINEERING SKILLS TRAINING (BEST) CENTRE",
+      "category": "general",
+      "localPath": "/scraped-images/239_BEST_4.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/skills/images/BEST_5.jpg",
+      "alt": "BAJAJ ENGINEERING SKILLS TRAINING (BEST) CENTRE",
+      "sourcePage": "BAJAJ ENGINEERING SKILLS TRAINING (BEST) CENTRE",
+      "category": "general",
+      "localPath": "/scraped-images/240_BEST_5.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/skills/images/BEST_6.jpg",
+      "alt": "BAJAJ ENGINEERING SKILLS TRAINING (BEST) CENTRE",
+      "sourcePage": "BAJAJ ENGINEERING SKILLS TRAINING (BEST) CENTRE",
+      "category": "general",
+      "localPath": "/scraped-images/241_BEST_6.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/dept_phyl_mian_head.gif",
+      "alt": "Department of Physical Education and Sports",
+      "sourcePage": "Department of Physical Education and Sports",
+      "category": "general",
+      "localPath": "/scraped-images/242_dept_phyl_mian_head.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/sports1.gif",
+      "alt": "Department of Physical Education and Sports",
+      "sourcePage": "Department of Physical Education and Sports",
+      "category": "general",
+      "localPath": "/scraped-images/243_sports1.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/sports2.gif",
+      "alt": "Department of Physical Education and Sports",
+      "sourcePage": "Department of Physical Education and Sports",
+      "category": "general",
+      "localPath": "/scraped-images/244_sports2.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/sports3.gif",
+      "alt": "Department of Physical Education and Sports",
+      "sourcePage": "Department of Physical Education and Sports",
+      "category": "general",
+      "localPath": "/scraped-images/245_sports3.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/sports4.gif",
+      "alt": "Department of Physical Education and Sports",
+      "sourcePage": "Department of Physical Education and Sports",
+      "category": "general",
+      "localPath": "/scraped-images/246_sports4.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculty-of-education/dept-of-phy-edu-n-sports/01.jpg",
+      "alt": "Courses",
+      "sourcePage": "Courses",
+      "category": "general",
+      "localPath": "/scraped-images/247_01.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/englishMainImg.gif",
+      "alt": "Department Activities",
+      "sourcePage": "Department Activities",
+      "category": "general",
+      "localPath": "/scraped-images/248_englishMainImg.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculties-of-humanities/english/about_us/1.jpg",
+      "alt": "Image 1",
+      "sourcePage": "About Us",
+      "category": "about",
+      "localPath": "/scraped-images/249_1.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/faculties-of-humanities/english/about_us/2.jpg",
+      "alt": "Image 2",
+      "sourcePage": "About Us",
+      "category": "about",
+      "localPath": "/scraped-images/250_2.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/hindi_03.gif",
+      "alt": "Hindi",
+      "sourcePage": "Hindi",
+      "category": "general",
+      "localPath": "/scraped-images/251_hindi_03.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/hindi_07.gif",
+      "alt": "Hindi",
+      "sourcePage": "Hindi",
+      "category": "general",
+      "localPath": "/scraped-images/252_hindi_07.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/sanskritMainImg.gif",
+      "alt": "Department Activities",
+      "sourcePage": "Department Activities",
+      "category": "general",
+      "localPath": "/scraped-images/253_sanskritMainImg.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/computer_scie_leftnce.gif",
+      "alt": "Computer science",
+      "sourcePage": "Computer science",
+      "category": "general",
+      "localPath": "/scraped-images/254_computer_scie_leftnce.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/ComputerScience-TEXT.gif",
+      "alt": "Computer science",
+      "sourcePage": "Computer science",
+      "category": "general",
+      "localPath": "/scraped-images/255_ComputerScience-TEXT.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/mathmetics.gif",
+      "alt": "Academic Programs",
+      "sourcePage": "Academic Programs",
+      "category": "academics",
+      "localPath": "/scraped-images/256_mathmetics.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/Mathematics&Statistics-TEXT.gif",
+      "alt": "Academic Programs",
+      "sourcePage": "Academic Programs",
+      "category": "academics",
+      "localPath": "/scraped-images/257_Mathematics_Statistics-TEXT.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/maths-app-comp-tech/maths/about_us/1.jpg",
+      "alt": "About The Department",
+      "sourcePage": "About The Department",
+      "category": "about",
+      "localPath": "/scraped-images/258_1.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/maths-app-comp-tech/maths/Pie.jpg",
+      "alt": "Mathematics",
+      "sourcePage": "Mathematics",
+      "category": "general",
+      "localPath": "/scraped-images/259_Pie.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/maths-app-comp-tech/computer_science/Image150_11.jpg",
+      "alt": "Industry Association",
+      "sourcePage": "Industry Association",
+      "category": "general",
+      "localPath": "/scraped-images/260_Image150_11.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/maths-app-comp-tech/computer_science/6_11.jpg",
+      "alt": "Industry Association",
+      "sourcePage": "Industry Association",
+      "category": "general",
+      "localPath": "/scraped-images/261_6_11.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/maths-app-comp-tech/computer_science/Image152_11.jpg",
+      "alt": "Industry Association",
+      "sourcePage": "Industry Association",
+      "category": "general",
+      "localPath": "/scraped-images/262_Image152_11.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/Biotechnology1.gif",
+      "alt": "Courses And Schemes",
+      "sourcePage": "Courses And Schemes",
+      "category": "general",
+      "localPath": "/scraped-images/263_Biotechnology1.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/Dept-JeevMandir.jpg",
+      "alt": "Bio-Science and Bio-Technology",
+      "sourcePage": "Bio-Science and Bio-Technology",
+      "category": "general",
+      "localPath": "/scraped-images/264_Dept-JeevMandir.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/1.JPG",
+      "alt": "Green House",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/265_1.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/PGC1.JPG",
+      "alt": "Plant Growth Chamber",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/266_PGC1.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/PGC2.JPG",
+      "alt": "Plant Growth Chamber",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/267_PGC2.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/GCMS.JPG",
+      "alt": "Gas Chromatography&ndash;Mass Spectrometry",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/268_GCMS.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/GC.JPG",
+      "alt": "Gas Chromatographry",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/269_GC.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/AtomicAS.JPG",
+      "alt": "Atomic Absorption Spectrometry",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/270_AtomicAS.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/Bio_Comp_Lab.JPG",
+      "alt": "Bioinformtics Computer Laboratory",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/271_Bio_Comp_Lab.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/Digital_Microscope.JPG",
+      "alt": "Digital Microscope",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/272_Digital_Microscope.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/HPLC.JPG",
+      "alt": "High Performane Liquid Chromatography (HPLC)",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/273_HPLC.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/Gradiant_PCR.JPG",
+      "alt": "Gradiant PCR",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/274_Gradiant_PCR.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/Cooling_Microfuge.JPG",
+      "alt": "Cooling Microfuge",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/275_Cooling_Microfuge.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/Laminar_Air_Flow.JPG",
+      "alt": "Laminar Air Flow",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/276_Laminar_Air_Flow.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/Rotor_Gene.JPG",
+      "alt": "Rotor Gene",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/277_Rotor_Gene.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/Animal_House1.jpg",
+      "alt": "Animal_House",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/278_Animal_House1.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/Animal_House2.JPG",
+      "alt": "Animal_House",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/279_Animal_House2.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/infrastructure/images/Department_Library.JPG",
+      "alt": "Department Library",
+      "sourcePage": "Infrastructure",
+      "category": "general",
+      "localPath": "/scraped-images/280_Department_Library.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/chemistryImg1.gif",
+      "alt": "Department of Chemistry & Pharmaceutical Chemistry",
+      "sourcePage": "Department of Chemistry & Pharmaceutical Chemistry",
+      "category": "general",
+      "localPath": "/scraped-images/281_chemistryImg1.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/chemistryImg2.gif",
+      "alt": "Department of Chemistry & Pharmaceutical Chemistry",
+      "sourcePage": "Department of Chemistry & Pharmaceutical Chemistry",
+      "category": "general",
+      "localPath": "/scraped-images/282_chemistryImg2.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/photogallery/Biotech-Institutes.jpg",
+      "alt": "Biotechnical Industries of Rajasthan",
+      "sourcePage": "Centre For Bioinformatics",
+      "category": "general",
+      "localPath": "/scraped-images/283_Biotech-Institutes.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/photogallery/SSR-Citrus-database.jpg",
+      "alt": "SSR Database of Citrus sinensis",
+      "sourcePage": "Centre For Bioinformatics",
+      "category": "general",
+      "localPath": "/scraped-images/284_SSR-Citrus-database.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/photogallery/SSR-database.jpg",
+      "alt": "SSR Database of Takifugu rubripes",
+      "sourcePage": "Centre For Bioinformatics",
+      "category": "general",
+      "localPath": "/scraped-images/285_SSR-database.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/photogallery/Flora-database.jpg",
+      "alt": "Database of Flora of Indian Desert",
+      "sourcePage": "Centre For Bioinformatics",
+      "category": "general",
+      "localPath": "/scraped-images/286_Flora-database.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/life-sciences/dep-of-bioscience-biotech/photogallery/bio-certificate.jpg",
+      "alt": "Banasthali Vidyapith Bioinformatics",
+      "sourcePage": "Centre For Bioinformatics",
+      "category": "general",
+      "localPath": "/scraped-images/287_bio-certificate.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/pharmacy1.jpg",
+      "alt": "Courses and Schemes",
+      "sourcePage": "Courses and Schemes",
+      "category": "general",
+      "localPath": "/scraped-images/288_pharmacy1.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/chemical1.jpg",
+      "alt": "Courses and Schemes",
+      "sourcePage": "Courses and Schemes",
+      "category": "general",
+      "localPath": "/scraped-images/289_chemical1.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/economicHeadDwd.gif",
+      "alt": "Courses",
+      "sourcePage": "Courses",
+      "category": "general",
+      "localPath": "/scraped-images/290_economicHeadDwd.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/HistoryHead2.gif",
+      "alt": "History And Indian Culture",
+      "sourcePage": "History And Indian Culture",
+      "category": "general",
+      "localPath": "/scraped-images/291_HistoryHead2.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/Political-science_01.gif",
+      "alt": "Contact Us",
+      "sourcePage": "Contact Us",
+      "category": "general",
+      "localPath": "/scraped-images/292_Political-science_01.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/Political-science_02.gif",
+      "alt": "Contact Us",
+      "sourcePage": "Contact Us",
+      "category": "general",
+      "localPath": "/scraped-images/293_Political-science_02.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/psych-final.jpg",
+      "alt": "Psychology (clicking)",
+      "sourcePage": "Psychology (clicking)",
+      "category": "general",
+      "localPath": "/scraped-images/294_psych-final.jpg",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/social-science/psychology/Psyc_1.JPG",
+      "alt": "Psychology (clicking)",
+      "sourcePage": "Psychology (clicking)",
+      "category": "general",
+      "localPath": "/scraped-images/295_Psyc_1.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/social-science/psychology/Psyc_2.JPG",
+      "alt": "Psychology (clicking)",
+      "sourcePage": "Psychology (clicking)",
+      "category": "general",
+      "localPath": "/scraped-images/296_Psyc_2.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/social-science/psychology/Psyc_3.JPG",
+      "alt": "Psychology (clicking)",
+      "sourcePage": "Psychology (clicking)",
+      "category": "general",
+      "localPath": "/scraped-images/297_Psyc_3.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/wcms/en/home/lower-menu/faculties/social-science/psychology/Psyc_4.JPG",
+      "alt": "Psychology (clicking)",
+      "sourcePage": "Psychology (clicking)",
+      "category": "general",
+      "localPath": "/scraped-images/298_Psyc_4.JPG",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/Sociology_01.gif",
+      "alt": "About Us",
+      "sourcePage": "About Us",
+      "category": "about",
+      "localPath": "/scraped-images/299_Sociology_01.gif",
+      "downloaded": true
+    },
+    {
+      "remoteUrl": "http://www.banasthali.org/banasthali/images/Sociology_02.gif",
+      "alt": "About Us",
+      "sourcePage": "About Us",
+      "category": "about",
+      "localPath": "/scraped-images/300_Sociology_02.gif",
+      "downloaded": true
+    }
+  ]
+}

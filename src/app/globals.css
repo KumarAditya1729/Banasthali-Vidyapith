@@ -1,0 +1,192 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-serif);
+  --font-heading: var(--font-serif);
+  --font-garamond: var(--font-garamond);
+  
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  
+  /* Brand & Premium Accent Colors */
+  --color-terracotta: #c84b31;
+  --color-maroon: #800000;
+  --color-maroon-light: #a00000;
+  --color-sand: #f5ebe1;
+  --color-forest: #1e3f28;
+  --color-gold: #d4af37;
+  --color-gold-light: #f3e5ab;
+  --color-cream: #fffdf9;
+  --color-ivory: #ffffff;
+  --color-obsidian: #1e0408;
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  /* Luxurious Banasthali Royal Maroon, Vedic Gold & Ivory Palette */
+  --background: #fffdf9;
+  --foreground: #2a060c;
+  --card: #ffffff;
+  --card-foreground: #2a060c;
+  --popover: #ffffff;
+  --popover-foreground: #2a060c;
+  --primary: #800000;
+  --primary-foreground: #ffffff;
+  --secondary: #f5ebe1;
+  --secondary-foreground: #5a0c16;
+  --muted: #f4eee6;
+  --muted-foreground: #6b5a5c;
+  --accent: #1e3f28;
+  --accent-foreground: #ffffff;
+  --destructive: #c84b31;
+  --border: #e6dcd0;
+  --input: #e6dcd0;
+  --ring: #d4af37;
+  
+  --chart-1: #800000;
+  --chart-2: #1e3f28;
+  --chart-3: #d4af37;
+  --chart-4: #c84b31;
+  --chart-5: #e6dcd0;
+  --radius: 1rem;
+  
+  --sidebar: #fffdf9;
+  --sidebar-foreground: #2a060c;
+  --sidebar-primary: #800000;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f5ebe1;
+  --sidebar-accent-foreground: #5a0c16;
+  --sidebar-border: #e6dcd0;
+  --sidebar-ring: #d4af37;
+}
+
+.dark {
+  /* Sleek Deep Royal Burgundy-Maroon & Brushed Gold Dark Theme (Matching College Emblem) */
+  --background: #1e0408;
+  --foreground: #fffdf9;
+  --card: #2a060c;
+  --card-foreground: #fffdf9;
+  --popover: #2a060c;
+  --popover-foreground: #fffdf9;
+  --primary: #d4af37;
+  --primary-foreground: #1e0408;
+  --secondary: #3a0a10;
+  --secondary-foreground: #fffdf9;
+  --muted: #30080e;
+  --muted-foreground: #b3a0a3;
+  --accent: #1e3f28;
+  --accent-foreground: #ffffff;
+  --destructive: #e66a55;
+  --border: #4a121a;
+  --input: #4a121a;
+  --ring: #d4af37;
+  
+  --chart-1: #d4af37;
+  --chart-2: #1e3f28;
+  --chart-3: #800000;
+  --chart-4: #c84b31;
+  --chart-5: #332d2d;
+  
+  --sidebar: #1e0408;
+  --sidebar-foreground: #fffdf9;
+  --sidebar-primary: #d4af37;
+  --sidebar-primary-foreground: #1e0408;
+  --sidebar-accent: #2a2525;
+  --sidebar-accent-foreground: #faf8f5;
+  --sidebar-border: #332d2d;
+  --sidebar-ring: #d4af37;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased selection:bg-primary/20 selection:text-primary;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+/* Custom Glassmorphism & Glow Utilities */
+@layer utilities {
+  .glass-panel {
+    @apply bg-white/80 dark:bg-black/60 backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-xl;
+  }
+  .glass-card {
+    @apply bg-white/90 dark:bg-[#1c1919]/80 backdrop-blur-md border border-black/5 dark:border-white/10 shadow-lg hover:shadow-2xl transition-all duration-300;
+  }
+  .gold-gradient-text {
+    @apply bg-gradient-to-r from-amber-700 via-yellow-600 to-amber-800 dark:from-amber-200 dark:via-gold dark:to-yellow-500 bg-clip-text text-transparent;
+  }
+  .primary-gradient-text {
+    @apply bg-gradient-to-r from-primary via-red-800 to-amber-700 dark:from-red-400 dark:via-amber-300 dark:to-yellow-500 bg-clip-text text-transparent;
+  }
+  .premium-shadow {
+    box-shadow: 0 10px 30px -10px rgba(128, 24, 36, 0.15), 0 4px 10px -5px rgba(0, 0, 0, 0.05);
+  }
+  .gold-glow {
+    box-shadow: 0 0 25px -5px rgba(212, 175, 55, 0.3);
+  }
+}
+
+/* Custom Scrollbar for sleek feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
