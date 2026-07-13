@@ -16,7 +16,7 @@ import {
   ChevronRight
 } from "lucide-react";
 import Link from "next/link";
-import { coursesData, facultiesData, Course } from "@/data/academicsData";
+import { coursesData, facultiesData } from "@/data/academicsData";
 
 export default function CourseWizard() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -102,14 +102,14 @@ export default function CourseWizard() {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-10 border-b border-white/10 pb-8">
           <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/30 text-gold text-xs font-semibold uppercase tracking-wider mb-3">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/30 text-gold text-small-label font-semibold uppercase tracking-wider mb-3">
               <Sparkles className="w-3.5 h-3.5" />
               Interactive Academic Navigator
             </div>
-            <h2 className="text-3xl md:text-5xl font-garamond text-white tracking-wide">
+            <h2 className="text-section-heading font-garamond text-white tracking-wide">
               Find Your Ideal Degree Program
             </h2>
-            <p className="text-white/60 text-sm md:text-base mt-2 max-w-2xl">
+            <p className="text-white/60 text-body mt-2 max-w-2xl">
               Explore over {coursesData.length} specialized undergraduate, postgraduate, and doctoral courses offered across 10 prestigious faculties.
             </p>
           </div>
@@ -117,7 +117,7 @@ export default function CourseWizard() {
           <div className="flex items-center gap-3 bg-white/5 p-1.5 rounded-2xl border border-white/10">
             <button
               onClick={() => setIsAiMode(false)}
-              className={`px-4 py-2 rounded-xl text-xs md:text-sm font-medium transition-all flex items-center gap-2 ${
+              className={`px-4 py-2 rounded-xl text-button font-medium transition-all flex items-center gap-2 ${
                 !isAiMode ? "bg-gold text-black shadow-lg font-semibold" : "text-white/70 hover:text-white"
               }`}
             >
@@ -126,7 +126,7 @@ export default function CourseWizard() {
             </button>
             <button
               onClick={() => setIsAiMode(true)}
-              className={`px-4 py-2 rounded-xl text-xs md:text-sm font-medium transition-all flex items-center gap-2 ${
+              className={`px-4 py-2 rounded-xl text-button font-medium transition-all flex items-center gap-2 ${
                 isAiMode ? "bg-gradient-to-r from-purple-500 to-indigo-600 text-white shadow-lg font-semibold" : "text-white/70 hover:text-white"
               }`}
             >
@@ -148,18 +148,18 @@ export default function CourseWizard() {
                   placeholder="Search courses, degrees, keywords..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full bg-black/40 border border-white/10 rounded-xl pl-11 pr-4 py-3 text-white placeholder-white/40 text-sm focus:outline-none focus:border-gold transition-colors"
+                  className="w-full bg-black/40 border border-white/10 rounded-xl pl-11 pr-4 py-3 text-white placeholder-white/40 text-body focus:outline-none focus:border-gold transition-colors"
                 />
               </div>
 
               <div className="flex items-center gap-3 w-full md:w-auto justify-end">
-                <span className="text-xs text-white/50 hidden md:inline">
+                <span className="text-small-label text-white/50 hidden md:inline">
                   Showing <strong className="text-gold">{filteredCourses.length}</strong> of {coursesData.length} programs
                 </span>
                 {(searchQuery || selectedLevel !== "All" || selectedFaculty !== "All") && (
                   <button
                     onClick={resetFilters}
-                    className="flex items-center gap-1.5 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white/80 text-xs transition-colors"
+                    className="flex items-center gap-1.5 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white/80 text-button transition-colors"
                   >
                     <RotateCcw className="w-3.5 h-3.5" />
                     Reset Filters
@@ -170,7 +170,7 @@ export default function CourseWizard() {
 
             {/* Level Pills */}
             <div>
-              <label className="text-xs font-semibold text-white/50 uppercase tracking-wider block mb-2.5">
+              <label className="text-small-label font-semibold text-white/50 uppercase tracking-wider block mb-2.5">
                 1. Select Academic Level
               </label>
               <div className="flex flex-wrap gap-2">
@@ -178,7 +178,7 @@ export default function CourseWizard() {
                   <button
                     key={lvl}
                     onClick={() => setSelectedLevel(lvl)}
-                    className={`px-4 py-2 rounded-xl text-xs md:text-sm font-medium transition-all ${
+                    className={`px-4 py-2 rounded-xl text-button font-medium transition-all ${
                       selectedLevel === lvl
                         ? "bg-gold text-black font-semibold shadow-md"
                         : "bg-black/30 text-white/70 hover:bg-white/10 hover:text-white border border-white/5"
@@ -192,7 +192,7 @@ export default function CourseWizard() {
 
             {/* Faculty Pills */}
             <div>
-              <label className="text-xs font-semibold text-white/50 uppercase tracking-wider block mb-2.5">
+              <label className="text-small-label font-semibold text-white/50 uppercase tracking-wider block mb-2.5">
                 2. Select Discipline / Faculty
               </label>
               <div className="flex flex-wrap gap-2">
@@ -200,7 +200,7 @@ export default function CourseWizard() {
                   <button
                     key={fac.id}
                     onClick={() => setSelectedFaculty(fac.id)}
-                    className={`px-3.5 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                    className={`px-3.5 py-1.5 rounded-lg text-small-label font-medium transition-all ${
                       selectedFaculty === fac.id
                         ? "bg-white text-black font-semibold shadow"
                         : "bg-black/30 text-white/60 hover:bg-white/10 hover:text-white border border-white/5"
@@ -217,17 +217,17 @@ export default function CourseWizard() {
           <div className="mb-12 bg-gradient-to-br from-purple-900/40 via-indigo-900/30 to-black/60 p-6 md:p-8 rounded-2xl border border-purple-500/30">
             <div className="flex items-center justify-between mb-6">
               <div>
-                <h3 className="text-xl md:text-2xl font-garamond text-white font-semibold flex items-center gap-2">
+                <h3 className="text-card-title font-garamond text-white font-semibold flex items-center gap-2">
                   <Sparkles className="w-5 h-5 text-yellow-400" />
                   Guided Career Matchmaker
                 </h3>
-                <p className="text-white/70 text-xs md:text-sm mt-1">
+                <p className="text-white/70 text-caption mt-1">
                   Answer two quick questions about your passion and goals, and let our recommendation engine find your tailored path.
                 </p>
               </div>
               <button
                 onClick={resetFilters}
-                className="text-xs text-purple-300 hover:text-white underline"
+                className="text-small-label text-purple-300 hover:text-white underline"
               >
                 Reset Matcher
               </button>
@@ -236,10 +236,10 @@ export default function CourseWizard() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Question 1 */}
               <div className="bg-black/40 p-5 rounded-xl border border-white/10">
-                <span className="text-xs font-bold uppercase tracking-wider text-purple-400 mb-2 block">
+                <span className="text-small-label font-bold uppercase tracking-wider text-purple-400 mb-2 block">
                   Question 1
                 </span>
-                <h4 className="text-base text-white font-medium mb-4">
+                <h4 className="text-body text-white font-medium mb-4">
                   What domain or passion excites you the most?
                 </h4>
                 <div className="grid grid-cols-2 gap-2.5">
@@ -253,13 +253,13 @@ export default function CourseWizard() {
                     <button
                       key={opt.id}
                       onClick={() => setInterestAnswer(opt.id)}
-                      className={`p-3 rounded-lg text-left text-xs font-medium transition-all flex items-center gap-2 border ${
+                      className={`p-3 rounded-lg text-left text-small-label font-medium transition-all flex items-center gap-2 border ${
                         interestAnswer === opt.id
                           ? "bg-purple-600 border-purple-400 text-white shadow-lg"
                           : "bg-white/5 border-white/5 text-white/70 hover:bg-white/10 hover:text-white"
                       }`}
                     >
-                      <span className="text-base">{opt.icon}</span>
+                      <span className="text-body">{opt.icon}</span>
                       <span>{opt.label}</span>
                     </button>
                   ))}
@@ -268,10 +268,10 @@ export default function CourseWizard() {
 
               {/* Question 2 */}
               <div className="bg-black/40 p-5 rounded-xl border border-white/10">
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 mb-2 block">
+                <span className="text-small-label font-bold uppercase tracking-wider text-indigo-400 mb-2 block">
                   Question 2
                 </span>
-                <h4 className="text-base text-white font-medium mb-4">
+                <h4 className="text-body text-white font-medium mb-4">
                   What is your target degree level?
                 </h4>
                 <div className="grid grid-cols-2 gap-2.5">
@@ -290,8 +290,8 @@ export default function CourseWizard() {
                           : "bg-white/5 border-white/5 text-white/70 hover:bg-white/10 hover:text-white"
                       }`}
                     >
-                      <div className="text-xs font-semibold">{opt.label}</div>
-                      <div className="text-[10px] text-white/60 mt-0.5">{opt.desc}</div>
+                      <div className="text-small-label font-semibold">{opt.label}</div>
+                      <div className="text-small-label text-white/60 mt-0.5">{opt.desc}</div>
                     </button>
                   ))}
                 </div>
@@ -303,11 +303,11 @@ export default function CourseWizard() {
         {/* Results Grid */}
         <div className="space-y-4">
           <div className="flex items-center justify-between">
-            <h3 className="text-lg md:text-xl font-garamond text-white font-semibold">
+            <h3 className="text-card-title font-garamond text-white font-semibold">
               Available Programs ({filteredCourses.length})
             </h3>
             {filteredCourses.length === 0 && (
-              <span className="text-xs text-red-400">No matching programs found</span>
+              <span className="text-small-label text-red-400">No matching programs found</span>
             )}
           </div>
 
@@ -327,27 +327,27 @@ export default function CourseWizard() {
                     <div>
                       {/* Top Badges */}
                       <div className="flex items-center justify-between gap-2 mb-3">
-                        <span className="px-2.5 py-1 rounded-md bg-gold/10 text-gold text-[11px] font-semibold tracking-wide uppercase">
+                        <span className="px-2.5 py-1 rounded-md bg-gold/10 text-gold text-small-label font-semibold tracking-wide uppercase">
                           {course.degree}
                         </span>
-                        <span className="px-2.5 py-1 rounded-md bg-white/5 text-white/60 text-[11px]">
+                        <span className="px-2.5 py-1 rounded-md bg-white/5 text-white/60 text-small-label">
                           {course.level}
                         </span>
                       </div>
 
                       {/* Course Title */}
-                      <h4 className="text-xl font-garamond text-white font-semibold mb-2 group-hover:text-gold transition-colors line-clamp-2">
+                      <h4 className="text-card-title font-garamond text-white font-semibold mb-2 group-hover:text-gold transition-colors line-clamp-2">
                         {course.name}
                       </h4>
 
                       {/* Faculty Name */}
-                      <p className="text-xs text-white/50 mb-4 flex items-center gap-1.5">
+                      <p className="text-caption text-white/50 mb-4 flex items-center gap-1.5">
                         <Award className="w-3.5 h-3.5 text-terracotta" />
                         {getFacultyName(course.facultyId)}
                       </p>
 
                       {/* Duration & Eligibility */}
-                      <div className="space-y-2 mb-6 text-xs text-white/70 bg-black/30 p-3.5 rounded-xl border border-white/5">
+                      <div className="space-y-2 mb-6 text-caption text-white/70 bg-black/30 p-3.5 rounded-xl border border-white/5">
                         <div className="flex items-start gap-2">
                           <Clock className="w-3.5 h-3.5 text-gold shrink-0 mt-0.5" />
                           <span><strong>Duration:</strong> {course.duration}</span>
@@ -360,11 +360,11 @@ export default function CourseWizard() {
 
                       {/* Highlights */}
                       <div className="mb-6 space-y-1.5">
-                        <span className="text-[11px] font-semibold text-white/40 uppercase tracking-wider block mb-1">
+                        <span className="text-small-label font-semibold text-white/40 uppercase tracking-wider block mb-1">
                           Key Highlights
                         </span>
                         {course.highlights.map((h, i) => (
-                          <div key={i} className="flex items-start gap-2 text-xs text-white/80">
+                          <div key={i} className="flex items-start gap-2 text-caption text-white/80">
                             <CheckCircle2 className="w-3.5 h-3.5 text-green-400 shrink-0 mt-0.5" />
                             <span className="line-clamp-1">{h}</span>
                           </div>
@@ -376,14 +376,14 @@ export default function CourseWizard() {
                     <div className="pt-4 border-t border-white/10 flex items-center justify-between gap-3">
                       <Link
                         href="/admissions"
-                        className="text-xs font-semibold text-gold hover:text-white transition-colors flex items-center gap-1"
+                        className="text-button font-semibold text-gold hover:text-white transition-colors flex items-center gap-1"
                       >
                         Admission Procedure
                         <ChevronRight className="w-3.5 h-3.5" />
                       </Link>
                       <Link
                         href="/apply"
-                        className="px-4 py-2 rounded-xl bg-gold text-black font-semibold text-xs hover:bg-white transition-colors flex items-center gap-1.5 shadow"
+                        className="px-4 py-2 rounded-xl bg-gold text-black font-semibold text-button hover:bg-white transition-colors flex items-center gap-1.5 shadow"
                       >
                         Apply Now
                         <ArrowRight className="w-3.5 h-3.5" />
@@ -395,13 +395,13 @@ export default function CourseWizard() {
             ) : (
               <div className="text-center py-16 bg-white/5 rounded-2xl border border-white/10">
                 <GraduationCap className="w-12 h-12 text-white/20 mx-auto mb-3" />
-                <h4 className="text-lg font-garamond text-white font-medium">No courses matched your selection</h4>
-                <p className="text-xs text-white/50 mt-1 max-w-md mx-auto">
+                <h4 className="text-card-title font-garamond text-white font-medium">No courses matched your selection</h4>
+                <p className="text-caption text-white/50 mt-1 max-w-md mx-auto">
                   Try broadening your search query or switching to another faculty or academic level.
                 </p>
                 <button
                   onClick={resetFilters}
-                  className="mt-4 px-4 py-2 rounded-xl bg-gold text-black text-xs font-semibold hover:bg-white transition-colors inline-flex items-center gap-1.5"
+                  className="mt-4 px-4 py-2 rounded-xl bg-gold text-black text-button font-semibold hover:bg-white transition-colors inline-flex items-center gap-1.5"
                 >
                   <RotateCcw className="w-3.5 h-3.5" />
                   Reset All Filters

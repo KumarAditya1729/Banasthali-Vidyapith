@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Clock, Award, Quote } from "lucide-react";
+import { Clock, Quote } from "lucide-react";
 import Image from "next/image";
 import HeritageTimeline from "@/components/about/HeritageTimeline";
 
@@ -57,15 +57,15 @@ export default function AboutPage() {
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,50,0,0.15),rgba(255,255,255,0))]" />
         
         <div className="container mx-auto px-6 md:px-12 text-center max-w-4xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs md:text-sm font-medium tracking-wide mb-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-small-label font-medium tracking-wide mb-6">
             <Clock className="w-4 h-4" />
             <span>Established October 6, 1935 • 90 Years of Heritage</span>
           </div>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold tracking-tight mb-6">
+          <h1 className="text-hero font-serif font-bold tracking-tight mb-6">
             A Vision That Sparked a <span className="text-primary italic">Revolution</span>
           </h1>
-          <p className="text-lg md:text-xl text-foreground/80 font-light max-w-2xl mx-auto leading-relaxed mb-10">
-            Arising like the fabled phoenix from the ashes of grief, Banasthali Vidyapith has grown from five students in mud huts into the world's largest residential women's university.
+          <p className="text-subheading text-foreground/80 font-light max-w-2xl mx-auto leading-relaxed mb-10">
+            Arising like the fabled phoenix from the ashes of grief, Banasthali Vidyapith has grown from five students in mud huts into the world&apos;s largest residential women&apos;s university.
           </p>
 
           {/* Navigation Tabs */}
@@ -78,8 +78,8 @@ export default function AboutPage() {
             ].map((tab) => (
               <button
                 key={tab.id}
-                onClick={() => setActiveTab(tab.id as any)}
-                className={`px-5 py-2 rounded-full text-xs md:text-sm font-medium transition-all ${
+                onClick={() => setActiveTab(tab.id as 'history' | 'philosophy' | 'alumni' | 'leadership')}
+                className={`px-5 py-2 rounded-full text-button font-medium transition-all ${
                   activeTab === tab.id
                     ? 'bg-primary text-primary-foreground shadow-md scale-105'
                     : 'bg-card hover:bg-muted text-foreground/80 border border-border/60'
@@ -97,17 +97,17 @@ export default function AboutPage() {
         <section className="py-16 md:py-24 container mx-auto px-6 md:px-12 flex-1">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
             <div className="space-y-6">
-              <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider">
+              <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-small-label font-semibold uppercase tracking-wider">
                 The Phoenix of Banasthali
               </div>
-              <h2 className="text-3xl md:text-5xl font-serif font-bold leading-tight">
+              <h2 className="text-section-heading font-serif font-bold leading-tight">
                 From Five Girls in Mud Huts to a Global Movement
               </h2>
-              <p className="text-foreground/80 text-base md:text-lg leading-relaxed font-light">
-                It was on <strong>October 6, 1935</strong> that Pandit Hiralal Shastri and Smt. Ratan Shastri founded Banasthali to fill up the vacuum caused by the sudden death of their highly talented and promising 12-year-old daughter, <strong>Shantabai</strong>. They had cherished high expectations that she would work for women's cause when she grew up. But destiny ordained otherwise.
+              <p className="text-foreground/80 text-body leading-relaxed font-light">
+                It was on <strong>October 6, 1935</strong> that Pandit Hiralal Shastri and Smt. Ratan Shastri founded Banasthali to fill up the vacuum caused by the sudden death of their highly talented and promising 12-year-old daughter, <strong>Shantabai</strong>. They had cherished high expectations that she would work for women&apos;s cause when she grew up. But destiny ordained otherwise.
               </p>
-              <p className="text-foreground/80 text-base md:text-lg leading-relaxed font-light">
-                To complete her unfinished task, they started <em>Shri Shantabai Shiksha Kutir</em> in mud huts with just five girls. Thus, Banasthali owes its existence neither to the zeal of an educationist nor to a philanthropist's purse—it arose like the fabled phoenix from the ashes of a blossoming flower.
+              <p className="text-foreground/80 text-body leading-relaxed font-light">
+                To complete her unfinished task, they started <em>Shri Shantabai Shiksha Kutir</em> in mud huts with just five girls. Thus, Banasthali owes its existence neither to the zeal of an educationist nor to a philanthropist&apos;s purse—it arose like the fabled phoenix from the ashes of a blossoming flower.
               </p>
             </div>
             
@@ -117,11 +117,11 @@ export default function AboutPage() {
                 alt="Banasthali Heritage Architecture"
                 fill
                 className="object-cover"
-              />
+               sizes="100vw" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-8">
                 <div className="text-white">
-                  <div className="font-serif text-2xl font-bold mb-1">1935 - Present</div>
-                  <div className="text-sm text-white/80">90 Years of Unwavering Dedication to Women's Empowerment</div>
+                  <div className="font-serif text-card-title font-bold mb-1">1935 - Present</div>
+                  <div className="text-caption text-white/80">90 Years of Unwavering Dedication to Women&apos;s Empowerment</div>
                 </div>
               </div>
             </div>
@@ -136,13 +136,13 @@ export default function AboutPage() {
       {activeTab === 'philosophy' && (
         <section className="py-16 md:py-24 container mx-auto px-6 md:px-12 flex-1">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider mb-3">
+            <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-small-label font-semibold uppercase tracking-wider mb-3">
               Holistic Education Model
             </div>
-            <h2 className="text-3xl md:text-5xl font-serif font-bold mb-4">
+            <h2 className="text-section-heading font-serif font-bold mb-4">
               Panchmukhi Shiksha (Five-Fold Education)
             </h2>
-            <p className="text-foreground/80 text-base md:text-lg leading-relaxed font-light">
+            <p className="text-foreground/80 text-body leading-relaxed font-light">
               Banasthali firmly believes that human personality consists of five interdependent components, requiring equal attention. Our curriculum attempts a balance among five necessary aspects of education.
             </p>
           </div>
@@ -158,9 +158,9 @@ export default function AboutPage() {
             ].map((pillar, i) => (
               <div key={i} className="p-8 rounded-3xl bg-card border border-border shadow-sm hover:shadow-xl transition-all flex flex-col justify-between">
                 <div>
-                  <div className="text-4xl mb-4">{pillar.icon}</div>
-                  <h3 className="text-xl font-serif font-bold mb-3">{pillar.title}</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">{pillar.desc}</p>
+                  <div className="text-section-heading mb-4">{pillar.icon}</div>
+                  <h3 className="text-card-title font-serif font-bold mb-3">{pillar.title}</h3>
+                  <p className="text-body text-muted-foreground leading-relaxed">{pillar.desc}</p>
                 </div>
               </div>
             ))}
@@ -172,13 +172,13 @@ export default function AboutPage() {
       {activeTab === 'alumni' && (
         <section className="py-16 md:py-24 container mx-auto px-6 md:px-12 flex-1">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider mb-3">
+            <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-small-label font-semibold uppercase tracking-wider mb-3">
               Women Who Shaped India
             </div>
-            <h2 className="text-3xl md:text-5xl font-serif font-bold mb-4">
+            <h2 className="text-section-heading font-serif font-bold mb-4">
               Notable Alumnae & Hall of Fame
             </h2>
-            <p className="text-foreground/80 text-base md:text-lg leading-relaxed font-light">
+            <p className="text-foreground/80 text-body leading-relaxed font-light">
               For 90 years, Banasthali Vidyapith has nurtured women who broke glass ceilings across aviation, parliament, international diplomacy, athletics, and corporate leadership.
             </p>
           </div>
@@ -194,24 +194,24 @@ export default function AboutPage() {
               >
                 <div>
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-serif font-bold text-lg">
+                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-serif font-bold text-card-title">
                       {alum.name.charAt(0)}
                     </div>
                     <div>
-                      <h3 className="text-xl font-serif font-bold text-foreground">{alum.name}</h3>
-                      <p className="text-xs font-medium text-primary">{alum.role}</p>
+                      <h3 className="text-card-title font-serif font-bold text-foreground">{alum.name}</h3>
+                      <p className="text-small-label font-medium text-primary">{alum.role}</p>
                     </div>
                   </div>
 
-                  <p className="text-sm text-muted-foreground leading-relaxed mb-6">
+                  <p className="text-body text-muted-foreground leading-relaxed mb-6">
                     {alum.achievement}
                   </p>
                 </div>
 
                 <div className="pt-6 border-t border-border/60 bg-muted/20 -mx-8 -mb-8 p-6 rounded-b-3xl">
-                  <div className="flex items-start gap-2 text-xs italic text-foreground/80">
+                  <div className="flex items-start gap-2 text-caption italic text-foreground/80">
                     <Quote className="w-4 h-4 text-primary shrink-0 mt-0.5" />
-                    <span>"{alum.quote}"</span>
+                    <span>&quot;{alum.quote}&quot;</span>
                   </div>
                 </div>
               </motion.div>
@@ -224,29 +224,29 @@ export default function AboutPage() {
       {activeTab === 'leadership' && (
         <section className="py-16 md:py-24 container mx-auto px-6 md:px-12 flex-1">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider mb-3">
+            <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-small-label font-semibold uppercase tracking-wider mb-3">
               Guiding Lights
             </div>
-            <h2 className="text-3xl md:text-5xl font-serif font-bold mb-4">
+            <h2 className="text-section-heading font-serif font-bold mb-4">
               Founders & Governance
             </h2>
-            <p className="text-foreground/80 text-base md:text-lg leading-relaxed font-light">
+            <p className="text-foreground/80 text-body leading-relaxed font-light">
               Guided by the ideals of Mahatma Gandhi and dedicated social reform, our founders built an institution autonomous in spirit and national in character.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="p-8 rounded-3xl bg-card border border-border shadow-sm">
-              <span className="text-xs text-primary font-bold uppercase tracking-wider">Founding Father</span>
-              <h3 className="text-2xl font-serif font-bold mt-1 mb-3">Pandit Hiralal Shastri</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                A brilliant scholar and statesman who resigned as Secretary in the Home and Foreign Department of Jaipur State to dedicate his life to rural reconstruction and women's education. He later became the first Chief Minister of Rajasthan.
+              <span className="text-small-label text-primary font-bold uppercase tracking-wider">Founding Father</span>
+              <h3 className="text-card-title font-serif font-bold mt-1 mb-3">Pandit Hiralal Shastri</h3>
+              <p className="text-body text-muted-foreground leading-relaxed mb-4">
+                A brilliant scholar and statesman who resigned as Secretary in the Home and Foreign Department of Jaipur State to dedicate his life to rural reconstruction and women&apos;s education. He later became the first Chief Minister of Rajasthan.
               </p>
             </div>
             <div className="p-8 rounded-3xl bg-card border border-border shadow-sm">
-              <span className="text-xs text-primary font-bold uppercase tracking-wider">Founding Mother</span>
-              <h3 className="text-2xl font-serif font-bold mt-1 mb-3">Smt. Ratan Shastri</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+              <span className="text-small-label text-primary font-bold uppercase tracking-wider">Founding Mother</span>
+              <h3 className="text-card-title font-serif font-bold mt-1 mb-3">Smt. Ratan Shastri</h3>
+              <p className="text-body text-muted-foreground leading-relaxed mb-4">
                 Honoured with the Padma Bhushan, Padma Shri, and Jamnalal Bajaj Award, she was the maternal guiding force of Banasthali, nurturing thousands of students with unconditional love and simplicity.
               </p>
             </div>

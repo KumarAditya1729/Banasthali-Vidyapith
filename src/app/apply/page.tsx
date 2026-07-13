@@ -1,11 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { Header } from "@/components/layout/Header";
-
-import { Sparkles, CheckCircle2, HelpCircle, Send, Phone, Mail, FileText, ArrowRight, ShieldCheck, Home, Compass } from "lucide-react";
-import Link from "next/link";
+import { Sparkles, CheckCircle2, HelpCircle, Send, Phone, Mail, FileText, Home } from "lucide-react";
 
 interface FAQ {
   question: string;
@@ -82,21 +78,19 @@ export default function ApplyPage() {
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
-      <Header />
-
       {/* Hero Section */}
       <section className="relative pt-36 md:pt-44 pb-20 md:pb-28 bg-gradient-to-b from-primary/10 via-background to-background overflow-hidden border-b border-border/40">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,50,0,0.15),rgba(255,255,255,0))]" />
         
         <div className="container mx-auto px-6 md:px-12 text-center max-w-4xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs md:text-sm font-medium tracking-wide mb-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-small-label font-medium tracking-wide mb-6">
             <Sparkles className="w-4 h-4" />
             <span>Admissions Portal & AI Helpdesk</span>
           </div>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold tracking-tight mb-6">
+          <h1 className="text-hero font-serif font-bold tracking-tight mb-6">
             Begin Your Journey at <span className="text-primary italic">Banasthali</span>
           </h1>
-          <p className="text-lg md:text-xl text-foreground/80 font-light max-w-2xl mx-auto leading-relaxed mb-10">
+          <p className="text-subheading text-foreground/80 font-light max-w-2xl mx-auto leading-relaxed mb-10">
             Join a 90-year legacy of empowering women leaders. Explore our 3-step admission process or chat instantly with our AI Student Counselor below.
           </p>
         </div>
@@ -104,7 +98,7 @@ export default function ApplyPage() {
 
       {/* 3-Step Application Guide */}
       <section className="py-16 container mx-auto px-6 md:px-12">
-        <h2 className="text-2xl md:text-3xl font-serif font-bold text-center mb-12">How to Apply (3-Step Process)</h2>
+        <h2 className="text-section-heading font-serif font-bold text-center mb-12">How to Apply (3-Step Process)</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {[
@@ -116,10 +110,10 @@ export default function ApplyPage() {
               <div>
                 <div className="flex items-center justify-between mb-6">
                   <span className="p-3 rounded-2xl bg-primary/10">{item.icon}</span>
-                  <span className="font-serif font-bold text-3xl text-primary/30">{item.step}</span>
+                  <span className="text-section-heading font-serif font-bold text-primary/30">{item.step}</span>
                 </div>
-                <h3 className="text-xl font-serif font-bold mb-3">{item.title}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">{item.desc}</p>
+                <h3 className="text-card-title font-serif font-bold mb-3">{item.title}</h3>
+                <p className="text-body text-muted-foreground leading-relaxed">{item.desc}</p>
               </div>
             </div>
           ))}
@@ -134,12 +128,12 @@ export default function ApplyPage() {
             {/* Left: Interactive AI Chatbot */}
             <div className="lg:col-span-6 bg-card rounded-3xl border border-border shadow-xl overflow-hidden flex flex-col h-[550px]">
               <div className="p-6 bg-gradient-to-r from-primary/10 via-background to-background border-b border-border flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-serif font-bold text-lg shadow-md">
+                <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-card-title font-serif font-bold shadow-md">
                   AI
                 </div>
                 <div>
-                  <h3 className="font-serif font-bold text-lg">Banasthali AI Counselor</h3>
-                  <p className="text-xs text-green-600 font-medium flex items-center gap-1">
+                  <h3 className="text-card-title font-serif font-bold">Banasthali AI Counselor</h3>
+                  <p className="text-small-label text-green-600 font-medium flex items-center gap-1">
                     <span className="w-2 h-2 rounded-full bg-green-600 animate-pulse" /> Live Helpdesk Assistant
                   </p>
                 </div>
@@ -153,7 +147,7 @@ export default function ApplyPage() {
                     className={`flex ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}`}
                   >
                     <div
-                      className={`max-w-[80%] p-4 rounded-2xl text-sm leading-relaxed ${
+                      className={`max-w-[80%] p-4 rounded-2xl text-body leading-relaxed ${
                         msg.sender === 'user'
                           ? 'bg-primary text-primary-foreground rounded-br-none shadow-sm'
                           : 'bg-muted text-foreground rounded-bl-none border border-border/60'
@@ -176,7 +170,7 @@ export default function ApplyPage() {
                   <button
                     key={i}
                     onClick={() => setChatQuery(chip)}
-                    className="px-3 py-1 rounded-full bg-background border border-border hover:border-primary text-xs font-medium text-foreground/80 whitespace-nowrap shrink-0 transition-colors"
+                    className="px-3 py-1 rounded-full bg-background border border-border hover:border-primary text-small-label font-medium text-foreground/80 whitespace-nowrap shrink-0 transition-colors"
                   >
                     {chip}
                   </button>
@@ -190,7 +184,7 @@ export default function ApplyPage() {
                   placeholder="Ask any question about admissions or courses..."
                   value={chatQuery}
                   onChange={(e) => setChatQuery(e.target.value)}
-                  className="flex-1 px-4 py-2.5 rounded-xl bg-muted/50 border border-border focus:border-primary focus:outline-none text-sm"
+                  className="flex-1 px-4 py-2.5 rounded-xl bg-muted/50 border border-border focus:border-primary focus:outline-none text-body"
                 />
                 <button
                   type="submit"
@@ -204,8 +198,8 @@ export default function ApplyPage() {
             {/* Right: Frequently Asked Questions */}
             <div className="lg:col-span-6 space-y-6">
               <div>
-                <h3 className="text-2xl font-serif font-bold mb-2">Frequently Asked Questions</h3>
-                <p className="text-sm text-muted-foreground">Quick answers to common queries from parents and students.</p>
+                <h3 className="text-section-heading font-serif font-bold mb-2">Frequently Asked Questions</h3>
+                <p className="text-body text-muted-foreground">Quick answers to common queries from parents and students.</p>
               </div>
 
               {/* Category Pills */}
@@ -214,7 +208,7 @@ export default function ApplyPage() {
                   <button
                     key={cat}
                     onClick={() => setSelectedCategory(cat)}
-                    className={`px-4 py-1.5 rounded-full text-xs font-medium transition-all ${
+                    className={`px-4 py-1.5 rounded-full text-button font-medium transition-all ${
                       selectedCategory === cat
                         ? "bg-foreground text-background font-semibold"
                         : "bg-card hover:bg-muted text-foreground/80 border border-border"
@@ -229,11 +223,11 @@ export default function ApplyPage() {
               <div className="space-y-4">
                 {filteredFaqs.map((faq, idx) => (
                   <div key={idx} className="p-6 rounded-2xl bg-card border border-border shadow-sm space-y-2">
-                    <h4 className="font-serif font-bold text-base text-foreground flex items-start gap-2">
+                    <h4 className="text-card-title font-serif font-bold text-foreground flex items-start gap-2">
                       <HelpCircle className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                       <span>{faq.question}</span>
                     </h4>
-                    <p className="text-xs md:text-sm text-muted-foreground leading-relaxed pl-7">
+                    <p className="text-body text-muted-foreground leading-relaxed pl-7">
                       {faq.answer}
                     </p>
                   </div>
@@ -253,11 +247,11 @@ export default function ApplyPage() {
               <Phone className="w-6 h-6" />
             </div>
             <div>
-              <h4 className="font-serif font-bold text-lg">Need Official Help? Contact Admissions</h4>
-              <p className="text-xs text-muted-foreground">Banasthali Vidyapith, P.O. Banasthali Vidyapith, Rajasthan - 304022</p>
+              <h4 className="text-card-title font-serif font-bold">Need Official Help? Contact Admissions</h4>
+              <p className="text-caption text-muted-foreground">Banasthali Vidyapith, P.O. Banasthali Vidyapith, Rajasthan - 304022</p>
             </div>
           </div>
-          <div className="flex items-center gap-4 text-sm font-medium">
+          <div className="flex items-center gap-4 text-body font-medium">
             <span className="flex items-center gap-2 px-4 py-2 rounded-xl bg-muted border border-border">
               <Mail className="w-4 h-4 text-primary" /> siddharthshastri@banasthali.in
             </span>

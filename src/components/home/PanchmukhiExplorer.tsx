@@ -27,7 +27,7 @@ const pillarsData: PillarDetail[] = [
     name: "Physical Education",
     sanskrit: "Sharirik Shiksha (शारीरिक शिक्षा)",
     icon: <Activity className="w-6 h-6" />,
-    image: "/scraped-images/238_BEST_3.jpg",
+    image: "/scraped-images/145_Yoga1.png",
     tagline: "Endurance, Agility & Aerial Mastery",
     description: "Banasthali believes a strong intellect requires a resilient body. We are the only women's university in India operating our own licensed airfield and flight training school, alongside compulsory physical endurance training.",
     activities: [
@@ -47,7 +47,7 @@ const pillarsData: PillarDetail[] = [
     name: "Practical Education",
     sanskrit: "Vyavaharik Shiksha (व्यावहारिक शिक्षा)",
     icon: <Lightbulb className="w-6 h-6" />,
-    image: "/scraped-images/239_BEST_4.jpg",
+    image: "/scraped-images/199_automation_1.jpg",
     tagline: "Vocational Mastery & Everyday Self-Reliance",
     description: "True independence comes from practical everyday competence. From traditional Rajasthani block printing to modern Industry 4.0 automation laboratories, students learn to solve real-world problems with their own hands.",
     activities: [
@@ -67,7 +67,7 @@ const pillarsData: PillarDetail[] = [
     name: "Aesthetic Education",
     sanskrit: "Kala Shiksha (कला शिक्षा)",
     icon: <Heart className="w-6 h-6" />,
-    image: "/scraped-images/240_BEST_5.jpg",
+    image: "/scraped-images/213_sur_mandir_thumb.jpg",
     tagline: "Cultural Heritage & Emotional Intelligence",
     description: "Art touches the soul and cultivates profound emotional maturity. At Kala Mandir and Sur Mandir, students immerse themselves in classical Indian dance, music, and visual arts, preserving our rich civilizational heritage.",
     activities: [
@@ -87,7 +87,7 @@ const pillarsData: PillarDetail[] = [
     name: "Moral Education",
     sanskrit: "Naitik Shiksha (नैतिक शिक्षा)",
     icon: <Star className="w-6 h-6" />,
-    image: "/scraped-images/241_BEST_6.jpg",
+    image: "/scraped-images/141__DSC0211_Selected-for-website.JPG",
     tagline: "Gandhian Simplicity & Ethics",
     description: "Rooted in the ideals of Pandit Hiralal Shastri and Mahatma Gandhi, moral education shapes character, humility, and social responsibility. The Khadi ethos reminds students of dignity of labor and service to the nation.",
     activities: [
@@ -107,7 +107,7 @@ const pillarsData: PillarDetail[] = [
     name: "Intellectual Education",
     sanskrit: "Boudhik Shiksha (बौद्धिक शिक्षा)",
     icon: <BookOpen className="w-6 h-6" />,
-    image: "/scraped-images/280_Department_Library.JPG",
+    image: "/scraped-images/192_researchbooks.jpg",
     tagline: "Rigorous Academic Excellence",
     description: "Spanning from nursery school to doctoral Ph.D. research across 29 academic departments, intellectual education at Banasthali combines rigorous scientific temper with interdisciplinary inquiry and global research standards.",
     activities: [
@@ -136,15 +136,15 @@ export default function PanchmukhiExplorer() {
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 bg-gold/15 border border-gold/30 px-4 py-1.5 rounded-full text-gold text-xs font-bold tracking-wider uppercase mb-4 shadow-xl">
+          <div className="inline-flex items-center gap-2 bg-gold/15 border border-gold/30 px-4 py-1.5 rounded-full text-gold text-small-label font-bold tracking-wider uppercase mb-4 shadow-xl">
             <Sparkles className="w-3.5 h-3.5 text-gold animate-spin" style={{ animationDuration: "8s" }} />
             <span>Interactive Educational Philosophy</span>
           </div>
-          <h2 className="text-4xl md:text-6xl font-serif font-bold tracking-tight text-white mb-6">
+          <h2 className="text-section-heading font-serif font-bold tracking-tight text-white mb-6">
             Panchmukhi Shiksha <br />
             <span className="gold-gradient-text italic font-normal">(Five-Fold Holistic Education)</span>
           </h2>
-          <p className="text-white/70 text-base md:text-lg leading-relaxed font-light">
+          <p className="text-body text-white/70 leading-relaxed font-light">
             We do not just teach degrees; we forge complete, self-reliant, and morally grounded women leaders capable of transforming society. Explore our five dimensions of development:
           </p>
         </div>
@@ -168,8 +168,8 @@ export default function PanchmukhiExplorer() {
                 }`}>
                   {pillar.icon}
                 </div>
-                <span className="font-bold font-serif text-base sm:text-lg leading-snug">{pillar.name}</span>
-                <span className={`text-[11px] mt-1 font-mono tracking-wide ${isActive ? "text-gold" : "text-white/50"}`}>
+                <span className="font-bold font-serif text-card-title leading-snug">{pillar.name}</span>
+                <span className={`text-small-label mt-1 font-mono tracking-wide ${isActive ? "text-gold" : "text-white/50"}`}>
                   {pillar.sanskrit.split(" ")[0]}
                 </span>
               </button>
@@ -201,10 +201,10 @@ export default function PanchmukhiExplorer() {
               
               {/* Quote Overlay */}
               <div className="absolute bottom-0 left-0 right-0 p-8 text-white z-10">
-                <span className={`inline-block px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider mb-3 border ${currentPillar.badgeColor}`}>
+                <span className={`inline-block px-3 py-1 rounded-full text-small-label font-bold uppercase tracking-wider mb-3 border ${currentPillar.badgeColor}`}>
                   {currentPillar.sanskrit}
                 </span>
-                <blockquote className="text-base sm:text-lg font-serif italic text-white/90 border-l-2 border-gold pl-4 my-2 leading-relaxed">
+                <blockquote className="text-body font-serif italic text-white/90 border-l-2 border-gold pl-4 my-2 leading-relaxed">
                   {currentPillar.quote}
                 </blockquote>
               </div>
@@ -218,27 +218,27 @@ export default function PanchmukhiExplorer() {
                     {currentPillar.icon}
                   </div>
                   <div>
-                    <h3 className="text-3xl sm:text-4xl font-extrabold text-white font-serif">
+                    <h3 className="text-section-heading font-extrabold text-white font-serif">
                       {currentPillar.name}
                     </h3>
-                    <p className="text-gold text-sm font-semibold tracking-wide uppercase mt-0.5">
+                    <p className="text-gold text-small-label font-semibold tracking-wide uppercase mt-0.5">
                       {currentPillar.tagline}
                     </p>
                   </div>
                 </div>
 
-                <p className="text-white/80 text-base md:text-lg leading-relaxed mb-8 border-b border-white/10 pb-8 font-light">
+                <p className="text-white/80 text-body leading-relaxed mb-8 border-b border-white/10 pb-8 font-light">
                   {currentPillar.description}
                 </p>
 
-                <h4 className="text-xs font-bold uppercase tracking-wider text-gold mb-5 flex items-center gap-2">
+                <h4 className="text-small-label font-bold uppercase tracking-wider text-gold mb-5 flex items-center gap-2">
                   <Sparkles className="w-4 h-4" />
                   <span>Key Campus Facilities & Activities</span>
                 </h4>
 
                 <ul className="space-y-3.5">
                   {currentPillar.activities.map((act, idx) => (
-                    <li key={idx} className="flex items-start gap-3 text-sm sm:text-base text-white/90 font-light">
+                    <li key={idx} className="flex items-start gap-3 text-body text-white/90 font-light">
                       <CheckCircle2 className="w-5 h-5 text-gold shrink-0 mt-0.5" />
                       <span>{act}</span>
                     </li>
@@ -248,12 +248,12 @@ export default function PanchmukhiExplorer() {
 
               {/* Action CTA Button */}
               <div className="pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-4">
-                <div className="text-xs text-white/50 font-mono">
+                <div className="text-caption text-white/50 font-mono">
                   ✨ Compulsory curriculum for all residential scholars.
                 </div>
                 <Link
                   href={currentPillar.link}
-                  className="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full bg-gradient-to-r from-primary to-amber-700 hover:from-primary/90 hover:to-amber-600 text-white font-bold text-xs uppercase tracking-wider transition-all shadow-xl shadow-primary/20 hover:scale-105 group"
+                  className="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full bg-gradient-to-r from-primary to-amber-700 hover:from-primary/90 hover:to-amber-600 text-white font-bold text-button uppercase tracking-wider transition-all shadow-xl shadow-primary/20 hover:scale-105 group"
                 >
                   <span>Explore in {currentPillar.link === "/campus-life" ? "Campus Life" : currentPillar.link.replace("/", "").toUpperCase()}</span>
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

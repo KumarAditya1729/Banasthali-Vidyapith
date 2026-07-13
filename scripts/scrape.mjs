@@ -49,7 +49,7 @@ async function fetchUrl(url) {
     clearTimeout(timeout);
     if (!res.ok) return null;
     return await res.text();
-  } catch (err) {
+  } catch {
     return null;
   }
 }

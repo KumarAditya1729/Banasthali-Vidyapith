@@ -6,14 +6,14 @@ import Image from "next/image";
 import { 
   Clock, 
   Award, 
-  BookOpen, 
-  Heart, 
-  Sparkles, 
+   
+   
+   
   ChevronRight, 
   Quote, 
   Landmark, 
-  Calendar,
-  Info,
+  
+  
   CheckCircle2
 } from "lucide-react";
 
@@ -74,7 +74,7 @@ export const HERITAGE_MILESTONES: TimelineMilestone[] = [
     subtitle: "Transition to higher education and formal degree programs",
     description: "As the initial batch of students matured, undergraduate degree courses were formally introduced, and the institution was renamed 'Banasthali Vidyapith' to reflect its status as a premier seat of learning.",
     detailedStory: "During the Quit India movement and the peak of the freedom struggle, Banasthali Vidyapith stood firm as a beacon of nationalistic education. The curriculum was uniquely tailored without British colonial influence, emphasizing synthesis of spiritual heritage, physical endurance, and intellectual rigor through the pioneering 'Panchmukhi Shiksha' (Five-Fold Education) system.",
-    image: "/scraped-images/5_gaandhi_photo.gif",
+    image: "/scraped-images/143__DSC0217_Selected-for-website.JPG",
     quote: {
       text: "If I had been a girl, I would have come to Banasthali Vidyapith for my education. This institution represents the true soul of independent India.",
       author: "Pandit Jawaharlal Nehru",
@@ -117,7 +117,7 @@ export const HERITAGE_MILESTONES: TimelineMilestone[] = [
     subtitle: "Establishment of AIM&ACT and WISDOM institutes",
     description: "Banasthali launched world-class professional schools: Apaji Institute of Mathematics & Applied Computer Technology (AIM&ACT) and WISDOM (Faculty of Management Studies).",
     detailedStory: "Long before women in STEM became a global corporate priority, Banasthali established premier engineering, computer application, and management institutes. Backed by corporate visionaries like Shri M.H. Dalmia and Artech Ltd., these institutes began producing top-tier female software engineers, mathematicians, and MBAs who went on to lead global corporations.",
-    image: "/scraped-images/186_aimActmainImg.gif",
+    image: "/scraped-images/167_arch-6.jpg",
     keyFigures: ["Prof. Diwakar Shastri", "Prof. Aditya Shastri", "Shri M.H. Dalmia"],
     impact: "Transformed Banasthali into India's leading producer of female technocrats and corporate leaders."
   },
@@ -167,15 +167,15 @@ export default function HeritageTimeline() {
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Header Section */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold/10 border border-gold/30 text-gold text-xs font-semibold uppercase tracking-wider mb-4">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold/10 border border-gold/30 text-gold text-small-label font-semibold uppercase tracking-wider mb-4">
             <Clock className="w-3.5 h-3.5" />
             <span>90 Years of Unbroken Heritage (1935 - 2025)</span>
           </div>
-          <h2 className="text-3xl md:text-5xl font-garamond text-white tracking-wide">
+          <h2 className="text-section-heading font-garamond text-white tracking-wide">
             The Historical Saga of Banasthali
           </h2>
-          <p className="text-white/60 text-sm md:text-base mt-3 leading-relaxed">
-            From five grieving parents and daughters in humble mud huts to the world's largest residential university for women. Explore the epochs that shaped an educational revolution.
+          <p className="text-white/60 text-body mt-3 leading-relaxed">
+            From five grieving parents and daughters in humble mud huts to the world&apos;s largest residential university for women. Explore the epochs that shaped an educational revolution.
           </p>
 
           {/* Era Filter Buttons */}
@@ -189,11 +189,11 @@ export default function HeritageTimeline() {
               <button
                 key={era.id}
                 onClick={() => {
-                  setSelectedEra(era.id as any);
+                  setSelectedEra(era.id as 'all' | 'foundation' | 'university' | 'global');
                   const firstMatch = HERITAGE_MILESTONES.find(m => era.id === 'all' || m.era === era.id);
                   if (firstMatch) setActiveMilestone(firstMatch);
                 }}
-                className={`px-4 py-2 rounded-xl text-xs md:text-sm font-medium transition-all ${
+                className={`px-4 py-2 rounded-xl text-button font-medium transition-all ${
                   selectedEra === era.id
                     ? "bg-gold text-black font-semibold shadow-lg scale-105"
                     : "text-white/70 hover:text-white hover:bg-white/5"
@@ -229,22 +229,22 @@ export default function HeritageTimeline() {
                   )}
 
                   <div className="flex items-center justify-between gap-2 mb-2">
-                    <span className={`text-xl font-garamond font-bold ${isSelected ? "text-gold" : "text-white group-hover:text-gold"}`}>
+                    <span className={`text-card-title font-garamond font-bold ${isSelected ? "text-gold" : "text-white group-hover:text-gold"}`}>
                       {m.year}
                     </span>
-                    <span className="text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-white/10 text-white/70">
+                    <span className="text-small-label font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-white/10 text-white/70">
                       {m.era}
                     </span>
                   </div>
 
-                  <h4 className="text-sm md:text-base font-semibold text-white mb-1 line-clamp-1">
+                  <h4 className="text-body font-semibold text-white mb-1 line-clamp-1">
                     {m.title}
                   </h4>
-                  <p className="text-xs text-white/60 line-clamp-2 font-light">
+                  <p className="text-caption text-white/60 line-clamp-2 font-light">
                     {m.subtitle}
                   </p>
 
-                  <div className="mt-3 flex items-center gap-1 text-[11px] text-gold font-medium">
+                  <div className="mt-3 flex items-center gap-1 text-small-label text-gold font-medium">
                     <span>Explore historical archives</span>
                     <ChevronRight className={`w-3.5 h-3.5 transition-transform ${isSelected ? "translate-x-1" : ""}`} />
                   </div>
@@ -269,17 +269,17 @@ export default function HeritageTimeline() {
                   <div className="flex flex-wrap items-center justify-between gap-4 mb-6 pb-6 border-b border-white/10">
                     <div>
                       <div className="flex items-center gap-2 mb-1">
-                        <span className="text-2xl md:text-4xl font-garamond font-bold text-gold">
+                        <span className="text-section-heading font-garamond font-bold text-gold">
                           {activeMilestone.year}
                         </span>
-                        <span className="text-xs text-white/50 px-2.5 py-0.5 rounded-full bg-white/5 border border-white/10 uppercase font-semibold tracking-wider">
+                        <span className="text-small-label text-white/50 px-2.5 py-0.5 rounded-full bg-white/5 border border-white/10 uppercase font-semibold tracking-wider">
                           {activeMilestone.era} Era
                         </span>
                       </div>
-                      <h3 className="text-xl md:text-2xl font-garamond text-white font-semibold">
+                      <h3 className="text-card-title font-garamond text-white font-semibold">
                         {activeMilestone.title}
                       </h3>
-                      <p className="text-xs md:text-sm text-white/60 italic mt-0.5">
+                      <p className="text-caption text-white/60 italic mt-0.5">
                         {activeMilestone.subtitle}
                       </p>
                     </div>
@@ -295,9 +295,9 @@ export default function HeritageTimeline() {
                         alt={activeMilestone.title}
                         fill
                         className="object-contain sm:object-cover group-hover:scale-105 transition-transform duration-700"
-                      />
+                       sizes="100vw" />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-4 sm:p-6">
-                        <span className="text-xs text-white/80 font-light bg-black/60 px-3 py-1.5 rounded-xl backdrop-blur-md border border-white/10">
+                        <span className="text-caption text-white/80 font-light bg-black/60 px-3 py-1.5 rounded-xl backdrop-blur-md border border-white/10">
                           Archival Photograph • Banasthali Vidyapith Heritage Records
                         </span>
                       </div>
@@ -305,8 +305,8 @@ export default function HeritageTimeline() {
                   )}
 
                   {/* Detailed Narrative */}
-                  <div className="space-y-4 text-xs sm:text-sm text-white/80 leading-relaxed font-light mb-6">
-                    <p className="text-base text-white font-normal">
+                  <div className="space-y-4 text-body text-white/80 leading-relaxed font-light mb-6">
+                    <p className="text-body text-white font-normal">
                       {activeMilestone.description}
                     </p>
                     <p className="text-white/70 bg-black/40 p-4 rounded-2xl border border-white/5 leading-relaxed">
@@ -318,15 +318,15 @@ export default function HeritageTimeline() {
                   {activeMilestone.quote && (
                     <div className="bg-gradient-to-r from-gold/15 via-gold/5 to-transparent p-5 rounded-2xl border-l-4 border-gold my-6 relative">
                       <Quote className="w-8 h-8 text-gold/30 absolute right-4 top-4 pointer-events-none" />
-                      <p className="text-xs sm:text-sm italic text-white/90 font-serif mb-3 pr-8">
-                        "{activeMilestone.quote.text}"
+                      <p className="text-body italic text-white/90 font-serif mb-3 pr-8">
+                        &quot;{activeMilestone.quote.text}&quot;
                       </p>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 rounded-full bg-gold" />
-                        <span className="text-xs font-bold text-gold uppercase tracking-wider">
+                        <span className="text-small-label font-bold text-gold uppercase tracking-wider">
                           {activeMilestone.quote.author}
                         </span>
-                        <span className="text-xs text-white/50">
+                        <span className="text-caption text-white/50">
                           — {activeMilestone.quote.role}
                         </span>
                       </div>
@@ -334,9 +334,9 @@ export default function HeritageTimeline() {
                   )}
 
                   {/* Key Figures & Institutional Impact */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6 border-t border-white/10 text-xs">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6 border-t border-white/10 text-caption">
                     <div className="bg-white/5 p-4 rounded-2xl border border-white/5">
-                      <span className="text-[10px] font-bold uppercase tracking-wider text-white/50 block mb-2 flex items-center gap-1">
+                      <span className="text-small-label font-bold uppercase tracking-wider text-white/50 block mb-2 flex items-center gap-1">
                         <Award className="w-3.5 h-3.5 text-gold" />
                         Key Historical Figures Involved
                       </span>
@@ -350,7 +350,7 @@ export default function HeritageTimeline() {
                     </div>
 
                     <div className="bg-green-500/10 p-4 rounded-2xl border border-green-500/20">
-                      <span className="text-[10px] font-bold uppercase tracking-wider text-green-400 block mb-2 flex items-center gap-1">
+                      <span className="text-small-label font-bold uppercase tracking-wider text-green-400 block mb-2 flex items-center gap-1">
                         <CheckCircle2 className="w-3.5 h-3.5 text-green-400" />
                         Long-Term Institutional Impact
                       </span>

@@ -41,7 +41,7 @@ async function fetchUrl(url) {
     clearTimeout(timeout);
     if (!res.ok) return null;
     return await res.text();
-  } catch (err) {
+  } catch {
     return null;
   }
 }
@@ -65,7 +65,7 @@ async function downloadImage(url, destPath) {
     
     fs.writeFileSync(destPath, buffer);
     return true;
-  } catch (err) {
+  } catch {
     return false;
   }
 }

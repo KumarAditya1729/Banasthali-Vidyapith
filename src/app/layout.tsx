@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
+import "leaflet/dist/leaflet.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import SmoothScroll from "@/components/SmoothScroll";
@@ -25,6 +26,7 @@ const fontGaramond = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('http://localhost:3000'),
   title: {
     template: "%s | Banasthali Vidyapith",
     default: "Banasthali Vidyapith | Premier Women's Residential University",

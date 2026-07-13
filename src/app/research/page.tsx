@@ -1,10 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { motion } from "framer-motion";
-import { Header } from "@/components/layout/Header";
+// import {} from "framer-";
 
-import { Sparkles, Microscope, Cpu, Dna, Globe, Award, BookOpen, CheckCircle2, ArrowRight } from "lucide-react";
+import {  Microscope, Cpu, Dna, Globe, Award, ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -68,21 +67,19 @@ export default function ResearchPage() {
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
-      <Header />
-
       {/* Hero Section */}
       <section className="relative pt-36 md:pt-44 pb-20 md:pb-28 bg-gradient-to-b from-primary/10 via-background to-background overflow-hidden border-b border-border/40">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,50,0,0.15),rgba(255,255,255,0))]" />
         
         <div className="container mx-auto px-6 md:px-12 text-center max-w-4xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs md:text-sm font-medium tracking-wide mb-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-small-label font-medium tracking-wide mb-6">
             <Microscope className="w-4 h-4" />
             <span>DST CURIE & DBT Sponsored Research</span>
           </div>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold tracking-tight mb-6">
+          <h1 className="text-hero font-serif font-bold tracking-tight mb-6">
             Pioneering Research & <span className="text-primary italic">Innovation</span>
           </h1>
-          <p className="text-lg md:text-xl text-foreground/80 font-light max-w-2xl mx-auto leading-relaxed mb-10">
+          <p className="text-subheading text-foreground/80 font-light max-w-2xl mx-auto leading-relaxed mb-10">
             Banasthali Vidyapith is recognized as a premier research university—fostering autonomous investigation, patent filing, and multidisciplinary scientific breakthroughs.
           </p>
 
@@ -93,8 +90,8 @@ export default function ResearchPage() {
                 <Cpu className="w-5 h-5" />
               </div>
               <div>
-                <div className="font-serif font-bold text-base md:text-lg">AIM & ACT</div>
-                <div className="text-xs text-muted-foreground">AI & Supercomputing</div>
+                <div className="text-card-title font-serif font-bold">AIM & ACT</div>
+                <div className="text-caption text-muted-foreground">AI & Supercomputing</div>
               </div>
             </div>
             <div className="p-4 rounded-2xl bg-card/60 border border-border/40 flex items-center gap-3">
@@ -102,8 +99,8 @@ export default function ResearchPage() {
                 <Dna className="w-5 h-5" />
               </div>
               <div>
-                <div className="font-serif font-bold text-base md:text-lg">DBT Centre</div>
-                <div className="text-xs text-muted-foreground">Bioinformatics Hub</div>
+                <div className="text-card-title font-serif font-bold">DBT Centre</div>
+                <div className="text-caption text-muted-foreground">Bioinformatics Hub</div>
               </div>
             </div>
             <div className="p-4 rounded-2xl bg-card/60 border border-border/40 flex items-center gap-3">
@@ -111,8 +108,8 @@ export default function ResearchPage() {
                 <Award className="w-5 h-5" />
               </div>
               <div>
-                <div className="font-serif font-bold text-base md:text-lg">DST CURIE</div>
-                <div className="text-xs text-muted-foreground">Govt. of India Grant</div>
+                <div className="text-card-title font-serif font-bold">DST CURIE</div>
+                <div className="text-caption text-muted-foreground">Govt. of India Grant</div>
               </div>
             </div>
             <div className="p-4 rounded-2xl bg-card/60 border border-border/40 flex items-center gap-3">
@@ -120,8 +117,8 @@ export default function ResearchPage() {
                 <Globe className="w-5 h-5" />
               </div>
               <div>
-                <div className="font-serif font-bold text-base md:text-lg">1000+</div>
-                <div className="text-xs text-muted-foreground">Ph.D. Scholars</div>
+                <div className="text-card-title font-serif font-bold">1000+</div>
+                <div className="text-caption text-muted-foreground">Ph.D. Scholars</div>
               </div>
             </div>
           </div>
@@ -131,8 +128,8 @@ export default function ResearchPage() {
       {/* Research Centers Grid */}
       <section className="py-16 md:py-24 container mx-auto px-6 md:px-12 flex-1">
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-3">Centres of Excellence</h2>
-          <p className="text-muted-foreground">Explore our specialized laboratories and national research initiatives.</p>
+          <h2 className="text-section-heading font-serif font-bold mb-3">Centres of Excellence</h2>
+          <p className="text-body text-muted-foreground">Explore our specialized laboratories and national research initiatives.</p>
         </div>
 
         {/* Category Filters */}
@@ -148,7 +145,7 @@ export default function ResearchPage() {
             <button
               key={tab.id}
               onClick={() => setSelectedCategory(tab.id)}
-              className={`px-5 py-2 rounded-full text-xs md:text-sm font-medium transition-all ${
+              className={`px-5 py-2 rounded-full text-button font-medium transition-all ${
                 selectedCategory === tab.id
                   ? "bg-primary text-primary-foreground shadow-md scale-105"
                   : "bg-card hover:bg-muted text-foreground/80 border border-border/60"
@@ -172,25 +169,25 @@ export default function ResearchPage() {
                   alt={center.title}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <span className="absolute top-4 right-4 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md text-white text-xs font-medium">
+                 sizes="100vw" />
+                <span className="absolute top-4 right-4 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md text-white text-small-label font-medium">
                   {center.stats}
                 </span>
               </div>
 
               <div className="p-6 flex-1 flex flex-col justify-between">
                 <div>
-                  <h3 className="text-xl font-serif font-bold mb-3 group-hover:text-primary transition-colors">
+                  <h3 className="text-card-title font-serif font-bold mb-3 group-hover:text-primary transition-colors">
                     {center.title}
                   </h3>
-                  <p className="text-xs md:text-sm text-muted-foreground leading-relaxed mb-6">
+                  <p className="text-body text-muted-foreground leading-relaxed mb-6">
                     {center.description}
                   </p>
                 </div>
 
                 <Link
                   href="/academics"
-                  className="w-full py-2.5 px-4 rounded-xl bg-muted/60 hover:bg-primary hover:text-primary-foreground text-xs font-semibold transition-all flex items-center justify-center gap-2"
+                  className="w-full py-2.5 px-4 rounded-xl bg-muted/60 hover:bg-primary hover:text-primary-foreground text-button font-semibold transition-all flex items-center justify-center gap-2"
                 >
                   <span>Explore Doctoral & Research Programs</span>
                   <ArrowRight className="w-4 h-4" />
@@ -204,13 +201,13 @@ export default function ResearchPage() {
       {/* Doctoral Admission Callout */}
       <section className="py-16 bg-muted/20 border-t border-border">
         <div className="container mx-auto px-6 md:px-12 max-w-4xl text-center">
-          <h2 className="text-2xl md:text-3xl font-serif font-bold mb-4">Interested in Pursuing a Ph.D. at Banasthali?</h2>
-          <p className="text-muted-foreground text-sm md:text-base max-w-2xl mx-auto mb-8">
+          <h2 className="text-section-heading font-serif font-bold mb-4">Interested in Pursuing a Ph.D. at Banasthali?</h2>
+          <p className="text-body text-muted-foreground max-w-2xl mx-auto mb-8">
             We offer doctoral research programs across Engineering, Sciences, Management, Humanities, Education, and Law. Admissions are conducted via the Research Entrance Test (RET) and interview.
           </p>
           <Link
             href="/admissions"
-            className="px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary/90 transition-all shadow-md inline-block"
+            className="px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold text-button hover:bg-primary/90 transition-all shadow-md inline-block"
           >
             Check Ph.D. Guidelines & Apply
           </Link>

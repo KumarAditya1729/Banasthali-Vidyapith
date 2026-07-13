@@ -78,7 +78,7 @@ export default function NoticeTicker() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500"></span>
           </span>
-          <div className="flex items-center gap-1.5 bg-red-900/80 border border-red-700/60 px-2.5 py-1 rounded-full text-xs font-bold tracking-wider uppercase text-red-200">
+          <div className="flex items-center gap-1.5 bg-red-900/80 border border-red-700/60 px-2.5 py-1 rounded-full text-small-label font-bold tracking-wider uppercase text-red-200">
             <Bell className="w-3.5 h-3.5 text-amber-400 animate-wiggle" />
             <span>Live Notice</span>
           </div>
@@ -87,7 +87,7 @@ export default function NoticeTicker() {
         {/* Center Rotating Notice Content */}
         <div className="flex-1 overflow-hidden">
           <div className="flex items-center justify-center sm:justify-start gap-2.5 transition-all duration-500 transform">
-            <span className={`text-[10px] font-extrabold px-2 py-0.5 rounded uppercase tracking-wide shrink-0 ${currentNotice.color}`}>
+            <span className={`text-small-label font-extrabold px-2 py-0.5 rounded uppercase tracking-wide shrink-0 ${currentNotice.color}`}>
               {currentNotice.badge}
             </span>
             <div className="shrink-0 hidden sm:block">
@@ -95,7 +95,7 @@ export default function NoticeTicker() {
             </div>
             <Link 
               href={currentNotice.link}
-              className="text-xs sm:text-sm font-medium text-red-100 hover:text-white truncate sm:whitespace-normal transition-colors flex items-center gap-1 group"
+              className="text-caption font-medium text-red-100 hover:text-white truncate sm:whitespace-normal transition-colors flex items-center gap-1 group"
             >
               <span className="line-clamp-1 sm:line-clamp-none">{currentNotice.text}</span>
               <ChevronRight className="w-4 h-4 shrink-0 text-amber-400 group-hover:translate-x-1 transition-transform inline" />

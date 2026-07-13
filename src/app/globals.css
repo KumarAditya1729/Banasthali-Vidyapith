@@ -153,8 +153,91 @@
   }
 }
 
-/* Custom Glassmorphism & Glow Utilities */
 @layer utilities {
+  /* Semantic Typography System (Production Quality) */
+  .text-hero {
+    font-size: clamp(28px, 6vw, 36px);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+  @media (min-width: 768px) {
+    .text-hero { font-size: clamp(36px, 5vw, 44px); }
+  }
+  @media (min-width: 1024px) {
+    .text-hero { font-size: clamp(44px, 4vw, 48px); }
+  }
+  @media (min-width: 1280px) {
+    .text-hero { font-size: clamp(48px, 4vw, 52px); }
+  }
+
+  .text-section-heading {
+    font-size: 28px;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+  @media (min-width: 768px) {
+    .text-section-heading { font-size: 32px; }
+  }
+  @media (min-width: 1024px) {
+    .text-section-heading { font-size: 40px; }
+  }
+
+  .text-subheading {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .text-card-title {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  @media (min-width: 768px) {
+    .text-card-title { font-size: 20px; }
+  }
+
+  .text-body {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  @media (min-width: 768px) {
+    .text-body { font-size: 15px; }
+  }
+  @media (min-width: 1024px) {
+    .text-body { font-size: 16px; }
+  }
+
+  .text-caption {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .text-small-label {
+    font-size: 11px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+
+  .text-button {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+
+  .text-nav {
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+  @media (min-width: 1280px) {
+    .text-nav { font-size: 15px; font-weight: 600; }
+  }
+
+  .text-footer {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* Custom Glassmorphism & Glow Utilities */
   .glass-panel {
     @apply bg-white/80 dark:bg-black/60 backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-xl;
   }

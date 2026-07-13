@@ -18,7 +18,7 @@ export function Footer() {
                 <GraduationCap className="w-5 h-5 text-gold" />
               </div>
               <div className="flex flex-col">
-                <span className="font-serif text-2xl font-bold tracking-wider text-white">
+                <span className="font-serif text-card-title font-bold tracking-wider text-white">
                   BANASTHALI
                 </span>
                 <span className="text-[10px] tracking-[0.25em] uppercase text-gold font-semibold">
@@ -27,16 +27,16 @@ export function Footer() {
               </div>
             </Link>
 
-            <p className="text-white/70 leading-relaxed font-light text-sm pr-6">
+            <p className="text-white/70 leading-relaxed font-light text-footer pr-6">
               The world&apos;s largest fully residential university for women. Rooted in Gandhian simplicity and Panchmukhi Shiksha, empowering over 15,000 scholars from nursery to doctoral research in an 850-acre sanctuary.
             </p>
 
             <div className="flex flex-wrap items-center gap-3 pt-2">
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/5 border border-gold/30 text-gold text-xs font-semibold">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/5 border border-gold/30 text-gold text-small-label font-semibold">
                 <Award className="w-3.5 h-3.5" />
                 <span>NAAC A++ Grade</span>
               </div>
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-white/80 text-xs font-semibold">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-white/80 text-small-label font-semibold">
                 <span>⚡ QS Asia Ranked</span>
               </div>
             </div>
@@ -44,11 +44,11 @@ export function Footer() {
 
           {/* Quick Links (3 cols) */}
           <div className="lg:col-span-3">
-            <h3 className="font-serif text-lg font-bold mb-6 text-gold flex items-center gap-2">
+            <h3 className="font-serif text-card-title font-bold mb-6 text-gold flex items-center gap-2">
               <Sparkles className="w-4 h-4" />
               <span>Explore Portal</span>
             </h3>
-            <ul className="space-y-3 text-sm">
+            <ul className="space-y-3 text-footer">
               {[
                 { name: 'Academics & 45+ Degrees', href: '/academics' },
                 { name: 'Online Admissions 2025-26', href: '/apply' },
@@ -72,8 +72,8 @@ export function Footer() {
 
           {/* Connect & Logistics (2 cols) */}
           <div className="lg:col-span-2">
-            <h3 className="font-serif text-lg font-bold mb-6 text-gold">Contact Us</h3>
-            <ul className="space-y-4 text-xs sm:text-sm text-white/70 font-light">
+            <h3 className="font-serif text-card-title font-bold mb-6 text-gold">Contact Us</h3>
+            <ul className="space-y-4 text-footer text-white/70 font-light">
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-gold shrink-0 mt-1" />
                 <span>P.O. Banasthali Vidyapith,<br />Tonk District, Rajasthan - 304022, India</span>
@@ -92,19 +92,19 @@ export function Footer() {
           {/* Call to Action Box (3 cols) */}
           <div className="lg:col-span-3">
             <div className="p-6 rounded-3xl bg-gradient-to-br from-white/10 to-white/5 border border-white/15 backdrop-blur-xl relative overflow-hidden shadow-2xl">
-              <div className="text-xs font-bold uppercase tracking-wider text-gold mb-2 flex items-center gap-1.5">
+              <div className="text-small-label font-bold uppercase tracking-wider text-gold mb-2 flex items-center gap-1.5">
                 <Sparkles className="w-3.5 h-3.5 animate-spin" style={{ animationDuration: "6s" }} />
                 <span>Admissions 2025-26</span>
               </div>
-              <h4 className="font-serif text-xl font-bold text-white mb-3">
+              <h4 className="font-serif text-card-title font-bold text-white mb-3">
                 Shaping Women Leaders
               </h4>
-              <p className="text-xs text-white/70 font-light leading-relaxed mb-6">
+              <p className="text-caption text-white/70 font-light leading-relaxed mb-6">
                 Applications are now open for B.Tech, UG, PG, and School residential programs. Take the first step today.
               </p>
               <Link 
                 href="/apply" 
-                className="group w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-primary via-red-800 to-amber-700 text-white py-3 px-6 rounded-full font-bold text-xs uppercase tracking-wider shadow-lg shadow-primary/30 hover:scale-105 transition-all"
+                className="group w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-primary via-red-800 to-amber-700 text-white py-3.5 px-6 rounded-full font-bold text-button uppercase tracking-wider shadow-lg shadow-primary/30 hover:scale-105 transition-all"
               >
                 <span>Apply Online Now</span>
                 <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
@@ -115,7 +115,7 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-white/50 font-light gap-4">
+        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between text-caption text-white/50 font-light gap-4">
           <div className="flex items-center gap-1.5">
             <span>© {new Date().getFullYear()} Banasthali Vidyapith. Built with</span>
             <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500" />

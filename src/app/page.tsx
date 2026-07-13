@@ -12,12 +12,12 @@ import {
   BookOpen, 
   Home as HomeIcon, 
   Plane, 
-  DollarSign, 
+  IndianRupee, 
   Users, 
   ShieldCheck, 
   CheckCircle2,
   Calendar,
-  GraduationCap
+  
 } from "lucide-react";
 import { homeData } from "@/data/home";
 import PanchmukhiExplorer from "@/components/home/PanchmukhiExplorer";
@@ -26,7 +26,7 @@ import PanchmukhiExplorer from "@/components/home/PanchmukhiExplorer";
 // --- Hero Section ---
 function PremiumHero() {
   return (
-    <section className="relative min-h-[calc(100vh-100px)] w-full flex flex-col justify-between overflow-hidden pt-40 md:pt-48 bg-gradient-to-br from-[#2a060c] via-[#1e0408] to-[#140205] text-white">
+    <section className="relative min-h-screen w-full flex flex-col justify-between overflow-hidden pt-32 md:pt-36 bg-gradient-to-br from-[#2a060c] via-[#1e0408] to-[#140205] text-white">
       {/* Background Image with Cinematic Zoom and Luxury Gradients */}
       <motion.div 
         initial={{ scale: 1.08, opacity: 0 }}
@@ -35,7 +35,7 @@ function PremiumHero() {
         className="absolute inset-0 z-0"
       >
         <Image
-          src="/scraped-images/166_arch-5.jpg"
+          src="/scraped-images/hero-background.png"
           alt="Banasthali Vidyapith Heritage Campus"
           fill
           priority
@@ -50,17 +50,17 @@ function PremiumHero() {
       <div className="absolute bottom-10 left-10 w-96 h-96 bg-primary/30 rounded-full blur-[120px] pointer-events-none" />
 
       {/* Content Container */}
-      <div className="container mx-auto px-6 md:px-12 relative z-10 my-auto py-8 sm:py-12">
-        <div className="max-w-4xl space-y-8">
+      <div className="container mx-auto px-6 md:px-12 relative z-10 my-auto py-6 sm:py-8">
+        <div className="max-w-4xl space-y-5 md:space-y-6">
           {/* Top Heritage Badge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-gold/40 shadow-xl text-gold text-xs sm:text-sm font-semibold tracking-wide"
+            className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-gold/40 shadow-xl text-gold text-small-label font-semibold tracking-wide"
           >
             <Sparkles className="w-4 h-4 text-gold animate-pulse" />
-            <span>ESTABLISHED OCTOBER 6, 1935 • CELEBRATING 90 YEARS OF EXCELLENCE</span>
+            <span>ESTABLISHED OCTOBER 6, 1935 • 90 YEARS OF EXCELLENCE</span>
           </motion.div>
 
           {/* Main Headline */}
@@ -68,7 +68,7 @@ function PremiumHero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-bold leading-[1.05] tracking-tight text-white drop-shadow-md"
+            className="text-hero font-serif font-bold leading-[1.1] tracking-tight text-white drop-shadow-md"
           >
             Empowering Women. <br />
             Shaping the <span className="gold-gradient-text italic font-normal">Destiny of India.</span>
@@ -79,7 +79,7 @@ function PremiumHero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-base sm:text-lg md:text-xl text-white/80 font-light max-w-2xl leading-relaxed drop-shadow-sm"
+            className="text-subheading text-white/80 font-light max-w-2xl leading-relaxed drop-shadow-sm"
           >
             The world&apos;s largest residential university for women—where over 15,000 scholars thrive across aviation, quantum computing, engineering, management, and classical arts in an 850-acre sanctuary.
           </motion.p>
@@ -89,19 +89,19 @@ function PremiumHero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
-            className="flex flex-wrap items-center gap-4 pt-4"
+            className="flex flex-wrap items-center gap-4 pt-2"
           >
             <Link
               href="/academics"
-              className="group relative inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-[#800000] via-[#a00000] to-amber-700 text-white font-bold text-sm tracking-wider uppercase shadow-2xl hover:shadow-[0_0_30px_rgba(212,175,55,0.4)] hover:scale-105 transition-all duration-300"
+              className="group relative inline-flex items-center gap-3 px-8 py-3.5 rounded-full bg-white text-black font-bold text-button tracking-wide uppercase hover:bg-white/90 hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.15)] hover:shadow-[0_0_30px_rgba(255,255,255,0.3)]"
             >
               <span>Explore 45+ Programs</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1.5 transition-transform" />
             </Link>
 
             <Link
-              href="/campus-life"
-              className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-white font-semibold text-sm tracking-wide transition-all duration-300 hover:scale-105 shadow-lg"
+              href="/virtual-tour"
+              className="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-white font-semibold text-button tracking-wide transition-all duration-300 hover:scale-105"
             >
               <Compass className="w-4 h-4 text-gold" />
               <span>Virtual Campus Tour</span>
@@ -109,9 +109,9 @@ function PremiumHero() {
 
             <Link
               href="/scholarships"
-              className="inline-flex items-center gap-2 px-6 py-4 rounded-full bg-black/40 hover:bg-black/60 border border-gold/30 text-gold font-medium text-xs sm:text-sm tracking-wide transition-all duration-300"
+              className="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-white font-semibold text-button tracking-wide transition-all duration-300 hover:scale-105"
             >
-              <DollarSign className="w-4 h-4" />
+              <IndianRupee className="w-4 h-4 text-gold" />
               <span>Scholarship Calculator</span>
             </Link>
           </motion.div>
@@ -119,56 +119,56 @@ function PremiumHero() {
       </div>
 
       {/* Bottom Live Stats Ticker (In Normal Document Flow) */}
-      <div className="relative z-20 bg-[#1e0408]/90 backdrop-blur-xl border-t border-gold/40 py-6 w-full mt-auto shadow-[0_-10px_30px_rgba(128,0,0,0.3)]">
+      <div className="relative z-20 bg-[#1e0408]/80 backdrop-blur-xl border-t border-white/10 py-6 w-full mt-auto">
         <div className="container mx-auto px-6 md:px-12">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-6 text-center md:text-left">
             <div className="flex items-center gap-3.5 justify-center md:justify-start">
-              <div className="w-10 h-10 rounded-xl bg-gold/15 border border-gold/30 flex items-center justify-center text-gold shrink-0">
+              <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gold shrink-0 transition-transform hover:scale-110 duration-300">
                 <Award className="w-5 h-5" />
               </div>
               <div>
-                <div className="text-base sm:text-lg font-serif font-bold text-white">NAAC A++ Grade</div>
-                <div className="text-[11px] text-white/50">Highest CGPA 3.83/4.00</div>
+                <div className="font-serif font-bold text-white tracking-wide text-[14px] md:text-[16px] leading-snug">NAAC A++ Grade</div>
+                <div className="text-[9px] md:text-[10px] tracking-wider uppercase font-medium text-white/50">Highest CGPA 3.83/4.00</div>
               </div>
             </div>
 
             <div className="flex items-center gap-3.5 justify-center md:justify-start">
-              <div className="w-10 h-10 rounded-xl bg-red-500/15 border border-red-500/30 flex items-center justify-center text-red-400 shrink-0">
+              <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gold shrink-0 transition-transform hover:scale-110 duration-300">
                 <HomeIcon className="w-5 h-5" />
               </div>
               <div>
-                <div className="text-base sm:text-lg font-serif font-bold text-white">31 Hostels</div>
-                <div className="text-[11px] text-white/50">100% Residential Campus</div>
+                <div className="font-serif font-bold text-white tracking-wide text-[14px] md:text-[16px] leading-snug">31 Hostels</div>
+                <div className="text-[9px] md:text-[10px] tracking-wider uppercase font-medium text-white/50">100% Residential Campus</div>
               </div>
             </div>
 
             <div className="flex items-center gap-3.5 justify-center md:justify-start">
-              <div className="w-10 h-10 rounded-xl bg-sky-500/15 border border-sky-500/30 flex items-center justify-center text-sky-400 shrink-0">
+              <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gold shrink-0 transition-transform hover:scale-110 duration-300">
                 <Plane className="w-5 h-5" />
               </div>
               <div>
-                <div className="text-base sm:text-lg font-serif font-bold text-white">Licensed Airfield</div>
-                <div className="text-[11px] text-white/50">Cessna 172 Flying Club</div>
+                <div className="font-serif font-bold text-white tracking-wide text-[14px] md:text-[16px] leading-snug">Licensed Airfield</div>
+                <div className="text-[9px] md:text-[10px] tracking-wider uppercase font-medium text-white/50">Cessna 172 Flying Club</div>
               </div>
             </div>
 
             <div className="flex items-center gap-3.5 justify-center md:justify-start">
-              <div className="w-10 h-10 rounded-xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
+              <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gold shrink-0 transition-transform hover:scale-110 duration-300">
                 <Users className="w-5 h-5" />
               </div>
               <div>
-                <div className="text-base sm:text-lg font-serif font-bold text-white">15,000+ Scholars</div>
-                <div className="text-[11px] text-white/50">From Nursery to Ph.D.</div>
+                <div className="font-serif font-bold text-white tracking-wide text-[14px] md:text-[16px] leading-snug">15,000+ Scholars</div>
+                <div className="text-[9px] md:text-[10px] tracking-wider uppercase font-medium text-white/50">From Nursery to Ph.D.</div>
               </div>
             </div>
 
             <div className="flex items-center gap-3.5 justify-center md:justify-start col-span-2 md:col-span-1">
-              <div className="w-10 h-10 rounded-xl bg-purple-500/15 border border-purple-500/30 flex items-center justify-center text-purple-400 shrink-0">
+              <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gold shrink-0 transition-transform hover:scale-110 duration-300">
                 <ShieldCheck className="w-5 h-5" />
               </div>
               <div>
-                <div className="text-base sm:text-lg font-serif font-bold text-white">850+ Acres</div>
-                <div className="text-[11px] text-white/50">Zero Pollution Sanctuary</div>
+                <div className="font-serif font-bold text-white tracking-wide text-[14px] md:text-[16px] leading-snug">850+ Acres</div>
+                <div className="text-[9px] md:text-[10px] tracking-wider uppercase font-medium text-white/50">Zero Pollution Sanctuary</div>
               </div>
             </div>
           </div>
@@ -184,14 +184,14 @@ function InteractiveToolsShowcase() {
     <section className="py-20 bg-muted/40 border-y border-border/60 relative overflow-hidden">
       <div className="container mx-auto px-6 md:px-12">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider mb-3">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-primary/10 text-primary text-small-label font-bold uppercase tracking-wider mb-3">
             <Sparkles className="w-3.5 h-3.5 text-gold" />
             <span>Interactive Digital Campus</span>
           </div>
-          <h2 className="text-3xl md:text-5xl font-serif font-bold tracking-tight">
+          <h2 className="text-section-heading font-serif font-bold tracking-tight">
             Experience Banasthali <span className="gold-gradient-text italic font-normal">Intelligently</span>
           </h2>
-          <p className="text-muted-foreground text-sm md:text-base mt-3 leading-relaxed">
+          <p className="text-muted-foreground text-body mt-3 leading-relaxed">
             We have built smart, AI-assisted tools to help students and parents navigate programs, calculate scholarships, and explore our 850-acre ecosystem seamlessly.
           </p>
         </div>
@@ -211,7 +211,7 @@ function InteractiveToolsShowcase() {
               title: "AI Scholarship Matcher",
               subtitle: "Financial Aid & Fee Estimator",
               desc: "Take our personalized quiz to discover merit and need-based tuition waivers up to 100% and calculate exact mess fees.",
-              icon: DollarSign,
+              icon: IndianRupee,
               href: "/scholarships",
               color: "from-amber-600/10 via-amber-500/5 to-transparent border-amber-500/20 text-amber-600",
               badge: "Up to 100% Waiver"
@@ -253,23 +253,23 @@ function InteractiveToolsShowcase() {
                       <div className="w-12 h-12 rounded-2xl bg-muted flex items-center justify-center group-hover:scale-110 transition-transform shadow-inner">
                         <Icon className="w-6 h-6 text-primary dark:text-gold" />
                       </div>
-                      <span className="text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-primary/10 text-primary dark:bg-gold/10 dark:text-gold">
+                      <span className="text-small-label font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-primary/10 text-primary dark:bg-gold/10 dark:text-gold">
                         {tool.badge}
                       </span>
                     </div>
 
-                    <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1">
+                    <div className="text-small-label font-semibold text-muted-foreground uppercase tracking-wider mb-1">
                       {tool.subtitle}
                     </div>
-                    <h3 className="text-xl font-serif font-bold text-foreground group-hover:text-primary dark:group-hover:text-gold transition-colors mb-3">
+                    <h3 className="text-card-title font-serif font-bold text-foreground group-hover:text-primary dark:group-hover:text-gold transition-colors mb-3">
                       {tool.title}
                     </h3>
-                    <p className="text-xs text-muted-foreground leading-relaxed font-light mb-6">
+                    <p className="text-caption text-muted-foreground leading-relaxed font-light mb-6">
                       {tool.desc}
                     </p>
                   </div>
 
-                  <div className="pt-4 border-t border-border/60 flex items-center justify-between text-xs font-bold text-primary dark:text-gold">
+                  <div className="pt-4 border-t border-border/60 flex items-center justify-between text-button font-bold text-primary dark:text-gold">
                     <span>Launch Explorer</span>
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1.5 transition-transform" />
                   </div>
@@ -299,31 +299,31 @@ function LegacyStory() {
             transition={{ duration: 1, ease: "easeOut" }}
             className="lg:col-span-6 space-y-6"
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-small-label font-bold uppercase tracking-wider">
               <span>{homeData.legacy.tagline}</span>
             </div>
             
-            <h2 className="text-4xl md:text-6xl font-serif font-bold text-foreground leading-[1.1]">
+            <h2 className="text-section-heading font-serif font-bold text-foreground leading-[1.1]">
               {homeData.legacy.headline} <br />
               <span className="italic gold-gradient-text font-normal">{homeData.legacy.highlight}</span>.
             </h2>
             
             <div className="w-16 h-1 bg-gradient-to-r from-primary to-gold rounded-full" />
             
-            <p className="text-foreground/80 text-base md:text-lg leading-relaxed font-light font-sans">
+            <p className="text-foreground/80 text-body leading-relaxed font-light font-sans">
               {homeData.legacy.description}
             </p>
 
             <div className="pt-4 flex flex-wrap items-center gap-6">
               <Link 
                 href="/about" 
-                className="group inline-flex items-center gap-3 px-8 py-3.5 rounded-full bg-primary text-white font-semibold text-xs uppercase tracking-wider shadow-lg hover:bg-primary/90 hover:scale-105 transition-all"
+                className="group inline-flex items-center gap-3 px-8 py-3.5 rounded-full bg-primary text-white font-semibold text-button uppercase tracking-wider shadow-lg hover:bg-primary/90 hover:scale-105 transition-all"
               >
                 <span>Read Our Phoenix Genesis Story</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1.5 transition-transform" />
               </Link>
               
-              <div className="flex items-center gap-2 text-xs font-medium text-muted-foreground">
+              <div className="flex items-center gap-2 text-body font-medium text-muted-foreground">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600" />
                 <span>Autonomous & Deemed University since 1983</span>
               </div>
@@ -348,12 +348,12 @@ function LegacyStory() {
               {/* Floating Museum Quote Card */}
               <div className="absolute bottom-6 left-6 right-6 p-6 rounded-2xl bg-white/90 dark:bg-[#1c1919]/90 backdrop-blur-xl border border-white/20 shadow-2xl">
                 <div className="flex items-start gap-3">
-                  <span className="text-4xl font-serif text-primary dark:text-gold leading-none">&ldquo;</span>
+                  <span className="text-section-heading font-serif text-primary dark:text-gold leading-none">&ldquo;</span>
                   <div>
-                    <p className="font-serif italic text-base md:text-lg text-foreground mb-2 leading-relaxed">
+                    <p className="font-serif italic text-body text-foreground mb-2 leading-relaxed">
                       {homeData.legacy.quote}
                     </p>
-                    <p className="text-[11px] text-primary dark:text-gold uppercase tracking-widest font-bold">
+                    <p className="text-small-label text-primary dark:text-gold uppercase tracking-widest font-bold">
                       — {homeData.legacy.quoteAuthor}
                     </p>
                   </div>
@@ -364,7 +364,7 @@ function LegacyStory() {
             {/* Decorative Gold Accent Badge */}
             <div className="absolute -top-6 -right-6 w-28 h-28 rounded-full bg-gradient-to-br from-gold to-amber-600 p-1 shadow-2xl hidden md:flex items-center justify-center text-center animate-pulse">
               <div className="w-full h-full rounded-full bg-[#1e0408] flex flex-col items-center justify-center text-white p-2">
-                <span className="text-xl font-bold font-serif text-gold">90</span>
+                <span className="text-card-title font-bold font-serif text-gold">90</span>
                 <span className="text-[9px] uppercase tracking-widest leading-tight">Years of Pride</span>
               </div>
             </div>
@@ -393,16 +393,16 @@ function LivingCampus() {
           className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8"
         >
           <div className="max-w-2xl space-y-4">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/15 border border-gold/30 text-gold text-xs font-semibold uppercase tracking-wider">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/15 border border-gold/30 text-gold text-small-label font-semibold uppercase tracking-wider">
               <Compass className="w-3.5 h-3.5" />
               <span>{homeData.campus.tagline}</span>
             </div>
-            <h3 className="text-4xl md:text-6xl font-serif font-bold leading-[1.1] text-white">
+            <h3 className="text-section-heading font-serif font-bold leading-[1.1] text-white">
               {homeData.campus.headlinePart1} <br />
               <span className="italic gold-gradient-text font-normal">{homeData.campus.headlinePart2}</span>
             </h3>
           </div>
-          <p className="text-white/70 font-light max-w-md text-base md:text-lg leading-relaxed">
+          <p className="text-white/70 font-light max-w-md text-body leading-relaxed">
             {homeData.campus.description}
           </p>
         </motion.div>
@@ -428,13 +428,13 @@ function LivingCampus() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
                 
                 <div className="relative z-10 p-7 space-y-2">
-                  <div className="inline-block px-2.5 py-1 rounded-md bg-gold/20 backdrop-blur-md border border-gold/30 text-gold text-[10px] font-bold uppercase tracking-wider">
+                  <div className="inline-block px-2.5 py-1 rounded-md bg-gold/20 backdrop-blur-md border border-gold/30 text-gold text-small-label font-bold uppercase tracking-wider">
                     Featured Precinct
                   </div>
-                  <h4 className="text-white font-serif font-bold text-2xl md:text-3xl group-hover:text-gold transition-colors">
+                  <h4 className="text-white font-serif font-bold text-card-title group-hover:text-gold transition-colors">
                     {place.name}
                   </h4>
-                  <div className="flex items-center gap-1.5 text-xs font-semibold text-white/80 group-hover:text-white pt-2">
+                  <div className="flex items-center gap-1.5 text-button font-semibold text-white/80 group-hover:text-white pt-2">
                     <span>Explore Precinct Gallery</span>
                     <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1.5 transition-transform text-gold" />
                   </div>
@@ -447,7 +447,7 @@ function LivingCampus() {
         <div className="mt-16 text-center">
           <Link
             href="/campus-life"
-            className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gold text-black font-bold text-xs uppercase tracking-wider hover:bg-gold/90 transition-all shadow-xl hover:scale-105"
+            className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gold text-black font-bold text-button uppercase tracking-wider hover:bg-gold/90 transition-all shadow-xl hover:scale-105"
           >
             <span>Explore All 13 Campus Precincts & Hostels</span>
             <ArrowRight className="w-4 h-4" />

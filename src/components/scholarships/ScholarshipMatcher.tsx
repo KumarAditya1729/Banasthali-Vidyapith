@@ -5,19 +5,19 @@ import { motion, AnimatePresence } from "framer-motion";
 import { 
   Award, 
   Search, 
-  DollarSign, 
+   
   Sparkles, 
   CheckCircle2, 
-  HeartHandshake, 
+   
   ShieldCheck, 
   HelpCircle, 
   RotateCcw, 
   ArrowRight, 
   Calculator, 
   Filter, 
-  Users,
+  
   ChevronRight,
-  BookOpen
+  
 } from "lucide-react";
 import Link from "next/link";
 
@@ -352,14 +352,14 @@ export default function ScholarshipMatcher() {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-10 border-b border-white/10 pb-8">
           <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/30 text-gold text-xs font-semibold uppercase tracking-wider mb-3">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/30 text-gold text-small-label font-semibold uppercase tracking-wider mb-3">
               <Award className="w-3.5 h-3.5" />
               Financial Aid & Scholarship Concierge
             </div>
-            <h2 className="text-3xl md:text-5xl font-garamond text-white tracking-wide">
+            <h2 className="text-section-heading font-garamond text-white tracking-wide">
               Unlock Your Scholarship Eligibility
             </h2>
-            <p className="text-white/60 text-sm md:text-base mt-2 max-w-2xl">
+            <p className="text-white/60 text-body mt-2 max-w-2xl">
               At Banasthali Vidyapith, no student should be deprived of education due to financial constraints. Use our interactive tools to match with 20+ endowment funds.
             </p>
           </div>
@@ -368,7 +368,7 @@ export default function ScholarshipMatcher() {
           <div className="flex items-center gap-2 bg-white/5 p-1.5 rounded-2xl border border-white/10 w-full md:w-auto">
             <button
               onClick={() => setActiveTab('quiz')}
-              className={`flex-1 md:flex-none px-4 py-2.5 rounded-xl text-xs md:text-sm font-medium transition-all flex items-center justify-center gap-2 ${
+              className={`flex-1 md:flex-none px-4 py-2.5 rounded-xl text-button font-medium transition-all flex items-center justify-center gap-2 ${
                 activeTab === 'quiz' ? "bg-gold text-black font-semibold shadow-lg" : "text-white/70 hover:text-white"
               }`}
             >
@@ -377,7 +377,7 @@ export default function ScholarshipMatcher() {
             </button>
             <button
               onClick={() => setActiveTab('calculator')}
-              className={`flex-1 md:flex-none px-4 py-2.5 rounded-xl text-xs md:text-sm font-medium transition-all flex items-center justify-center gap-2 ${
+              className={`flex-1 md:flex-none px-4 py-2.5 rounded-xl text-button font-medium transition-all flex items-center justify-center gap-2 ${
                 activeTab === 'calculator' ? "bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-semibold shadow-lg" : "text-white/70 hover:text-white"
               }`}
             >
@@ -386,7 +386,7 @@ export default function ScholarshipMatcher() {
             </button>
             <button
               onClick={() => setActiveTab('browse')}
-              className={`flex-1 md:flex-none px-4 py-2.5 rounded-xl text-xs md:text-sm font-medium transition-all flex items-center justify-center gap-2 ${
+              className={`flex-1 md:flex-none px-4 py-2.5 rounded-xl text-button font-medium transition-all flex items-center justify-center gap-2 ${
                 activeTab === 'browse' ? "bg-white text-black font-semibold shadow-lg" : "text-white/70 hover:text-white"
               }`}
             >
@@ -401,7 +401,7 @@ export default function ScholarshipMatcher() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             {/* Left Column: Interactive Inputs */}
             <div className="lg:col-span-5 bg-white/5 p-6 md:p-8 rounded-2xl border border-white/10 space-y-6">
-              <h3 className="text-xl font-garamond text-white font-semibold flex items-center gap-2 border-b border-white/10 pb-4">
+              <h3 className="text-card-title font-garamond text-white font-semibold flex items-center gap-2 border-b border-white/10 pb-4">
                 <Filter className="w-5 h-5 text-gold" />
                 Your Profile Attributes
               </h3>
@@ -409,10 +409,10 @@ export default function ScholarshipMatcher() {
               {/* Slider 1: Merit Score */}
               <div>
                 <div className="flex justify-between items-center mb-2">
-                  <label className="text-xs font-semibold text-white/80 uppercase tracking-wider">
+                  <label className="text-small-label font-semibold text-white/80 uppercase tracking-wider">
                     Academic Merit (% in Qualifying Exam)
                   </label>
-                  <span className="text-sm font-bold text-gold bg-gold/10 px-2.5 py-0.5 rounded-md border border-gold/20">
+                  <span className="text-small-label font-bold text-gold bg-gold/10 px-2.5 py-0.5 rounded-md border border-gold/20">
                     {meritScore}%
                   </span>
                 </div>
@@ -424,7 +424,7 @@ export default function ScholarshipMatcher() {
                   onChange={(e) => setMeritScore(Number(e.target.value))}
                   className="w-full accent-gold bg-white/10 h-2 rounded-lg cursor-pointer"
                 />
-                <div className="flex justify-between text-[10px] text-white/40 mt-1">
+                <div className="flex justify-between text-small-label text-white/40 mt-1">
                   <span>50%</span>
                   <span>75%</span>
                   <span>100% (Topper)</span>
@@ -434,10 +434,10 @@ export default function ScholarshipMatcher() {
               {/* Slider 2: Annual Family Income */}
               <div>
                 <div className="flex justify-between items-center mb-2">
-                  <label className="text-xs font-semibold text-white/80 uppercase tracking-wider">
+                  <label className="text-small-label font-semibold text-white/80 uppercase tracking-wider">
                     Annual Family Income
                   </label>
-                  <span className="text-sm font-bold text-green-400 bg-green-500/10 px-2.5 py-0.5 rounded-md border border-green-500/20">
+                  <span className="text-small-label font-bold text-green-400 bg-green-500/10 px-2.5 py-0.5 rounded-md border border-green-500/20">
                     ₹ {incomeLpa} LPA
                   </span>
                 </div>
@@ -450,7 +450,7 @@ export default function ScholarshipMatcher() {
                   onChange={(e) => setIncomeLpa(Number(e.target.value))}
                   className="w-full accent-green-400 bg-white/10 h-2 rounded-lg cursor-pointer"
                 />
-                <div className="flex justify-between text-[10px] text-white/40 mt-1">
+                <div className="flex justify-between text-small-label text-white/40 mt-1">
                   <span>₹ 1 LPA</span>
                   <span>₹ 8 LPA</span>
                   <span>₹ 15+ LPA</span>
@@ -459,7 +459,7 @@ export default function ScholarshipMatcher() {
 
               {/* Special Category Selection */}
               <div>
-                <label className="text-xs font-semibold text-white/80 uppercase tracking-wider block mb-2.5">
+                <label className="text-small-label font-semibold text-white/80 uppercase tracking-wider block mb-2.5">
                   Special / Priority Category
                 </label>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -475,7 +475,7 @@ export default function ScholarshipMatcher() {
                     <button
                       key={cat.id}
                       onClick={() => setSpecialCat(cat.id)}
-                      className={`p-2.5 rounded-xl text-left text-xs font-medium transition-all border ${
+                      className={`p-2.5 rounded-xl text-left text-button font-medium transition-all border ${
                         specialCat === cat.id
                           ? "bg-gold text-black font-semibold border-gold shadow"
                           : "bg-black/30 text-white/70 hover:bg-white/10 hover:text-white border-white/5"
@@ -493,7 +493,7 @@ export default function ScholarshipMatcher() {
                   setIncomeLpa(3.0);
                   setSpecialCat('none');
                 }}
-                className="w-full py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white/80 text-xs font-medium transition-colors flex items-center justify-center gap-1.5"
+                className="w-full py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white/80 text-button font-medium transition-colors flex items-center justify-center gap-1.5"
               >
                 <RotateCcw className="w-3.5 h-3.5" />
                 Reset Profile Attributes
@@ -503,11 +503,11 @@ export default function ScholarshipMatcher() {
             {/* Right Column: Matched Scholarships */}
             <div className="lg:col-span-7 space-y-4">
               <div className="flex items-center justify-between">
-                <h3 className="text-xl font-garamond text-white font-semibold flex items-center gap-2">
+                <h3 className="text-card-title font-garamond text-white font-semibold flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5 text-green-400" />
                   Eligible Scholarships Found ({matchedScholarships.length})
                 </h3>
-                <span className="text-xs text-white/50 bg-white/5 px-3 py-1 rounded-full">
+                <span className="text-small-label text-white/50 bg-white/5 px-3 py-1 rounded-full">
                   Real-time matching
                 </span>
               </div>
@@ -527,27 +527,27 @@ export default function ScholarshipMatcher() {
                       >
                         <div className="flex flex-col sm:flex-row justify-between items-start gap-3 mb-3">
                           <div>
-                            <span className="inline-block px-2.5 py-0.5 rounded-md bg-gold/10 text-gold text-[10px] font-semibold uppercase tracking-wider mb-2">
+                            <span className="inline-block px-2.5 py-0.5 rounded-md bg-gold/10 text-gold text-small-label font-semibold uppercase tracking-wider mb-2">
                               {s.category.toUpperCase()} FUND
                             </span>
-                            <h4 className="text-lg md:text-xl font-garamond text-white font-semibold group-hover:text-gold transition-colors">
+                            <h4 className="text-card-title font-garamond text-white font-semibold group-hover:text-gold transition-colors">
                               {s.title}
                             </h4>
                           </div>
-                          <div className="bg-green-500/10 border border-green-500/20 px-3 py-1.5 rounded-xl text-green-400 text-xs font-semibold shrink-0">
+                          <div className="bg-green-500/10 border border-green-500/20 px-3 py-1.5 rounded-xl text-green-400 text-small-label font-semibold shrink-0">
                             {s.amount}
                           </div>
                         </div>
 
-                        <p className="text-xs text-white/70 mb-4 leading-relaxed font-light">
+                        <p className="text-body text-white/70 mb-4 leading-relaxed font-light">
                           {s.description}
                         </p>
 
-                        <div className="bg-black/30 p-3 rounded-xl border border-white/5 text-xs text-white/60 mb-4">
+                        <div className="bg-black/30 p-3 rounded-xl border border-white/5 text-body text-white/60 mb-4">
                           <strong className="text-white/80">Eligibility criteria:</strong> {s.eligibility}
                         </div>
 
-                        <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-white/10 text-xs">
+                        <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-white/10 text-caption">
                           <div className="flex flex-wrap gap-1.5">
                             {s.tags.map((t, idx) => (
                               <span key={idx} className="bg-white/5 px-2 py-0.5 rounded text-[10px] text-white/60">
@@ -555,7 +555,7 @@ export default function ScholarshipMatcher() {
                               </span>
                             ))}
                           </div>
-                          <span className="text-white/40 italic text-[11px]">Sponsor: {s.sponsor}</span>
+                          <span className="text-white/40 italic text-small-label">Sponsor: {s.sponsor}</span>
                         </div>
                       </motion.div>
                     ))}
@@ -563,9 +563,9 @@ export default function ScholarshipMatcher() {
                 ) : (
                   <div className="text-center py-16 bg-white/5 rounded-2xl border border-white/10">
                     <HelpCircle className="w-12 h-12 text-white/20 mx-auto mb-3" />
-                    <h4 className="text-lg font-garamond text-white font-medium">No strict matches found</h4>
-                    <p className="text-xs text-white/50 mt-1 max-w-md mx-auto">
-                      Don't worry! Banasthali Vidyapith also offers collaborative bank loan scholarships and general student aid. Try lowering income criteria or checking 'General' category.
+                    <h4 className="text-card-title font-garamond text-white font-medium">No strict matches found</h4>
+                    <p className="text-body text-white/50 mt-1 max-w-md mx-auto">
+                      Don&apos;t worry! Banasthali Vidyapith also offers collaborative bank loan scholarships and general student aid. Try lowering income criteria or checking &apos;General&apos; category.
                     </p>
                   </div>
                 )}
@@ -579,13 +579,13 @@ export default function ScholarshipMatcher() {
           <div className="bg-gradient-to-br from-emerald-900/30 via-[#1c1919] to-black/80 p-6 md:p-10 rounded-2xl border border-emerald-500/30">
             <div className="max-w-3xl mx-auto">
               <div className="text-center mb-8">
-                <span className="text-xs font-bold uppercase tracking-widest text-emerald-400 block mb-2">
+                <span className="text-small-label font-bold uppercase tracking-widest text-emerald-400 block mb-2">
                   Transparent Financial Planning
                 </span>
-                <h3 className="text-2xl md:text-4xl font-garamond text-white font-semibold">
+                <h3 className="text-section-heading font-garamond text-white font-semibold">
                   Personalized Tuition Fee Savings Estimator
                 </h3>
-                <p className="text-white/70 text-xs md:text-sm mt-2">
+                <p className="text-white/70 text-body mt-2">
                   Adjust your annual course tuition fee and see how your profile attributes (from the AI Matcher) translate into direct fee waivers!
                 </p>
               </div>
@@ -593,10 +593,10 @@ export default function ScholarshipMatcher() {
               {/* Slider for Course Fee */}
               <div className="bg-black/50 p-6 rounded-2xl border border-white/10 mb-8">
                 <div className="flex justify-between items-center mb-3">
-                  <label className="text-sm font-semibold text-white uppercase tracking-wider">
+                  <label className="text-small-label font-semibold text-white uppercase tracking-wider">
                     Select Estimated Annual Tuition Fee
                   </label>
-                  <span className="text-xl font-bold text-emerald-400">
+                  <span className="text-card-title font-bold text-emerald-400">
                     ₹ {calcFee.toLocaleString('en-IN')} / yr
                   </span>
                 </div>
@@ -609,7 +609,7 @@ export default function ScholarshipMatcher() {
                   onChange={(e) => setCalcFee(Number(e.target.value))}
                   className="w-full accent-emerald-400 bg-white/10 h-3 rounded-lg cursor-pointer"
                 />
-                <div className="flex justify-between text-xs text-white/40 mt-2">
+                <div className="flex justify-between text-caption text-white/40 mt-2">
                   <span>₹ 80,000 (Humanities / B.Sc)</span>
                   <span>₹ 1,50,000 (B.Tech / MBA)</span>
                   <span>₹ 2,50,000 (Aviation / Special)</span>
@@ -619,20 +619,20 @@ export default function ScholarshipMatcher() {
               {/* Breakdown Cards */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                 <div className="bg-white/5 p-5 rounded-2xl border border-white/10 text-center">
-                  <span className="text-xs text-white/50 block mb-1">Standard Annual Fee</span>
-                  <div className="text-2xl font-garamond text-white font-bold">
+                  <span className="text-small-label text-white/50 block mb-1">Standard Annual Fee</span>
+                  <div className="text-section-heading font-garamond text-white font-bold">
                     ₹ {calcFee.toLocaleString('en-IN')}
                   </div>
                 </div>
                 <div className="bg-emerald-500/10 p-5 rounded-2xl border border-emerald-500/30 text-center">
-                  <span className="text-xs text-emerald-300 block mb-1">Estimated Waiver ({aidEstimate.totalWaiver}%)</span>
-                  <div className="text-2xl font-garamond text-emerald-400 font-bold">
+                  <span className="text-small-label text-emerald-300 block mb-1">Estimated Waiver ({aidEstimate.totalWaiver}%)</span>
+                  <div className="text-section-heading font-garamond text-emerald-400 font-bold">
                     - ₹ {aidEstimate.amountSaved.toLocaleString('en-IN')}
                   </div>
                 </div>
                 <div className="bg-gold/10 p-5 rounded-2xl border border-gold/40 text-center shadow-[0_0_25px_rgba(212,175,55,0.15)]">
-                  <span className="text-xs text-gold block mb-1 font-semibold">Effective Payable Fee</span>
-                  <div className="text-3xl font-garamond text-gold font-bold">
+                  <span className="text-small-label text-gold block mb-1 font-semibold">Effective Payable Fee</span>
+                  <div className="text-section-heading font-garamond text-gold font-bold">
                     ₹ {aidEstimate.finalFee.toLocaleString('en-IN')}
                   </div>
                 </div>
@@ -640,19 +640,19 @@ export default function ScholarshipMatcher() {
 
               {/* Reasons Applied */}
               <div className="bg-black/40 p-5 rounded-2xl border border-white/10 space-y-2">
-                <h4 className="text-xs font-bold uppercase tracking-wider text-white/60 mb-2 flex items-center gap-1.5">
+                <h4 className="text-small-label font-bold uppercase tracking-wider text-white/60 mb-2 flex items-center gap-1.5">
                   <ShieldCheck className="w-4 h-4 text-emerald-400" />
                   Waivers Applied Based on Your Profile:
                 </h4>
                 {aidEstimate.reasons.length > 0 ? (
                   aidEstimate.reasons.map((r, i) => (
-                    <div key={i} className="flex items-center gap-2 text-xs text-white/80">
+                    <div key={i} className="flex items-center gap-2 text-body text-white/80">
                       <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
                       <span>{r}</span>
                     </div>
                   ))
                 ) : (
-                  <div className="text-xs text-white/50 italic">
+                  <div className="text-caption text-white/50 italic">
                     No automatic percentage waivers triggered. Try increasing academic merit or selecting a special category in the AI Matcher tab!
                   </div>
                 )}
@@ -661,7 +661,7 @@ export default function ScholarshipMatcher() {
               <div className="mt-8 text-center">
                 <Link
                   href="/admissions"
-                  className="inline-flex items-center gap-2 px-8 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-black font-semibold text-sm transition-all shadow-lg"
+                  className="inline-flex items-center gap-2 px-8 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-black font-semibold text-button transition-all shadow-lg"
                 >
                   <span>Apply for Scholarship & Admission</span>
                   <ArrowRight className="w-4 h-4" />
@@ -683,7 +683,7 @@ export default function ScholarshipMatcher() {
                   placeholder="Search scholarships, sponsors, tags..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full bg-black/40 border border-white/10 rounded-xl pl-11 pr-4 py-3 text-white placeholder-white/40 text-sm focus:outline-none focus:border-gold transition-colors"
+                  className="w-full bg-black/40 border border-white/10 rounded-xl pl-11 pr-4 py-3 text-white placeholder-white/40 text-body focus:outline-none focus:border-gold transition-colors"
                 />
               </div>
 
@@ -699,7 +699,7 @@ export default function ScholarshipMatcher() {
                   <button
                     key={cat.id}
                     onClick={() => setSelectedCategory(cat.id)}
-                    className={`px-3.5 py-1.5 rounded-xl text-xs font-medium transition-all ${
+                    className={`px-3.5 py-1.5 rounded-xl text-button font-medium transition-all ${
                       selectedCategory === cat.id
                         ? "bg-gold text-black font-semibold shadow"
                         : "bg-black/30 text-white/70 hover:bg-white/10 hover:text-white border border-white/5"
@@ -720,32 +720,32 @@ export default function ScholarshipMatcher() {
                 >
                   <div>
                     <div className="flex items-center justify-between gap-2 mb-3">
-                      <span className="px-2.5 py-0.5 rounded-md bg-white/5 text-white/60 text-[10px] uppercase font-semibold">
+                      <span className="px-2.5 py-0.5 rounded-md bg-white/5 text-white/60 text-small-label uppercase font-semibold">
                         {s.category}
                       </span>
-                      <span className="text-xs font-semibold text-green-400 bg-green-500/10 px-2.5 py-0.5 rounded-md">
+                      <span className="text-small-label font-semibold text-green-400 bg-green-500/10 px-2.5 py-0.5 rounded-md">
                         {s.amount}
                       </span>
                     </div>
 
-                    <h4 className="text-lg font-garamond text-white font-semibold mb-2 group-hover:text-gold transition-colors">
+                    <h4 className="text-card-title font-garamond text-white font-semibold mb-2 group-hover:text-gold transition-colors">
                       {s.title}
                     </h4>
 
-                    <p className="text-xs text-white/70 mb-4 leading-relaxed line-clamp-3">
+                    <p className="text-body text-white/70 mb-4 leading-relaxed line-clamp-3">
                       {s.description}
                     </p>
 
-                    <div className="bg-black/30 p-3 rounded-xl border border-white/5 text-[11px] text-white/60 mb-4">
+                    <div className="bg-black/30 p-3 rounded-xl border border-white/5 text-caption text-white/60 mb-4">
                       <strong className="text-white/80">Eligibility:</strong> {s.eligibility}
                     </div>
                   </div>
 
-                  <div className="pt-3 border-t border-white/10 flex items-center justify-between text-xs">
-                    <span className="text-white/40 italic text-[11px]">Sponsor: {s.sponsor}</span>
+                  <div className="pt-3 border-t border-white/10 flex items-center justify-between text-caption">
+                    <span className="text-white/40 italic text-small-label">Sponsor: {s.sponsor}</span>
                     <Link
                       href="/admissions"
-                      className="text-gold font-semibold hover:text-white inline-flex items-center gap-1 text-xs"
+                      className="text-gold font-semibold hover:text-white inline-flex items-center gap-1 text-button"
                     >
                       Inquire
                       <ChevronRight className="w-3 h-3" />

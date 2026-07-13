@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { Search, X, Sparkles, HelpCircle, ArrowRight, Plane, Home, GraduationCap, DollarSign, MapPin, Award, BookOpen, Clock } from "lucide-react";
+import { Search, X, Sparkles, HelpCircle, ArrowRight, Plane, Home, GraduationCap, IndianRupee, MapPin, Award, BookOpen, Clock } from "lucide-react";
 
 interface SearchResult {
   id: string;
@@ -16,6 +16,16 @@ interface SearchResult {
 }
 
 const knowledgeBase: SearchResult[] = [
+  {
+    id: "virtual_tour",
+    question: "How can I take a virtual tour of the Banasthali campus?",
+    answer: "Explore our 850-acre fully residential campus through our interactive Virtual Campus Explorer. Discover academic buildings, hostels, the aviation club, and more in 3D.",
+    category: "Campus Life & Hostels",
+    link: "/virtual-tour",
+    linkText: "Launch Virtual Tour",
+    icon: <MapPin className="w-5 h-5 text-rose-400" />,
+    keywords: ["tour", "virtual", "map", "explore", "campus", "buildings", "3d", "interactive"]
+  },
   {
     id: "bvgfc",
     question: "How can students join the Gliding & Flying Club (BVGFC)?",
@@ -43,7 +53,7 @@ const knowledgeBase: SearchResult[] = [
     category: "Fees & Scholarships",
     link: "/scholarships",
     linkText: "Check Scholarship Calculator",
-    icon: <DollarSign className="w-5 h-5 text-amber-400" />,
+    icon: <IndianRupee className="w-5 h-5 text-amber-400" />,
     keywords: ["fee", "cost", "scholarship", "financial aid", "concession", "merit", "money", "tuition", "hostel fee"]
   },
   {
@@ -158,7 +168,7 @@ export default function QuickSearchModal({ isOpen, onClose }: QuickSearchModalPr
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Ask anything... e.g., 'hostel fees', 'aviation club', 'how to reach', 'B.Tech eligibility'..."
-            className="w-full bg-transparent text-white placeholder-stone-500 text-base sm:text-lg focus:outline-none"
+            className="w-full bg-transparent text-white placeholder-stone-500 text-body focus:outline-none"
           />
           {query && (
             <button
@@ -171,7 +181,7 @@ export default function QuickSearchModal({ isOpen, onClose }: QuickSearchModalPr
           )}
           <button
             onClick={onClose}
-            className="ml-2 px-3 py-1.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-300 hover:text-white text-xs font-bold uppercase tracking-wider transition-colors shrink-0"
+            className="ml-2 px-3 py-1.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-300 hover:text-white text-button font-bold uppercase tracking-wider transition-colors shrink-0"
           >
             ESC
           </button>
@@ -183,7 +193,7 @@ export default function QuickSearchModal({ isOpen, onClose }: QuickSearchModalPr
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className={`px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap transition-all ${
+              className={`px-3 py-1 rounded-full text-small-label font-semibold whitespace-nowrap transition-all ${
                 selectedCategory === cat
                   ? "bg-red-700 text-white shadow-lg shadow-red-900/40 font-bold"
                   : "bg-stone-800/80 hover:bg-stone-800 text-stone-400 hover:text-stone-200"
@@ -197,7 +207,7 @@ export default function QuickSearchModal({ isOpen, onClose }: QuickSearchModalPr
         {/* Quick Suggestion Chips (When query is empty) */}
         {!query && (
           <div className="px-4 sm:px-6 py-3 bg-red-950/20 border-b border-red-900/30 flex items-center gap-2 overflow-x-auto no-scrollbar">
-            <span className="text-xs font-bold uppercase tracking-wider text-red-400 flex items-center gap-1 shrink-0">
+            <span className="text-small-label font-bold uppercase tracking-wider text-red-400 flex items-center gap-1 shrink-0">
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
               <span>Popular Questions:</span>
             </span>
@@ -211,7 +221,7 @@ export default function QuickSearchModal({ isOpen, onClose }: QuickSearchModalPr
               <button
                 key={idx}
                 onClick={() => setQuery(chip.replace(/^[^\s]+ /, "").replace("?", ""))}
-                className="text-xs bg-stone-800 hover:bg-stone-700 text-stone-200 px-2.5 py-1 rounded-lg shrink-0 transition-colors border border-stone-700"
+                className="text-small-label bg-stone-800 hover:bg-stone-700 text-stone-200 px-2.5 py-1 rounded-lg shrink-0 transition-colors border border-stone-700"
               >
                 {chip}
               </button>
@@ -224,12 +234,12 @@ export default function QuickSearchModal({ isOpen, onClose }: QuickSearchModalPr
           {filteredResults.length === 0 ? (
             <div className="text-center py-12 text-stone-500">
               <HelpCircle className="w-12 h-12 mx-auto mb-3 opacity-40 text-red-500" />
-              <p className="text-base font-medium text-stone-300">No matching answers found for &quot;{query}&quot;</p>
-              <p className="text-xs text-stone-500 mt-1">Try searching for broader keywords like &quot;fees&quot;, &quot;hostel&quot;, &quot;courses&quot;, or &quot;location&quot;.</p>
+              <p className="text-body font-medium text-stone-300">No matching answers found for &quot;{query}&quot;</p>
+              <p className="text-small-label text-stone-500 mt-1">Try searching for broader keywords like &quot;fees&quot;, &quot;hostel&quot;, &quot;courses&quot;, or &quot;location&quot;.</p>
               <Link
                 href="/faq-and-reach"
                 onClick={onClose}
-                className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-red-700 hover:bg-red-600 text-white text-xs font-bold transition-colors"
+                className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-red-700 hover:bg-red-600 text-white text-button font-bold transition-colors"
               >
                 <span>Browse Full FAQ & Reach Portal</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -247,21 +257,21 @@ export default function QuickSearchModal({ isOpen, onClose }: QuickSearchModalPr
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center justify-between gap-2 mb-1">
-                      <span className="text-[11px] font-bold uppercase tracking-wider text-red-400 bg-red-950/50 px-2 py-0.5 rounded border border-red-900/40">
+                      <span className="text-small-label font-bold uppercase tracking-wider text-red-400 bg-red-950/50 px-2 py-0.5 rounded border border-red-900/40">
                         {item.category}
                       </span>
                     </div>
-                    <h4 className="text-base sm:text-lg font-bold text-white group-hover:text-red-300 transition-colors">
+                    <h4 className="text-card-title text-white group-hover:text-red-300 transition-colors">
                       {item.question}
                     </h4>
-                    <p className="text-sm text-stone-300 mt-2 leading-relaxed">
+                    <p className="text-caption text-stone-300 mt-2 leading-relaxed">
                       {item.answer}
                     </p>
                     <div className="mt-4 pt-3 border-t border-stone-800/60 flex items-center justify-end">
                       <Link
                         href={item.link}
                         onClick={onClose}
-                        className="inline-flex items-center gap-1.5 text-xs font-bold text-amber-400 hover:text-amber-300 transition-colors group/btn"
+                        className="inline-flex items-center gap-1.5 text-button font-bold text-amber-400 hover:text-amber-300 transition-colors group/btn"
                       >
                         <span>{item.linkText}</span>
                         <ArrowRight className="w-3.5 h-3.5 group-hover/btn:translate-x-1 transition-transform" />
@@ -275,7 +285,7 @@ export default function QuickSearchModal({ isOpen, onClose }: QuickSearchModalPr
         </div>
 
         {/* Modal Footer */}
-        <div className="p-4 bg-stone-950 border-t border-stone-800 text-center flex flex-wrap items-center justify-between gap-2 text-xs text-stone-500">
+        <div className="p-4 bg-stone-950 border-t border-stone-800 text-center flex flex-wrap items-center justify-between gap-2 text-footer text-stone-500">
           <span>Powered by Banasthali Vidyapith Scraped Knowledge Base</span>
           <div className="flex items-center gap-4">
             <Link href="/faq-and-reach" onClick={onClose} className="hover:text-stone-300 underline">

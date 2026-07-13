@@ -1,10 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Header } from "@/components/layout/Header";
-
-import { Sparkles, FileText, Download, Search, Bell, Calendar, Filter, ShieldCheck, Award, BookOpen, ExternalLink } from "lucide-react";
-import Link from "next/link";
+import { FileText, Download, Search, Bell } from "lucide-react";
 
 interface UniversityDoc {
   id: string;
@@ -275,21 +272,19 @@ export default function NoticesPage() {
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
-      <Header />
-
       {/* Hero Banner */}
       <section className="relative pt-36 md:pt-44 pb-20 md:pb-28 bg-gradient-to-b from-primary/10 via-background to-background overflow-hidden border-b border-border/40">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,50,0,0.15),rgba(255,255,255,0))]" />
         
         <div className="container mx-auto px-6 md:px-12 text-center max-w-4xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs md:text-sm font-medium tracking-wide mb-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-small-label font-medium tracking-wide mb-6">
             <Bell className="w-4 h-4" />
             <span>Document Repository & Notice Board</span>
           </div>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold tracking-tight mb-6">
+          <h1 className="text-hero font-serif font-bold tracking-tight mb-6">
             Official Circulars & <span className="text-primary italic">Downloads</span>
           </h1>
-          <p className="text-lg md:text-xl text-foreground/80 font-light max-w-2xl mx-auto leading-relaxed mb-10">
+          <p className="text-subheading text-foreground/80 font-light max-w-2xl mx-auto leading-relaxed mb-10">
             Access authentic university documents, aptitude test sample papers, NIRF rankings, and statutory governance circulars.
           </p>
 
@@ -301,7 +296,7 @@ export default function NoticesPage() {
               placeholder="Search by keyword (e.g. B.Tech, NIRF, Anti-Ragging, Result)..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-12 pr-4 py-3.5 rounded-2xl bg-card border border-border shadow-md focus:border-primary focus:outline-none text-sm md:text-base"
+              className="w-full pl-12 pr-4 py-3.5 rounded-2xl bg-card border border-border shadow-md focus:border-primary focus:outline-none text-body"
             />
           </div>
         </div>
@@ -323,7 +318,7 @@ export default function NoticesPage() {
             <button
               key={tab.id}
               onClick={() => setSelectedCategory(tab.id)}
-              className={`px-5 py-2 rounded-full text-xs md:text-sm font-medium transition-all ${
+              className={`px-5 py-2 rounded-full text-button font-medium transition-all ${
                 selectedCategory === tab.id
                   ? "bg-primary text-primary-foreground shadow-md scale-105"
                   : "bg-card hover:bg-muted text-foreground/80 border border-border/60"
@@ -339,8 +334,8 @@ export default function NoticesPage() {
           {filteredDocs.length === 0 ? (
             <div className="text-center py-16 bg-card rounded-3xl border border-border">
               <FileText className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
-              <h3 className="text-xl font-serif font-bold mb-2">No Documents Found</h3>
-              <p className="text-sm text-muted-foreground">Try searching for a different keyword or selecting 'All Documents'.</p>
+              <h3 className="text-card-title font-serif font-bold mb-2">No Documents Found</h3>
+              <p className="text-body text-muted-foreground">Try searching for a different keyword or selecting &apos;All Documents&apos;.</p>
             </div>
           ) : (
             filteredDocs.map((doc) => (
@@ -354,15 +349,15 @@ export default function NoticesPage() {
                   </div>
                   <div>
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="px-2.5 py-0.5 rounded-full bg-muted text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
+                      <span className="px-2.5 py-0.5 rounded-full bg-muted text-small-label font-semibold uppercase tracking-wider text-muted-foreground">
                         {doc.category}
                       </span>
-                      <span className="text-xs text-muted-foreground">• {doc.date}</span>
+                      <span className="text-caption text-muted-foreground">• {doc.date}</span>
                     </div>
-                    <h3 className="font-serif font-bold text-base md:text-lg text-foreground group-hover:text-primary transition-colors">
+                    <h3 className="font-serif font-bold text-card-title text-foreground group-hover:text-primary transition-colors">
                       {doc.title}
                     </h3>
-                    <div className="text-xs text-muted-foreground font-mono mt-1">
+                    <div className="text-caption text-muted-foreground font-mono mt-1">
                       Filename: {doc.filename} ({doc.size})
                     </div>
                   </div>
@@ -372,7 +367,7 @@ export default function NoticesPage() {
                   href={doc.localPath}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full md:w-auto px-6 py-2.5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 font-semibold text-xs transition-all flex items-center justify-center gap-2 shadow-sm shrink-0"
+                  className="w-full md:w-auto px-6 py-2.5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 font-semibold text-button transition-all flex items-center justify-center gap-2 shadow-sm shrink-0"
                 >
                   <Download className="w-4 h-4" />
                   <span>Download PDF</span>

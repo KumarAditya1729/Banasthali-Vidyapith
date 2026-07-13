@@ -13,18 +13,11 @@ import {
   Sparkles, 
   ZoomIn, 
   X, 
-  ShieldCheck, 
-  Wifi, 
-  Utensils, 
-  Award, 
   CheckCircle2, 
-  Users, 
   Plane, 
   Palette, 
-  HeartHandshake,
   ArrowRight
 } from "lucide-react";
-import Link from "next/link";
 
 export interface CampusZone {
   id: string;
@@ -43,7 +36,7 @@ export const CAMPUS_ZONES: CampusZone[] = [
     id: "bvgfc",
     title: "Gliding & Flying Club (BVGFC)",
     category: "aviation",
-    image: "/scraped-images/238_BEST_3.jpg",
+    image: "/scraped-images/150_flying.jpg",
     description: "Banasthali is the only women's university in India with its own licensed airfield, airstrip, and flight training school. Students train on Cessna 172 aircraft to earn Student Pilot and Commercial Pilot Licenses.",
     detailedInfo: "Established with a vision to make Indian women masters of the sky, the Banasthali Vidyapith Gliding & Flying Club features a dedicated runway, hangars, flight simulators, and DGCA-approved flight instructors. It was here that Flt. Lt. Avani Chaturvedi trained before becoming India's first female fighter pilot.",
     stats: "Licensed Airfield & Cessna Fleet",
@@ -76,7 +69,7 @@ export const CAMPUS_ZONES: CampusZone[] = [
     id: "apaji-institute",
     title: "Apaji Institute of Mathematics & Applied Computing (AIM & ACT)",
     category: "academic",
-    image: "/scraped-images/164_arch-3.jpg",
+    image: "/scraped-images/167_arch-6.jpg",
     description: "A premier center of excellence for AI, computer science, mathematics, and IT research with world-class computing clusters.",
     detailedInfo: "Designed with striking red-stone architecture, AIM&ACT houses high-performance computing clusters, AI/ML research labs, and software incubation centers. Supported by Artech and Dalmia trusts, it produces top women technologists.",
     stats: "Center of Excellence in Computing",
@@ -87,7 +80,7 @@ export const CAMPUS_ZONES: CampusZone[] = [
     id: "central-library",
     title: "Central Library & Digital Repository",
     category: "academic",
-    image: "/scraped-images/280_Department_Library.JPG",
+    image: "/scraped-images/192_researchbooks.jpg",
     description: "Housing over 2,000,000 books, rare manuscripts, research journals, and digital IEEE/Springer repositories in peaceful reading halls.",
     detailedInfo: "A serene, sunlit sanctuary for scholars, the Central Library provides RFID-enabled automated circulation, access to global academic journals, rare Vedic manuscripts, and private reading carrels for doctoral researchers.",
     stats: "2 Lakh+ Volumes & Digital Archives",
@@ -131,7 +124,7 @@ export const CAMPUS_ZONES: CampusZone[] = [
     id: "equestrian",
     title: "Equestrian & Rifle Shooting Grounds",
     category: "sports",
-    image: "/scraped-images/239_BEST_4.jpg",
+    image: "/scraped-images/147_sports.jpg",
     description: "Compulsory physical endurance training featuring horse riding, rifle shooting ranges, NCC parade grounds, and obstacle courses.",
     detailedInfo: "To instill courage, physical poise, and leadership, Banasthali maintains a premier equestrian stable with trained horses and professional riding instructors, alongside a 10-meter air rifle shooting range and NCC parade grounds.",
     stats: "Equestrian Stables & Shooting Range",
@@ -153,7 +146,7 @@ export const CAMPUS_ZONES: CampusZone[] = [
     id: "sanganeri-arts",
     title: "Sanganeri Printing & Batik Workshops",
     category: "arts",
-    image: "/scraped-images/240_BEST_5.jpg",
+    image: "/scraped-images/247_01.jpg",
     description: "Practical education studios where students learn authentic Rajasthani block printing, tie-and-dye (bandhej), pottery, and paper-mache.",
     detailedInfo: "Under the Practical Education (Kriyatmak Shiksha) pillar, students get hands-on experience in traditional handicrafts. The Sanganeri block printing and dyeing workshops empower students with entrepreneurial artisan skills.",
     stats: "Traditional Craft & Textile Studios",
@@ -164,7 +157,7 @@ export const CAMPUS_ZONES: CampusZone[] = [
     id: "radio-banasthali",
     title: "Radio Banasthali 90.4 MHz FM",
     category: "community",
-    image: "/scraped-images/241_BEST_6.jpg",
+    image: "/scraped-images/137_career-couns-1.jpg",
     description: "Banasthali's own community FM radio station broadcasting across a 30 km rural radius. Programs on health, agriculture, and folk culture are produced entirely by students.",
     detailedInfo: "As a pioneer in campus media, Radio Banasthali 90.4 FM serves as a vital community bridge. Student RJs and producers broadcast educational shows, women's health awareness, agricultural tips for farmers, and local folk music across surrounding villages.",
     stats: "90.4 MHz Community FM Station",
@@ -207,15 +200,15 @@ export default function InteractiveCampusMap() {
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Header Section */}
         <div className="text-center max-w-3xl mx-auto mb-10">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold/10 border border-gold/30 text-gold text-xs font-semibold uppercase tracking-wider mb-4">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold/10 border border-gold/30 text-gold text-small-label font-semibold uppercase tracking-wider mb-4">
             <Compass className="w-3.5 h-3.5" />
             <span>Interactive Campus Explorer • 850+ Acres</span>
           </div>
-          <h2 className="text-3xl md:text-5xl font-garamond text-white tracking-wide">
+          <h2 className="text-section-heading font-garamond text-white tracking-wide">
             Discover the Banasthali Ecosystem
           </h2>
-          <p className="text-white/60 text-sm md:text-base mt-3 leading-relaxed">
-            From our licensed airfield and 31 residential hostels to Olympic sports complexes and science mandirs—explore the world's largest residential university for women.
+          <p className="text-white/60 text-body mt-3 leading-relaxed">
+            From our licensed airfield and 31 residential hostels to Olympic sports complexes and science mandirs—explore the world&apos;s largest residential university for women.
           </p>
         </div>
 
@@ -226,8 +219,8 @@ export default function InteractiveCampusMap() {
               <MapPin className="w-5 h-5" />
             </div>
             <div>
-              <div className="text-lg md:text-xl font-garamond font-bold text-white">850+ Acres</div>
-              <div className="text-[11px] text-white/50">Solar Powered Campus</div>
+              <div className="text-card-title font-garamond font-bold text-white">850+ Acres</div>
+              <div className="text-small-label text-white/50">Solar Powered Campus</div>
             </div>
           </div>
           <div className="flex items-center gap-3 p-3 rounded-xl bg-black/40 border border-white/5">
@@ -235,8 +228,8 @@ export default function InteractiveCampusMap() {
               <Home className="w-5 h-5" />
             </div>
             <div>
-              <div className="text-lg md:text-xl font-garamond font-bold text-white">31 Hostels</div>
-              <div className="text-[11px] text-white/50">15,000+ Women Residents</div>
+              <div className="text-card-title font-garamond font-bold text-white">31 Hostels</div>
+              <div className="text-small-label text-white/50">15,000+ Women Residents</div>
             </div>
           </div>
           <div className="flex items-center gap-3 p-3 rounded-xl bg-black/40 border border-white/5">
@@ -244,8 +237,8 @@ export default function InteractiveCampusMap() {
               <Plane className="w-5 h-5" />
             </div>
             <div>
-              <div className="text-lg md:text-xl font-garamond font-bold text-white">Licensed Airfield</div>
-              <div className="text-[11px] text-white/50">Cessna Flying Club</div>
+              <div className="text-card-title font-garamond font-bold text-white">Licensed Airfield</div>
+              <div className="text-small-label text-white/50">Cessna Flying Club</div>
             </div>
           </div>
           <div className="flex items-center gap-3 p-3 rounded-xl bg-black/40 border border-white/5">
@@ -253,8 +246,8 @@ export default function InteractiveCampusMap() {
               <Radio className="w-5 h-5" />
             </div>
             <div>
-              <div className="text-lg md:text-xl font-garamond font-bold text-white">90.4 MHz FM</div>
-              <div className="text-[11px] text-white/50">Student Community Radio</div>
+              <div className="text-card-title font-garamond font-bold text-white">90.4 MHz FM</div>
+              <div className="text-small-label text-white/50">Student Community Radio</div>
             </div>
           </div>
         </div>
@@ -276,7 +269,7 @@ export default function InteractiveCampusMap() {
                 <button
                   key={cat.id}
                   onClick={() => setSelectedCategory(cat.id)}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-medium transition-all flex items-center gap-1.5 ${
+                  className={`px-3.5 py-2 rounded-xl text-button font-medium transition-all flex items-center gap-1.5 ${
                     selectedCategory === cat.id
                       ? "bg-gold text-black font-semibold shadow-lg scale-105"
                       : "bg-black/30 text-white/70 hover:bg-white/10 hover:text-white border border-white/5"
@@ -295,7 +288,7 @@ export default function InteractiveCampusMap() {
               placeholder="Search zones, labs, hostels..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-2 text-xs text-white placeholder-white/40 focus:outline-none focus:border-gold transition-colors"
+              className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-2 text-body text-white placeholder-white/40 focus:outline-none focus:border-gold transition-colors"
             />
           </div>
         </div>
@@ -322,9 +315,9 @@ export default function InteractiveCampusMap() {
                       alt={zone.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-700"
-                    />
+                     sizes="100vw" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#1c1919] via-transparent to-transparent" />
-                    <div className="absolute top-3 left-3 bg-black/70 backdrop-blur-md border border-white/10 px-2.5 py-1 rounded-lg text-[10px] font-bold text-gold tracking-wider uppercase">
+                    <div className="absolute top-3 left-3 bg-black/70 backdrop-blur-md border border-white/10 px-2.5 py-1 rounded-lg text-small-label font-bold text-gold tracking-wider uppercase">
                       {zone.zoneCode}
                     </div>
                     <div className="absolute bottom-3 right-3 bg-white/10 backdrop-blur-md border border-white/20 p-2 rounded-full text-white group-hover:bg-gold group-hover:text-black transition-colors">
@@ -334,22 +327,22 @@ export default function InteractiveCampusMap() {
 
                   {/* Body */}
                   <div className="p-5">
-                    <span className="text-xs font-semibold text-green-400 bg-green-500/10 px-2.5 py-0.5 rounded-md inline-block mb-2">
+                    <span className="text-small-label font-semibold text-green-400 bg-green-500/10 px-2.5 py-0.5 rounded-md inline-block mb-2">
                       {zone.stats}
                     </span>
-                    <h4 className="text-lg font-garamond text-white font-semibold group-hover:text-gold transition-colors mb-2">
+                    <h4 className="text-card-title font-garamond text-white font-semibold group-hover:text-gold transition-colors mb-2">
                       {zone.title}
                     </h4>
-                    <p className="text-xs text-white/70 line-clamp-3 leading-relaxed font-light">
+                    <p className="text-caption text-white/70 line-clamp-3 leading-relaxed font-light">
                       {zone.description}
                     </p>
                   </div>
                 </div>
 
                 {/* Footer */}
-                <div className="px-5 pb-5 pt-3 border-t border-white/10 flex items-center justify-between text-xs">
-                  <span className="text-white/40 italic text-[11px]">Click to explore zone</span>
-                  <span className="text-gold font-semibold inline-flex items-center gap-1 text-xs group-hover:translate-x-1 transition-transform">
+                <div className="px-5 pb-5 pt-3 border-t border-white/10 flex items-center justify-between text-caption">
+                  <span className="text-small-label text-white/40 italic">Click to explore zone</span>
+                  <span className="text-button text-gold font-semibold inline-flex items-center gap-1 group-hover:translate-x-1 transition-transform">
                     View Details
                     <ArrowRight className="w-3.5 h-3.5" />
                   </span>
@@ -384,13 +377,13 @@ export default function InteractiveCampusMap() {
                     alt={activeZone.title}
                     fill
                     className="object-cover"
-                  />
+                   sizes="100vw" />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#1c1919] via-black/40 to-transparent flex items-end p-6">
                     <div>
-                      <span className="px-3 py-1 rounded-full bg-gold/20 border border-gold/40 text-gold text-xs font-bold uppercase tracking-wider mb-2 inline-block">
+                      <span className="px-3 py-1 rounded-full bg-gold/20 border border-gold/40 text-gold text-small-label font-bold uppercase tracking-wider mb-2 inline-block">
                         {activeZone.zoneCode}
                       </span>
-                      <h3 className="text-2xl sm:text-4xl font-garamond text-white font-bold">
+                      <h3 className="text-section-heading font-garamond text-white font-bold">
                         {activeZone.title}
                       </h3>
                     </div>
@@ -400,30 +393,30 @@ export default function InteractiveCampusMap() {
                 {/* Modal Content */}
                 <div className="p-6 sm:p-8 space-y-6">
                   <div className="flex items-center justify-between bg-white/5 p-4 rounded-2xl border border-white/10">
-                    <span className="text-xs text-white/60">Key Highlight Metric:</span>
-                    <span className="text-sm font-bold text-green-400 bg-green-500/10 px-3 py-1 rounded-xl border border-green-500/20">
+                    <span className="text-small-label text-white/60">Key Highlight Metric:</span>
+                    <span className="text-body font-bold text-green-400 bg-green-500/10 px-3 py-1 rounded-xl border border-green-500/20">
                       {activeZone.stats}
                     </span>
                   </div>
 
                   <div>
-                    <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <h4 className="text-small-label font-bold text-white uppercase tracking-wider mb-2 flex items-center gap-2">
                       <Sparkles className="w-4 h-4 text-gold" />
                       About this Campus Precinct
                     </h4>
-                    <p className="text-xs sm:text-sm text-white/80 leading-relaxed font-light">
+                    <p className="text-body text-white/80 leading-relaxed font-light">
                       {activeZone.detailedInfo}
                     </p>
                   </div>
 
                   <div>
-                    <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <h4 className="text-small-label font-bold text-white uppercase tracking-wider mb-3 flex items-center gap-2">
                       <CheckCircle2 className="w-4 h-4 text-green-400" />
                       Precinct Facilities & Features
                     </h4>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       {activeZone.highlights.map((h, idx) => (
-                        <div key={idx} className="flex items-center gap-2.5 bg-black/40 p-3 rounded-xl border border-white/5 text-xs text-white/90 font-medium">
+                        <div key={idx} className="flex items-center gap-2.5 bg-black/40 p-3 rounded-xl border border-white/5 text-caption text-white/90 font-medium">
                           <div className="w-2 h-2 rounded-full bg-gold shrink-0" />
                           <span>{h}</span>
                         </div>
@@ -432,12 +425,12 @@ export default function InteractiveCampusMap() {
                   </div>
 
                   <div className="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
-                    <span className="text-xs text-white/50 italic">
-                      Part of Banasthali Vidyapith's 100% Residential Campus Ecosystem
+                    <span className="text-caption text-white/50 italic">
+                      Part of Banasthali Vidyapith&apos;s 100% Residential Campus Ecosystem
                     </span>
                     <button
                       onClick={() => setActiveZone(null)}
-                      className="px-6 py-2.5 rounded-xl bg-gold text-black font-semibold text-xs hover:bg-gold/90 transition-all w-full sm:w-auto text-center shadow-lg"
+                      className="px-6 py-2.5 rounded-xl bg-gold text-black font-semibold text-button hover:bg-gold/90 transition-all w-full sm:w-auto text-center shadow-lg"
                     >
                       Close Explorer
                     </button>

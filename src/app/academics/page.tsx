@@ -19,34 +19,34 @@ export default function AcademicsPage() {
             transition={{ duration: 0.6 }}
             className="max-w-4xl mx-auto text-center"
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs md:text-sm font-medium tracking-wide mb-6">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-small-label font-medium tracking-wide mb-6">
               <Sparkles className="w-4 h-4" />
               <span>NAAC A++ Grade • CGPA 3.63/4.00</span>
             </div>
-            <h1 className="text-4xl md:text-6xl font-serif font-bold tracking-tight mb-6">
+            <h1 className="text-hero font-serif font-bold tracking-tight mb-6">
               Academic Excellence & <span className="text-primary italic">Innovation</span>
             </h1>
-            <p className="text-lg md:text-xl text-foreground/80 font-light max-w-2xl mx-auto leading-relaxed mb-10">
+            <p className="text-subheading text-foreground/80 font-light max-w-2xl mx-auto leading-relaxed mb-10">
               Banasthali Vidyapith offers an integrated system of education extending from the primary to the doctoral level—blending scientific temperament with Indian cultural values.
             </p>
 
             {/* Quick Stats Grid */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 pt-6 border-t border-border/40">
               <div className="p-4 rounded-2xl bg-card/60 backdrop-blur-sm border border-border/40">
-                <div className="text-2xl md:text-3xl font-serif font-bold text-primary">8+</div>
-                <div className="text-xs md:text-sm text-muted-foreground mt-1">Faculties & Institutes</div>
+                <div className="text-card-title font-serif font-bold text-primary">8+</div>
+                <div className="text-caption text-muted-foreground mt-1">Faculties & Institutes</div>
               </div>
               <div className="p-4 rounded-2xl bg-card/60 backdrop-blur-sm border border-border/40">
-                <div className="text-2xl md:text-3xl font-serif font-bold text-primary">100+</div>
-                <div className="text-xs md:text-sm text-muted-foreground mt-1">Academic Programs</div>
+                <div className="text-card-title font-serif font-bold text-primary">100+</div>
+                <div className="text-caption text-muted-foreground mt-1">Academic Programs</div>
               </div>
               <div className="p-4 rounded-2xl bg-card/60 backdrop-blur-sm border border-border/40">
-                <div className="text-2xl md:text-3xl font-serif font-bold text-primary">100%</div>
-                <div className="text-xs md:text-sm text-muted-foreground mt-1">Residential Campus</div>
+                <div className="text-card-title font-serif font-bold text-primary">100%</div>
+                <div className="text-caption text-muted-foreground mt-1">Residential Campus</div>
               </div>
               <div className="p-4 rounded-2xl bg-card/60 backdrop-blur-sm border border-border/40">
-                <div className="text-2xl md:text-3xl font-serif font-bold text-primary">1935</div>
-                <div className="text-xs md:text-sm text-muted-foreground mt-1">Year Established</div>
+                <div className="text-card-title font-serif font-bold text-primary">1935</div>
+                <div className="text-caption text-muted-foreground mt-1">Year Established</div>
               </div>
             </div>
           </motion.div>
