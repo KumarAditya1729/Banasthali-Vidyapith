@@ -117,7 +117,7 @@ export const HERITAGE_MILESTONES: TimelineMilestone[] = [
     subtitle: "Establishment of AIM&ACT and WISDOM institutes",
     description: "Banasthali launched world-class professional schools: Apaji Institute of Mathematics & Applied Computer Technology (AIM&ACT) and WISDOM (Faculty of Management Studies).",
     detailedStory: "Long before women in STEM became a global corporate priority, Banasthali established premier engineering, computer application, and management institutes. Backed by corporate visionaries like Shri M.H. Dalmia and Artech Ltd., these institutes began producing top-tier female software engineers, mathematicians, and MBAs who went on to lead global corporations.",
-    image: "/scraped-images/167_arch-6.jpg",
+    image: "/scraped-images/202_automation_4.jpg",
     keyFigures: ["Prof. Diwakar Shastri", "Prof. Aditya Shastri", "Shri M.H. Dalmia"],
     impact: "Transformed Banasthali into India's leading producer of female technocrats and corporate leaders."
   },

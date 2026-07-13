@@ -22,7 +22,7 @@ export const homeData = {
     description: "What began on October 6, 1935 with just five students in mud huts has blossomed into one of the world's largest fully residential women's universities. Founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in memory of their daughter Shantabai, Banasthali Vidyapith is a sanctuary where over 15,000 women forge their destinies—grounded in Indian ethos, simplicity, and reaching for global scientific horizons.",
     quote: "\"She who is rooted in her culture, flies the highest.\"",
     quoteAuthor: "— Pandit Hiralal & Ratan Shastri",
-    image: "/scraped-images/167_arch-6.jpg"
+    image: "/scraped-images/0_headerimg.jpg"
   },
   panchmukhi: {
     tagline: "Our Educational Philosophy",

@@ -69,7 +69,7 @@ export const CAMPUS_ZONES: CampusZone[] = [
     id: "apaji-institute",
     title: "Apaji Institute of Mathematics & Applied Computing (AIM & ACT)",
     category: "academic",
-    image: "/scraped-images/167_arch-6.jpg",
+    image: "/scraped-images/199_automation_1.jpg",
     description: "A premier center of excellence for AI, computer science, mathematics, and IT research with world-class computing clusters.",
     detailedInfo: "Designed with striking red-stone architecture, AIM&ACT houses high-performance computing clusters, AI/ML research labs, and software incubation centers. Supported by Artech and Dalmia trusts, it produces top women technologists.",
     stats: "Center of Excellence in Computing",
